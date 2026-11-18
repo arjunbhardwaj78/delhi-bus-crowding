@@ -1,0 +1,13 @@
+stop_id,stop_name,stop_lat,stop_lon
+S01,Anand Vihar ISBT,28.6469,77.3159
+S02,Karkardooma,28.648,77.305
+S03,Laxmi Nagar,28.6304,77.2773
+S04,ITO,28.6289,77.2406
+S06,Connaught Place,28.6315,77.2167
+S07,Kashmere Gate ISBT,28.6675,77.2284
+S08,Red Fort,28.6562,77.241
+S09,Nehru Place,28.5491,77.2519
+S10,Lajpat Nagar,28.5677,77.2433
+S11,AIIMS,28.5672,77.21
+S13,Sarai Kale Khan,28.5894,77.2575
+S14,Moolchand,28.5646,77.2342

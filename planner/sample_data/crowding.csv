@@ -1,0 +1,1673 @@
+route,direction,stop_seq_from,stop_seq_to,day_type,hour,load_index,level,confidence,n_tickets,stop_name_from,stop_name_to
+8UP,UP,1,2,weekday,5,0.492,seats,medium,127,Anand Vihar ISBT,Karkardooma
+8UP,UP,2,3,weekday,5,0.577,standing,high,150,Karkardooma,Laxmi Nagar
+8UP,UP,3,4,weekday,5,0.638,standing,high,165,Laxmi Nagar,ITO
+8UP,UP,4,5,weekday,5,0.462,seats,medium,119,ITO,Connaught Place
+8UP,UP,1,2,weekday,6,0.517,seats,medium,134,Anand Vihar ISBT,Karkardooma
+8UP,UP,2,3,weekday,6,0.603,standing,high,156,Karkardooma,Laxmi Nagar
+8UP,UP,3,4,weekday,6,0.566,standing,medium,147,Laxmi Nagar,ITO
+8UP,UP,4,5,weekday,6,0.514,seats,medium,133,ITO,Connaught Place
+8UP,UP,1,2,weekday,7,0.457,seats,medium,118,Anand Vihar ISBT,Karkardooma
+8UP,UP,2,3,weekday,7,0.611,standing,high,158,Karkardooma,Laxmi Nagar
+8UP,UP,3,4,weekday,7,0.568,standing,medium,147,Laxmi Nagar,ITO
+8UP,UP,4,5,weekday,7,0.464,seats,medium,120,ITO,Connaught Place
+8UP,UP,1,2,weekday,8,1.456,crowded,high,378,Anand Vihar ISBT,Karkardooma
+8UP,UP,2,3,weekday,8,1.809,crowded,high,470,Karkardooma,Laxmi Nagar
+8UP,UP,3,4,weekday,8,1.725,crowded,high,448,Laxmi Nagar,ITO
+8UP,UP,4,5,weekday,8,1.432,crowded,high,372,ITO,Connaught Place
+8UP,UP,1,2,weekday,9,1.481,crowded,high,384,Anand Vihar ISBT,Karkardooma
+8UP,UP,2,3,weekday,9,1.823,crowded,high,474,Karkardooma,Laxmi Nagar
+8UP,UP,3,4,weekday,9,1.779,crowded,high,462,Laxmi Nagar,ITO
+8UP,UP,4,5,weekday,9,1.453,crowded,high,377,ITO,Connaught Place
+8UP,UP,1,2,weekday,10,1.522,crowded,high,395,Anand Vihar ISBT,Karkardooma
+8UP,UP,2,3,weekday,10,1.715,crowded,high,445,Karkardooma,Laxmi Nagar
+8UP,UP,3,4,weekday,10,1.813,crowded,high,471,Laxmi Nagar,ITO
+8UP,UP,4,5,weekday,10,1.440,crowded,high,374,ITO,Connaught Place
+8UP,UP,1,2,weekday,11,0.470,seats,medium,122,Anand Vihar ISBT,Karkardooma
+8UP,UP,2,3,weekday,11,0.574,standing,medium,149,Karkardooma,Laxmi Nagar
+8UP,UP,3,4,weekday,11,0.596,standing,high,155,Laxmi Nagar,ITO
+8UP,UP,4,5,weekday,11,0.551,standing,medium,143,ITO,Connaught Place
+8UP,UP,1,2,weekday,12,0.475,seats,medium,123,Anand Vihar ISBT,Karkardooma
+8UP,UP,2,3,weekday,12,0.629,standing,high,163,Karkardooma,Laxmi Nagar
+8UP,UP,3,4,weekday,12,0.636,standing,high,165,Laxmi Nagar,ITO
+8UP,UP,4,5,weekday,12,0.498,seats,medium,129,ITO,Connaught Place
+8UP,UP,1,2,weekday,13,0.519,seats,medium,134,Anand Vihar ISBT,Karkardooma
+8UP,UP,2,3,weekday,13,0.567,standing,medium,147,Karkardooma,Laxmi Nagar
+8UP,UP,3,4,weekday,13,0.567,standing,medium,147,Laxmi Nagar,ITO
+8UP,UP,4,5,weekday,13,0.478,seats,medium,124,ITO,Connaught Place
+8UP,UP,1,2,weekday,14,0.534,seats,medium,138,Anand Vihar ISBT,Karkardooma
+8UP,UP,2,3,weekday,14,0.611,standing,high,158,Karkardooma,Laxmi Nagar
+8UP,UP,3,4,weekday,14,0.597,standing,high,155,Laxmi Nagar,ITO
+8UP,UP,4,5,weekday,14,0.523,seats,medium,136,ITO,Connaught Place
+8UP,UP,1,2,weekday,15,0.507,seats,medium,131,Anand Vihar ISBT,Karkardooma
+8UP,UP,2,3,weekday,15,0.595,standing,high,154,Karkardooma,Laxmi Nagar
+8UP,UP,3,4,weekday,15,0.655,standing,high,170,Laxmi Nagar,ITO
+8UP,UP,4,5,weekday,15,0.537,seats,medium,139,ITO,Connaught Place
+8UP,UP,1,2,weekday,16,0.482,seats,medium,125,Anand Vihar ISBT,Karkardooma
+8UP,UP,2,3,weekday,16,0.628,standing,high,163,Karkardooma,Laxmi Nagar
+8UP,UP,3,4,weekday,16,0.622,standing,high,161,Laxmi Nagar,ITO
+8UP,UP,4,5,weekday,16,0.558,standing,medium,145,ITO,Connaught Place
+8UP,UP,1,2,weekday,17,0.980,crowded,high,254,Anand Vihar ISBT,Karkardooma
+8UP,UP,2,3,weekday,17,1.125,crowded,high,292,Karkardooma,Laxmi Nagar
+8UP,UP,3,4,weekday,17,1.208,crowded,high,314,Laxmi Nagar,ITO
+8UP,UP,4,5,weekday,17,0.907,standing,high,235,ITO,Connaught Place
+8UP,UP,1,2,weekday,18,0.943,standing,high,245,Anand Vihar ISBT,Karkardooma
+8UP,UP,2,3,weekday,18,1.181,crowded,high,307,Karkardooma,Laxmi Nagar
+8UP,UP,3,4,weekday,18,1.109,crowded,high,288,Laxmi Nagar,ITO
+8UP,UP,4,5,weekday,18,0.951,crowded,high,247,ITO,Connaught Place
+8UP,UP,1,2,weekday,19,0.897,standing,high,233,Anand Vihar ISBT,Karkardooma
+8UP,UP,2,3,weekday,19,1.170,crowded,high,304,Karkardooma,Laxmi Nagar
+8UP,UP,3,4,weekday,19,1.182,crowded,high,307,Laxmi Nagar,ITO
+8UP,UP,4,5,weekday,19,0.961,crowded,high,249,ITO,Connaught Place
+8UP,UP,1,2,weekday,20,0.558,standing,medium,145,Anand Vihar ISBT,Karkardooma
+8UP,UP,2,3,weekday,20,0.597,standing,high,155,Karkardooma,Laxmi Nagar
+8UP,UP,3,4,weekday,20,0.643,standing,high,167,Laxmi Nagar,ITO
+8UP,UP,4,5,weekday,20,0.524,seats,medium,136,ITO,Connaught Place
+8UP,UP,1,2,weekday,21,0.522,seats,medium,135,Anand Vihar ISBT,Karkardooma
+8UP,UP,2,3,weekday,21,0.614,standing,high,159,Karkardooma,Laxmi Nagar
+8UP,UP,3,4,weekday,21,0.660,standing,high,171,Laxmi Nagar,ITO
+8UP,UP,4,5,weekday,21,0.566,standing,medium,147,ITO,Connaught Place
+8UP,UP,1,2,weekday,22,0.510,seats,medium,132,Anand Vihar ISBT,Karkardooma
+8UP,UP,2,3,weekday,22,0.639,standing,high,166,Karkardooma,Laxmi Nagar
+8UP,UP,3,4,weekday,22,0.567,standing,medium,147,Laxmi Nagar,ITO
+8UP,UP,4,5,weekday,22,0.537,seats,medium,139,ITO,Connaught Place
+8UP,UP,1,2,weekday,23,0.530,seats,medium,137,Anand Vihar ISBT,Karkardooma
+8UP,UP,2,3,weekday,23,0.679,standing,high,176,Karkardooma,Laxmi Nagar
+8UP,UP,3,4,weekday,23,0.658,standing,high,171,Laxmi Nagar,ITO
+8UP,UP,4,5,weekday,23,0.487,seats,medium,126,ITO,Connaught Place
+8UP,UP,1,2,weekend,5,0.294,seats,medium,76,Anand Vihar ISBT,Karkardooma
+8UP,UP,2,3,weekend,5,0.392,seats,medium,101,Karkardooma,Laxmi Nagar
+8UP,UP,3,4,weekend,5,0.314,seats,medium,81,Laxmi Nagar,ITO
+8UP,UP,4,5,weekend,5,0.303,seats,medium,78,ITO,Connaught Place
+8UP,UP,1,2,weekend,6,0.268,seats,medium,69,Anand Vihar ISBT,Karkardooma
+8UP,UP,2,3,weekend,6,0.326,seats,medium,84,Karkardooma,Laxmi Nagar
+8UP,UP,3,4,weekend,6,0.319,seats,medium,82,Laxmi Nagar,ITO
+8UP,UP,4,5,weekend,6,0.340,seats,medium,88,ITO,Connaught Place
+8UP,UP,1,2,weekend,7,0.263,seats,medium,68,Anand Vihar ISBT,Karkardooma
+8UP,UP,2,3,weekend,7,0.341,seats,medium,88,Karkardooma,Laxmi Nagar
+8UP,UP,3,4,weekend,7,0.359,seats,medium,93,Laxmi Nagar,ITO
+8UP,UP,4,5,weekend,7,0.352,seats,medium,91,ITO,Connaught Place
+8UP,UP,1,2,weekend,8,0.829,standing,high,215,Anand Vihar ISBT,Karkardooma
+8UP,UP,2,3,weekend,8,1.056,crowded,high,274,Karkardooma,Laxmi Nagar
+8UP,UP,3,4,weekend,8,1.068,crowded,high,277,Laxmi Nagar,ITO
+8UP,UP,4,5,weekend,8,0.925,standing,high,240,ITO,Connaught Place
+8UP,UP,1,2,weekend,9,0.917,standing,high,238,Anand Vihar ISBT,Karkardooma
+8UP,UP,2,3,weekend,9,1.105,crowded,high,287,Karkardooma,Laxmi Nagar
+8UP,UP,3,4,weekend,9,1.035,crowded,high,269,Laxmi Nagar,ITO
+8UP,UP,4,5,weekend,9,0.869,standing,high,225,ITO,Connaught Place
+8UP,UP,1,2,weekend,10,0.862,standing,high,224,Anand Vihar ISBT,Karkardooma
+8UP,UP,2,3,weekend,10,1.108,crowded,high,288,Karkardooma,Laxmi Nagar
+8UP,UP,3,4,weekend,10,1.117,crowded,high,290,Laxmi Nagar,ITO
+8UP,UP,4,5,weekend,10,0.837,standing,high,217,ITO,Connaught Place
+8UP,UP,1,2,weekend,11,0.269,seats,medium,69,Anand Vihar ISBT,Karkardooma
+8UP,UP,2,3,weekend,11,0.339,seats,medium,88,Karkardooma,Laxmi Nagar
+8UP,UP,3,4,weekend,11,0.340,seats,medium,88,Laxmi Nagar,ITO
+8UP,UP,4,5,weekend,11,0.306,seats,medium,79,ITO,Connaught Place
+8UP,UP,1,2,weekend,12,0.318,seats,medium,82,Anand Vihar ISBT,Karkardooma
+8UP,UP,2,3,weekend,12,0.343,seats,medium,89,Karkardooma,Laxmi Nagar
+8UP,UP,3,4,weekend,12,0.312,seats,medium,81,Laxmi Nagar,ITO
+8UP,UP,4,5,weekend,12,0.298,seats,medium,77,ITO,Connaught Place
+8UP,UP,1,2,weekend,13,0.292,seats,medium,75,Anand Vihar ISBT,Karkardooma
+8UP,UP,2,3,weekend,13,0.380,seats,medium,98,Karkardooma,Laxmi Nagar
+8UP,UP,3,4,weekend,13,0.426,seats,medium,110,Laxmi Nagar,ITO
+8UP,UP,4,5,weekend,13,0.331,seats,medium,85,ITO,Connaught Place
+8UP,UP,1,2,weekend,14,0.310,seats,medium,80,Anand Vihar ISBT,Karkardooma
+8UP,UP,2,3,weekend,14,0.386,seats,medium,100,Karkardooma,Laxmi Nagar
+8UP,UP,3,4,weekend,14,0.393,seats,medium,102,Laxmi Nagar,ITO
+8UP,UP,4,5,weekend,14,0.254,seats,medium,66,ITO,Connaught Place
+8UP,UP,1,2,weekend,15,0.356,seats,medium,92,Anand Vihar ISBT,Karkardooma
+8UP,UP,2,3,weekend,15,0.405,seats,medium,105,Karkardooma,Laxmi Nagar
+8UP,UP,3,4,weekend,15,0.417,seats,medium,108,Laxmi Nagar,ITO
+8UP,UP,4,5,weekend,15,0.343,seats,medium,89,ITO,Connaught Place
+8UP,UP,1,2,weekend,16,0.295,seats,medium,76,Anand Vihar ISBT,Karkardooma
+8UP,UP,2,3,weekend,16,0.360,seats,medium,93,Karkardooma,Laxmi Nagar
+8UP,UP,3,4,weekend,16,0.324,seats,medium,84,Laxmi Nagar,ITO
+8UP,UP,4,5,weekend,16,0.324,seats,medium,84,ITO,Connaught Place
+8UP,UP,1,2,weekend,17,0.519,seats,medium,134,Anand Vihar ISBT,Karkardooma
+8UP,UP,2,3,weekend,17,0.638,standing,high,165,Karkardooma,Laxmi Nagar
+8UP,UP,3,4,weekend,17,0.655,standing,high,170,Laxmi Nagar,ITO
+8UP,UP,4,5,weekend,17,0.531,seats,medium,138,ITO,Connaught Place
+8UP,UP,1,2,weekend,18,0.552,standing,medium,143,Anand Vihar ISBT,Karkardooma
+8UP,UP,2,3,weekend,18,0.636,standing,high,165,Karkardooma,Laxmi Nagar
+8UP,UP,3,4,weekend,18,0.630,standing,high,163,Laxmi Nagar,ITO
+8UP,UP,4,5,weekend,18,0.530,seats,medium,137,ITO,Connaught Place
+8UP,UP,1,2,weekend,19,0.524,seats,medium,136,Anand Vihar ISBT,Karkardooma
+8UP,UP,2,3,weekend,19,0.674,standing,high,175,Karkardooma,Laxmi Nagar
+8UP,UP,3,4,weekend,19,0.633,standing,high,164,Laxmi Nagar,ITO
+8UP,UP,4,5,weekend,19,0.616,standing,high,160,ITO,Connaught Place
+8UP,UP,1,2,weekend,20,0.321,seats,medium,83,Anand Vihar ISBT,Karkardooma
+8UP,UP,2,3,weekend,20,0.329,seats,medium,85,Karkardooma,Laxmi Nagar
+8UP,UP,3,4,weekend,20,0.342,seats,medium,88,Laxmi Nagar,ITO
+8UP,UP,4,5,weekend,20,0.289,seats,medium,75,ITO,Connaught Place
+8UP,UP,1,2,weekend,21,0.291,seats,medium,75,Anand Vihar ISBT,Karkardooma
+8UP,UP,2,3,weekend,21,0.326,seats,medium,84,Karkardooma,Laxmi Nagar
+8UP,UP,3,4,weekend,21,0.414,seats,medium,107,Laxmi Nagar,ITO
+8UP,UP,4,5,weekend,21,0.367,seats,medium,95,ITO,Connaught Place
+8UP,UP,1,2,weekend,22,0.304,seats,medium,78,Anand Vihar ISBT,Karkardooma
+8UP,UP,2,3,weekend,22,0.370,seats,medium,96,Karkardooma,Laxmi Nagar
+8UP,UP,3,4,weekend,22,0.322,seats,medium,83,Laxmi Nagar,ITO
+8UP,UP,4,5,weekend,22,0.260,seats,medium,67,ITO,Connaught Place
+8UP,UP,1,2,weekend,23,0.289,seats,medium,75,Anand Vihar ISBT,Karkardooma
+8UP,UP,2,3,weekend,23,0.343,seats,medium,89,Karkardooma,Laxmi Nagar
+8UP,UP,3,4,weekend,23,0.411,seats,medium,106,Laxmi Nagar,ITO
+8UP,UP,4,5,weekend,23,0.267,seats,medium,69,ITO,Connaught Place
+8DOWN,DOWN,1,2,weekday,5,0.456,seats,medium,118,Connaught Place,ITO
+8DOWN,DOWN,2,3,weekday,5,0.674,standing,high,175,ITO,Laxmi Nagar
+8DOWN,DOWN,3,4,weekday,5,0.623,standing,high,161,Laxmi Nagar,Karkardooma
+8DOWN,DOWN,4,5,weekday,5,0.470,seats,medium,122,Karkardooma,Anand Vihar ISBT
+8DOWN,DOWN,1,2,weekday,6,0.518,seats,medium,134,Connaught Place,ITO
+8DOWN,DOWN,2,3,weekday,6,0.563,standing,medium,146,ITO,Laxmi Nagar
+8DOWN,DOWN,3,4,weekday,6,0.623,standing,high,161,Laxmi Nagar,Karkardooma
+8DOWN,DOWN,4,5,weekday,6,0.570,standing,medium,148,Karkardooma,Anand Vihar ISBT
+8DOWN,DOWN,1,2,weekday,7,0.556,standing,medium,144,Connaught Place,ITO
+8DOWN,DOWN,2,3,weekday,7,0.643,standing,high,167,ITO,Laxmi Nagar
+8DOWN,DOWN,3,4,weekday,7,0.591,standing,high,153,Laxmi Nagar,Karkardooma
+8DOWN,DOWN,4,5,weekday,7,0.497,seats,medium,129,Karkardooma,Anand Vihar ISBT
+8DOWN,DOWN,1,2,weekday,8,0.912,standing,high,237,Connaught Place,ITO
+8DOWN,DOWN,2,3,weekday,8,1.183,crowded,high,307,ITO,Laxmi Nagar
+8DOWN,DOWN,3,4,weekday,8,1.154,crowded,high,300,Laxmi Nagar,Karkardooma
+8DOWN,DOWN,4,5,weekday,8,0.986,crowded,high,256,Karkardooma,Anand Vihar ISBT
+8DOWN,DOWN,1,2,weekday,9,0.932,standing,high,242,Connaught Place,ITO
+8DOWN,DOWN,2,3,weekday,9,1.117,crowded,high,290,ITO,Laxmi Nagar
+8DOWN,DOWN,3,4,weekday,9,1.188,crowded,high,308,Laxmi Nagar,Karkardooma
+8DOWN,DOWN,4,5,weekday,9,1.011,crowded,high,262,Karkardooma,Anand Vihar ISBT
+8DOWN,DOWN,1,2,weekday,10,0.995,crowded,high,258,Connaught Place,ITO
+8DOWN,DOWN,2,3,weekday,10,1.187,crowded,high,308,ITO,Laxmi Nagar
+8DOWN,DOWN,3,4,weekday,10,1.188,crowded,high,309,Laxmi Nagar,Karkardooma
+8DOWN,DOWN,4,5,weekday,10,0.981,crowded,high,255,Karkardooma,Anand Vihar ISBT
+8DOWN,DOWN,1,2,weekday,11,0.480,seats,medium,124,Connaught Place,ITO
+8DOWN,DOWN,2,3,weekday,11,0.622,standing,high,161,ITO,Laxmi Nagar
+8DOWN,DOWN,3,4,weekday,11,0.602,standing,high,156,Laxmi Nagar,Karkardooma
+8DOWN,DOWN,4,5,weekday,11,0.456,seats,medium,118,Karkardooma,Anand Vihar ISBT
+8DOWN,DOWN,1,2,weekday,12,0.456,seats,medium,118,Connaught Place,ITO
+8DOWN,DOWN,2,3,weekday,12,0.593,standing,high,154,ITO,Laxmi Nagar
+8DOWN,DOWN,3,4,weekday,12,0.590,standing,high,153,Laxmi Nagar,Karkardooma
+8DOWN,DOWN,4,5,weekday,12,0.536,seats,medium,139,Karkardooma,Anand Vihar ISBT
+8DOWN,DOWN,1,2,weekday,13,0.568,standing,medium,147,Connaught Place,ITO
+8DOWN,DOWN,2,3,weekday,13,0.613,standing,high,159,ITO,Laxmi Nagar
+8DOWN,DOWN,3,4,weekday,13,0.672,standing,high,174,Laxmi Nagar,Karkardooma
+8DOWN,DOWN,4,5,weekday,13,0.571,standing,medium,148,Karkardooma,Anand Vihar ISBT
+8DOWN,DOWN,1,2,weekday,14,0.567,standing,medium,147,Connaught Place,ITO
+8DOWN,DOWN,2,3,weekday,14,0.603,standing,high,156,ITO,Laxmi Nagar
+8DOWN,DOWN,3,4,weekday,14,0.586,standing,high,152,Laxmi Nagar,Karkardooma
+8DOWN,DOWN,4,5,weekday,14,0.480,seats,medium,124,Karkardooma,Anand Vihar ISBT
+8DOWN,DOWN,1,2,weekday,15,0.476,seats,medium,123,Connaught Place,ITO
+8DOWN,DOWN,2,3,weekday,15,0.584,standing,high,151,ITO,Laxmi Nagar
+8DOWN,DOWN,3,4,weekday,15,0.634,standing,high,164,Laxmi Nagar,Karkardooma
+8DOWN,DOWN,4,5,weekday,15,0.561,standing,medium,145,Karkardooma,Anand Vihar ISBT
+8DOWN,DOWN,1,2,weekday,16,0.554,standing,medium,143,Connaught Place,ITO
+8DOWN,DOWN,2,3,weekday,16,0.617,standing,high,160,ITO,Laxmi Nagar
+8DOWN,DOWN,3,4,weekday,16,0.638,standing,high,165,Laxmi Nagar,Karkardooma
+8DOWN,DOWN,4,5,weekday,16,0.549,seats,medium,142,Karkardooma,Anand Vihar ISBT
+8DOWN,DOWN,1,2,weekday,17,1.415,crowded,high,368,Connaught Place,ITO
+8DOWN,DOWN,2,3,weekday,17,1.789,crowded,high,465,ITO,Laxmi Nagar
+8DOWN,DOWN,3,4,weekday,17,1.819,crowded,high,472,Laxmi Nagar,Karkardooma
+8DOWN,DOWN,4,5,weekday,17,1.499,crowded,high,389,Karkardooma,Anand Vihar ISBT
+8DOWN,DOWN,1,2,weekday,18,1.495,crowded,high,388,Connaught Place,ITO
+8DOWN,DOWN,2,3,weekday,18,1.767,crowded,high,459,ITO,Laxmi Nagar
+8DOWN,DOWN,3,4,weekday,18,1.731,crowded,high,450,Laxmi Nagar,Karkardooma
+8DOWN,DOWN,4,5,weekday,18,1.500,crowded,high,389,Karkardooma,Anand Vihar ISBT
+8DOWN,DOWN,1,2,weekday,19,1.445,crowded,high,375,Connaught Place,ITO
+8DOWN,DOWN,2,3,weekday,19,1.806,crowded,high,469,ITO,Laxmi Nagar
+8DOWN,DOWN,3,4,weekday,19,1.826,crowded,high,474,Laxmi Nagar,Karkardooma
+8DOWN,DOWN,4,5,weekday,19,1.453,crowded,high,377,Karkardooma,Anand Vihar ISBT
+8DOWN,DOWN,1,2,weekday,20,0.501,seats,medium,130,Connaught Place,ITO
+8DOWN,DOWN,2,3,weekday,20,0.673,standing,high,174,ITO,Laxmi Nagar
+8DOWN,DOWN,3,4,weekday,20,0.646,standing,high,168,Laxmi Nagar,Karkardooma
+8DOWN,DOWN,4,5,weekday,20,0.473,seats,medium,123,Karkardooma,Anand Vihar ISBT
+8DOWN,DOWN,1,2,weekday,21,0.468,seats,medium,121,Connaught Place,ITO
+8DOWN,DOWN,2,3,weekday,21,0.578,standing,high,150,ITO,Laxmi Nagar
+8DOWN,DOWN,3,4,weekday,21,0.668,standing,high,173,Laxmi Nagar,Karkardooma
+8DOWN,DOWN,4,5,weekday,21,0.550,seats,medium,142,Karkardooma,Anand Vihar ISBT
+8DOWN,DOWN,1,2,weekday,22,0.470,seats,medium,122,Connaught Place,ITO
+8DOWN,DOWN,2,3,weekday,22,0.659,standing,high,171,ITO,Laxmi Nagar
+8DOWN,DOWN,3,4,weekday,22,0.677,standing,high,176,Laxmi Nagar,Karkardooma
+8DOWN,DOWN,4,5,weekday,22,0.532,seats,medium,138,Karkardooma,Anand Vihar ISBT
+8DOWN,DOWN,1,2,weekday,23,0.495,seats,medium,128,Connaught Place,ITO
+8DOWN,DOWN,2,3,weekday,23,0.625,standing,high,162,ITO,Laxmi Nagar
+8DOWN,DOWN,3,4,weekday,23,0.575,standing,medium,149,Laxmi Nagar,Karkardooma
+8DOWN,DOWN,4,5,weekday,23,0.455,seats,medium,118,Karkardooma,Anand Vihar ISBT
+8DOWN,DOWN,1,2,weekend,5,0.364,seats,medium,94,Connaught Place,ITO
+8DOWN,DOWN,2,3,weekend,5,0.390,seats,medium,101,ITO,Laxmi Nagar
+8DOWN,DOWN,3,4,weekend,5,0.375,seats,medium,97,Laxmi Nagar,Karkardooma
+8DOWN,DOWN,4,5,weekend,5,0.360,seats,medium,93,Karkardooma,Anand Vihar ISBT
+8DOWN,DOWN,1,2,weekend,6,0.300,seats,medium,77,Connaught Place,ITO
+8DOWN,DOWN,2,3,weekend,6,0.416,seats,medium,108,ITO,Laxmi Nagar
+8DOWN,DOWN,3,4,weekend,6,0.411,seats,medium,106,Laxmi Nagar,Karkardooma
+8DOWN,DOWN,4,5,weekend,6,0.273,seats,medium,70,Karkardooma,Anand Vihar ISBT
+8DOWN,DOWN,1,2,weekend,7,0.278,seats,medium,72,Connaught Place,ITO
+8DOWN,DOWN,2,3,weekend,7,0.347,seats,medium,90,ITO,Laxmi Nagar
+8DOWN,DOWN,3,4,weekend,7,0.340,seats,medium,88,Laxmi Nagar,Karkardooma
+8DOWN,DOWN,4,5,weekend,7,0.318,seats,medium,82,Karkardooma,Anand Vihar ISBT
+8DOWN,DOWN,1,2,weekend,8,0.543,seats,medium,141,Connaught Place,ITO
+8DOWN,DOWN,2,3,weekend,8,0.680,standing,high,176,ITO,Laxmi Nagar
+8DOWN,DOWN,3,4,weekend,8,0.646,standing,high,167,Laxmi Nagar,Karkardooma
+8DOWN,DOWN,4,5,weekend,8,0.621,standing,high,161,Karkardooma,Anand Vihar ISBT
+8DOWN,DOWN,1,2,weekend,9,0.554,standing,medium,144,Connaught Place,ITO
+8DOWN,DOWN,2,3,weekend,9,0.685,standing,high,178,ITO,Laxmi Nagar
+8DOWN,DOWN,3,4,weekend,9,0.700,standing,high,182,Laxmi Nagar,Karkardooma
+8DOWN,DOWN,4,5,weekend,9,0.620,standing,high,161,Karkardooma,Anand Vihar ISBT
+8DOWN,DOWN,1,2,weekend,10,0.562,standing,medium,146,Connaught Place,ITO
+8DOWN,DOWN,2,3,weekend,10,0.740,standing,high,192,ITO,Laxmi Nagar
+8DOWN,DOWN,3,4,weekend,10,0.690,standing,high,179,Laxmi Nagar,Karkardooma
+8DOWN,DOWN,4,5,weekend,10,0.575,standing,medium,149,Karkardooma,Anand Vihar ISBT
+8DOWN,DOWN,1,2,weekend,11,0.311,seats,medium,80,Connaught Place,ITO
+8DOWN,DOWN,2,3,weekend,11,0.314,seats,medium,81,ITO,Laxmi Nagar
+8DOWN,DOWN,3,4,weekend,11,0.364,seats,medium,94,Laxmi Nagar,Karkardooma
+8DOWN,DOWN,4,5,weekend,11,0.270,seats,medium,70,Karkardooma,Anand Vihar ISBT
+8DOWN,DOWN,1,2,weekend,12,0.248,seats,medium,64,Connaught Place,ITO
+8DOWN,DOWN,2,3,weekend,12,0.408,seats,medium,105,ITO,Laxmi Nagar
+8DOWN,DOWN,3,4,weekend,12,0.332,seats,medium,86,Laxmi Nagar,Karkardooma
+8DOWN,DOWN,4,5,weekend,12,0.305,seats,medium,79,Karkardooma,Anand Vihar ISBT
+8DOWN,DOWN,1,2,weekend,13,0.335,seats,medium,87,Connaught Place,ITO
+8DOWN,DOWN,2,3,weekend,13,0.378,seats,medium,98,ITO,Laxmi Nagar
+8DOWN,DOWN,3,4,weekend,13,0.351,seats,medium,91,Laxmi Nagar,Karkardooma
+8DOWN,DOWN,4,5,weekend,13,0.310,seats,medium,80,Karkardooma,Anand Vihar ISBT
+8DOWN,DOWN,1,2,weekend,14,0.314,seats,medium,81,Connaught Place,ITO
+8DOWN,DOWN,2,3,weekend,14,0.406,seats,medium,105,ITO,Laxmi Nagar
+8DOWN,DOWN,3,4,weekend,14,0.324,seats,medium,84,Laxmi Nagar,Karkardooma
+8DOWN,DOWN,4,5,weekend,14,0.315,seats,medium,81,Karkardooma,Anand Vihar ISBT
+8DOWN,DOWN,1,2,weekend,15,0.278,seats,medium,72,Connaught Place,ITO
+8DOWN,DOWN,2,3,weekend,15,0.345,seats,medium,89,ITO,Laxmi Nagar
+8DOWN,DOWN,3,4,weekend,15,0.404,seats,medium,105,Laxmi Nagar,Karkardooma
+8DOWN,DOWN,4,5,weekend,15,0.309,seats,medium,80,Karkardooma,Anand Vihar ISBT
+8DOWN,DOWN,1,2,weekend,16,0.315,seats,medium,81,Connaught Place,ITO
+8DOWN,DOWN,2,3,weekend,16,0.403,seats,medium,104,ITO,Laxmi Nagar
+8DOWN,DOWN,3,4,weekend,16,0.421,seats,medium,109,Laxmi Nagar,Karkardooma
+8DOWN,DOWN,4,5,weekend,16,0.301,seats,medium,78,Karkardooma,Anand Vihar ISBT
+8DOWN,DOWN,1,2,weekend,17,0.893,standing,high,232,Connaught Place,ITO
+8DOWN,DOWN,2,3,weekend,17,1.062,crowded,high,276,ITO,Laxmi Nagar
+8DOWN,DOWN,3,4,weekend,17,1.063,crowded,high,276,Laxmi Nagar,Karkardooma
+8DOWN,DOWN,4,5,weekend,17,0.902,standing,high,234,Karkardooma,Anand Vihar ISBT
+8DOWN,DOWN,1,2,weekend,18,0.873,standing,high,227,Connaught Place,ITO
+8DOWN,DOWN,2,3,weekend,18,1.066,crowded,high,277,ITO,Laxmi Nagar
+8DOWN,DOWN,3,4,weekend,18,1.059,crowded,high,275,Laxmi Nagar,Karkardooma
+8DOWN,DOWN,4,5,weekend,18,0.932,standing,high,242,Karkardooma,Anand Vihar ISBT
+8DOWN,DOWN,1,2,weekend,19,0.903,standing,high,234,Connaught Place,ITO
+8DOWN,DOWN,2,3,weekend,19,1.107,crowded,high,287,ITO,Laxmi Nagar
+8DOWN,DOWN,3,4,weekend,19,1.115,crowded,high,289,Laxmi Nagar,Karkardooma
+8DOWN,DOWN,4,5,weekend,19,0.850,standing,high,221,Karkardooma,Anand Vihar ISBT
+8DOWN,DOWN,1,2,weekend,20,0.315,seats,medium,81,Connaught Place,ITO
+8DOWN,DOWN,2,3,weekend,20,0.425,seats,medium,110,ITO,Laxmi Nagar
+8DOWN,DOWN,3,4,weekend,20,0.412,seats,medium,107,Laxmi Nagar,Karkardooma
+8DOWN,DOWN,4,5,weekend,20,0.264,seats,medium,68,Karkardooma,Anand Vihar ISBT
+8DOWN,DOWN,1,2,weekend,21,0.262,seats,medium,68,Connaught Place,ITO
+8DOWN,DOWN,2,3,weekend,21,0.365,seats,medium,94,ITO,Laxmi Nagar
+8DOWN,DOWN,3,4,weekend,21,0.320,seats,medium,83,Laxmi Nagar,Karkardooma
+8DOWN,DOWN,4,5,weekend,21,0.277,seats,medium,71,Karkardooma,Anand Vihar ISBT
+8DOWN,DOWN,1,2,weekend,22,0.256,seats,medium,66,Connaught Place,ITO
+8DOWN,DOWN,2,3,weekend,22,0.392,seats,medium,101,ITO,Laxmi Nagar
+8DOWN,DOWN,3,4,weekend,22,0.406,seats,medium,105,Laxmi Nagar,Karkardooma
+8DOWN,DOWN,4,5,weekend,22,0.355,seats,medium,92,Karkardooma,Anand Vihar ISBT
+8DOWN,DOWN,1,2,weekend,23,0.266,seats,medium,69,Connaught Place,ITO
+8DOWN,DOWN,2,3,weekend,23,0.398,seats,medium,103,ITO,Laxmi Nagar
+8DOWN,DOWN,3,4,weekend,23,0.391,seats,medium,101,Laxmi Nagar,Karkardooma
+8DOWN,DOWN,4,5,weekend,23,0.265,seats,medium,68,Karkardooma,Anand Vihar ISBT
+34UP,UP,1,2,weekday,5,0.432,seats,medium,112,Anand Vihar ISBT,Sarai Kale Khan
+34UP,UP,2,3,weekday,5,0.513,seats,medium,133,Sarai Kale Khan,Lajpat Nagar
+34UP,UP,3,4,weekday,5,0.352,seats,medium,91,Lajpat Nagar,Nehru Place
+34UP,UP,1,2,weekday,6,0.440,seats,medium,114,Anand Vihar ISBT,Sarai Kale Khan
+34UP,UP,2,3,weekday,6,0.445,seats,medium,115,Sarai Kale Khan,Lajpat Nagar
+34UP,UP,3,4,weekday,6,0.384,seats,medium,99,Lajpat Nagar,Nehru Place
+34UP,UP,1,2,weekday,7,0.445,seats,medium,115,Anand Vihar ISBT,Sarai Kale Khan
+34UP,UP,2,3,weekday,7,0.497,seats,medium,129,Sarai Kale Khan,Lajpat Nagar
+34UP,UP,3,4,weekday,7,0.345,seats,medium,89,Lajpat Nagar,Nehru Place
+34UP,UP,1,2,weekday,8,1.094,crowded,high,284,Anand Vihar ISBT,Sarai Kale Khan
+34UP,UP,2,3,weekday,8,1.307,crowded,high,339,Sarai Kale Khan,Lajpat Nagar
+34UP,UP,3,4,weekday,8,1.083,crowded,high,281,Lajpat Nagar,Nehru Place
+34UP,UP,1,2,weekday,9,1.066,crowded,high,277,Anand Vihar ISBT,Sarai Kale Khan
+34UP,UP,2,3,weekday,9,1.283,crowded,high,333,Sarai Kale Khan,Lajpat Nagar
+34UP,UP,3,4,weekday,9,1.129,crowded,high,293,Lajpat Nagar,Nehru Place
+34UP,UP,1,2,weekday,10,1.045,crowded,high,271,Anand Vihar ISBT,Sarai Kale Khan
+34UP,UP,2,3,weekday,10,1.311,crowded,high,340,Sarai Kale Khan,Lajpat Nagar
+34UP,UP,3,4,weekday,10,1.095,crowded,high,284,Lajpat Nagar,Nehru Place
+34UP,UP,1,2,weekday,11,0.328,seats,medium,85,Anand Vihar ISBT,Sarai Kale Khan
+34UP,UP,2,3,weekday,11,0.437,seats,medium,113,Sarai Kale Khan,Lajpat Nagar
+34UP,UP,3,4,weekday,11,0.401,seats,medium,104,Lajpat Nagar,Nehru Place
+34UP,UP,1,2,weekday,12,0.387,seats,medium,100,Anand Vihar ISBT,Sarai Kale Khan
+34UP,UP,2,3,weekday,12,0.404,seats,medium,105,Sarai Kale Khan,Lajpat Nagar
+34UP,UP,3,4,weekday,12,0.444,seats,medium,115,Lajpat Nagar,Nehru Place
+34UP,UP,1,2,weekday,13,0.420,seats,medium,109,Anand Vihar ISBT,Sarai Kale Khan
+34UP,UP,2,3,weekday,13,0.513,seats,medium,133,Sarai Kale Khan,Lajpat Nagar
+34UP,UP,3,4,weekday,13,0.338,seats,medium,87,Lajpat Nagar,Nehru Place
+34UP,UP,1,2,weekday,14,0.358,seats,medium,93,Anand Vihar ISBT,Sarai Kale Khan
+34UP,UP,2,3,weekday,14,0.402,seats,medium,104,Sarai Kale Khan,Lajpat Nagar
+34UP,UP,3,4,weekday,14,0.419,seats,medium,109,Lajpat Nagar,Nehru Place
+34UP,UP,1,2,weekday,15,0.358,seats,medium,93,Anand Vihar ISBT,Sarai Kale Khan
+34UP,UP,2,3,weekday,15,0.412,seats,medium,107,Sarai Kale Khan,Lajpat Nagar
+34UP,UP,3,4,weekday,15,0.377,seats,medium,97,Lajpat Nagar,Nehru Place
+34UP,UP,1,2,weekday,16,0.435,seats,medium,113,Anand Vihar ISBT,Sarai Kale Khan
+34UP,UP,2,3,weekday,16,0.495,seats,medium,128,Sarai Kale Khan,Lajpat Nagar
+34UP,UP,3,4,weekday,16,0.357,seats,medium,92,Lajpat Nagar,Nehru Place
+34UP,UP,1,2,weekday,17,0.675,standing,high,175,Anand Vihar ISBT,Sarai Kale Khan
+34UP,UP,2,3,weekday,17,0.899,standing,high,233,Sarai Kale Khan,Lajpat Nagar
+34UP,UP,3,4,weekday,17,0.725,standing,high,188,Lajpat Nagar,Nehru Place
+34UP,UP,1,2,weekday,18,0.741,standing,high,192,Anand Vihar ISBT,Sarai Kale Khan
+34UP,UP,2,3,weekday,18,0.799,standing,high,207,Sarai Kale Khan,Lajpat Nagar
+34UP,UP,3,4,weekday,18,0.664,standing,high,172,Lajpat Nagar,Nehru Place
+34UP,UP,1,2,weekday,19,0.739,standing,high,192,Anand Vihar ISBT,Sarai Kale Khan
+34UP,UP,2,3,weekday,19,0.839,standing,high,218,Sarai Kale Khan,Lajpat Nagar
+34UP,UP,3,4,weekday,19,0.665,standing,high,172,Lajpat Nagar,Nehru Place
+34UP,UP,1,2,weekday,20,0.438,seats,medium,114,Anand Vihar ISBT,Sarai Kale Khan
+34UP,UP,2,3,weekday,20,0.473,seats,medium,122,Sarai Kale Khan,Lajpat Nagar
+34UP,UP,3,4,weekday,20,0.422,seats,medium,109,Lajpat Nagar,Nehru Place
+34UP,UP,1,2,weekday,21,0.336,seats,medium,87,Anand Vihar ISBT,Sarai Kale Khan
+34UP,UP,2,3,weekday,21,0.499,seats,medium,129,Sarai Kale Khan,Lajpat Nagar
+34UP,UP,3,4,weekday,21,0.334,seats,medium,86,Lajpat Nagar,Nehru Place
+34UP,UP,1,2,weekday,22,0.429,seats,medium,111,Anand Vihar ISBT,Sarai Kale Khan
+34UP,UP,2,3,weekday,22,0.451,seats,medium,117,Sarai Kale Khan,Lajpat Nagar
+34UP,UP,3,4,weekday,22,0.367,seats,medium,95,Lajpat Nagar,Nehru Place
+34UP,UP,1,2,weekday,23,0.392,seats,medium,101,Anand Vihar ISBT,Sarai Kale Khan
+34UP,UP,2,3,weekday,23,0.508,seats,medium,132,Sarai Kale Khan,Lajpat Nagar
+34UP,UP,3,4,weekday,23,0.358,seats,medium,93,Lajpat Nagar,Nehru Place
+34UP,UP,1,2,weekend,5,0.187,seats,medium,48,Anand Vihar ISBT,Sarai Kale Khan
+34UP,UP,2,3,weekend,5,0.277,seats,medium,72,Sarai Kale Khan,Lajpat Nagar
+34UP,UP,3,4,weekend,5,0.200,seats,medium,52,Lajpat Nagar,Nehru Place
+34UP,UP,1,2,weekend,6,0.185,seats,medium,48,Anand Vihar ISBT,Sarai Kale Khan
+34UP,UP,2,3,weekend,6,0.233,seats,medium,60,Sarai Kale Khan,Lajpat Nagar
+34UP,UP,3,4,weekend,6,0.178,seats,medium,46,Lajpat Nagar,Nehru Place
+34UP,UP,1,2,weekend,7,0.196,seats,medium,50,Anand Vihar ISBT,Sarai Kale Khan
+34UP,UP,2,3,weekend,7,0.251,seats,medium,65,Sarai Kale Khan,Lajpat Nagar
+34UP,UP,3,4,weekend,7,0.208,seats,medium,54,Lajpat Nagar,Nehru Place
+34UP,UP,1,2,weekend,8,0.693,standing,high,180,Anand Vihar ISBT,Sarai Kale Khan
+34UP,UP,2,3,weekend,8,0.758,standing,high,197,Sarai Kale Khan,Lajpat Nagar
+34UP,UP,3,4,weekend,8,0.662,standing,high,171,Lajpat Nagar,Nehru Place
+34UP,UP,1,2,weekend,9,0.623,standing,high,161,Anand Vihar ISBT,Sarai Kale Khan
+34UP,UP,2,3,weekend,9,0.765,standing,high,198,Sarai Kale Khan,Lajpat Nagar
+34UP,UP,3,4,weekend,9,0.604,standing,high,156,Lajpat Nagar,Nehru Place
+34UP,UP,1,2,weekend,10,0.632,standing,high,164,Anand Vihar ISBT,Sarai Kale Khan
+34UP,UP,2,3,weekend,10,0.725,standing,high,188,Sarai Kale Khan,Lajpat Nagar
+34UP,UP,3,4,weekend,10,0.689,standing,high,179,Lajpat Nagar,Nehru Place
+34UP,UP,1,2,weekend,11,0.238,seats,medium,61,Anand Vihar ISBT,Sarai Kale Khan
+34UP,UP,2,3,weekend,11,0.237,seats,medium,61,Sarai Kale Khan,Lajpat Nagar
+34UP,UP,3,4,weekend,11,0.228,seats,medium,59,Lajpat Nagar,Nehru Place
+34UP,UP,1,2,weekend,12,0.284,seats,medium,73,Anand Vihar ISBT,Sarai Kale Khan
+34UP,UP,2,3,weekend,12,0.227,seats,medium,58,Sarai Kale Khan,Lajpat Nagar
+34UP,UP,3,4,weekend,12,0.270,seats,medium,70,Lajpat Nagar,Nehru Place
+34UP,UP,1,2,weekend,13,0.223,seats,medium,58,Anand Vihar ISBT,Sarai Kale Khan
+34UP,UP,2,3,weekend,13,0.273,seats,medium,71,Sarai Kale Khan,Lajpat Nagar
+34UP,UP,3,4,weekend,13,0.272,seats,medium,70,Lajpat Nagar,Nehru Place
+34UP,UP,1,2,weekend,14,0.219,seats,medium,56,Anand Vihar ISBT,Sarai Kale Khan
+34UP,UP,2,3,weekend,14,0.275,seats,medium,71,Sarai Kale Khan,Lajpat Nagar
+34UP,UP,3,4,weekend,14,0.254,seats,medium,66,Lajpat Nagar,Nehru Place
+34UP,UP,1,2,weekend,15,0.289,seats,medium,75,Anand Vihar ISBT,Sarai Kale Khan
+34UP,UP,2,3,weekend,15,0.255,seats,medium,66,Sarai Kale Khan,Lajpat Nagar
+34UP,UP,3,4,weekend,15,0.271,seats,medium,70,Lajpat Nagar,Nehru Place
+34UP,UP,1,2,weekend,16,0.256,seats,medium,66,Anand Vihar ISBT,Sarai Kale Khan
+34UP,UP,2,3,weekend,16,0.290,seats,medium,75,Sarai Kale Khan,Lajpat Nagar
+34UP,UP,3,4,weekend,16,0.220,seats,medium,57,Lajpat Nagar,Nehru Place
+34UP,UP,1,2,weekend,17,0.412,seats,medium,107,Anand Vihar ISBT,Sarai Kale Khan
+34UP,UP,2,3,weekend,17,0.455,seats,medium,118,Sarai Kale Khan,Lajpat Nagar
+34UP,UP,3,4,weekend,17,0.386,seats,medium,100,Lajpat Nagar,Nehru Place
+34UP,UP,1,2,weekend,18,0.378,seats,medium,98,Anand Vihar ISBT,Sarai Kale Khan
+34UP,UP,2,3,weekend,18,0.538,seats,medium,139,Sarai Kale Khan,Lajpat Nagar
+34UP,UP,3,4,weekend,18,0.401,seats,medium,104,Lajpat Nagar,Nehru Place
+34UP,UP,1,2,weekend,19,0.390,seats,medium,101,Anand Vihar ISBT,Sarai Kale Khan
+34UP,UP,2,3,weekend,19,0.459,seats,medium,119,Sarai Kale Khan,Lajpat Nagar
+34UP,UP,3,4,weekend,19,0.471,seats,medium,122,Lajpat Nagar,Nehru Place
+34UP,UP,1,2,weekend,20,0.276,seats,medium,71,Anand Vihar ISBT,Sarai Kale Khan
+34UP,UP,2,3,weekend,20,0.295,seats,medium,76,Sarai Kale Khan,Lajpat Nagar
+34UP,UP,3,4,weekend,20,0.205,seats,medium,53,Lajpat Nagar,Nehru Place
+34UP,UP,1,2,weekend,21,0.201,seats,medium,52,Anand Vihar ISBT,Sarai Kale Khan
+34UP,UP,2,3,weekend,21,0.249,seats,medium,64,Sarai Kale Khan,Lajpat Nagar
+34UP,UP,3,4,weekend,21,0.227,seats,medium,58,Lajpat Nagar,Nehru Place
+34UP,UP,1,2,weekend,22,0.190,seats,medium,49,Anand Vihar ISBT,Sarai Kale Khan
+34UP,UP,2,3,weekend,22,0.268,seats,medium,69,Sarai Kale Khan,Lajpat Nagar
+34UP,UP,3,4,weekend,22,0.203,seats,medium,52,Lajpat Nagar,Nehru Place
+34UP,UP,1,2,weekend,23,0.287,seats,medium,74,Anand Vihar ISBT,Sarai Kale Khan
+34UP,UP,2,3,weekend,23,0.331,seats,medium,85,Sarai Kale Khan,Lajpat Nagar
+34UP,UP,3,4,weekend,23,0.237,seats,medium,61,Lajpat Nagar,Nehru Place
+34DOWN,DOWN,1,2,weekday,5,0.355,seats,medium,92,Nehru Place,Lajpat Nagar
+34DOWN,DOWN,2,3,weekday,5,0.513,seats,medium,133,Lajpat Nagar,Sarai Kale Khan
+34DOWN,DOWN,3,4,weekday,5,0.363,seats,medium,94,Sarai Kale Khan,Anand Vihar ISBT
+34DOWN,DOWN,1,2,weekday,6,0.369,seats,medium,95,Nehru Place,Lajpat Nagar
+34DOWN,DOWN,2,3,weekday,6,0.397,seats,medium,103,Lajpat Nagar,Sarai Kale Khan
+34DOWN,DOWN,3,4,weekday,6,0.372,seats,medium,96,Sarai Kale Khan,Anand Vihar ISBT
+34DOWN,DOWN,1,2,weekday,7,0.383,seats,medium,99,Nehru Place,Lajpat Nagar
+34DOWN,DOWN,2,3,weekday,7,0.457,seats,medium,118,Lajpat Nagar,Sarai Kale Khan
+34DOWN,DOWN,3,4,weekday,7,0.350,seats,medium,90,Sarai Kale Khan,Anand Vihar ISBT
+34DOWN,DOWN,1,2,weekday,8,0.717,standing,high,186,Nehru Place,Lajpat Nagar
+34DOWN,DOWN,2,3,weekday,8,0.789,standing,high,205,Lajpat Nagar,Sarai Kale Khan
+34DOWN,DOWN,3,4,weekday,8,0.688,standing,high,178,Sarai Kale Khan,Anand Vihar ISBT
+34DOWN,DOWN,1,2,weekday,9,0.667,standing,high,173,Nehru Place,Lajpat Nagar
+34DOWN,DOWN,2,3,weekday,9,0.836,standing,high,217,Lajpat Nagar,Sarai Kale Khan
+34DOWN,DOWN,3,4,weekday,9,0.662,standing,high,172,Sarai Kale Khan,Anand Vihar ISBT
+34DOWN,DOWN,1,2,weekday,10,0.659,standing,high,171,Nehru Place,Lajpat Nagar
+34DOWN,DOWN,2,3,weekday,10,0.825,standing,high,214,Lajpat Nagar,Sarai Kale Khan
+34DOWN,DOWN,3,4,weekday,10,0.685,standing,high,177,Sarai Kale Khan,Anand Vihar ISBT
+34DOWN,DOWN,1,2,weekday,11,0.396,seats,medium,102,Nehru Place,Lajpat Nagar
+34DOWN,DOWN,2,3,weekday,11,0.460,seats,medium,119,Lajpat Nagar,Sarai Kale Khan
+34DOWN,DOWN,3,4,weekday,11,0.416,seats,medium,108,Sarai Kale Khan,Anand Vihar ISBT
+34DOWN,DOWN,1,2,weekday,12,0.405,seats,medium,105,Nehru Place,Lajpat Nagar
+34DOWN,DOWN,2,3,weekday,12,0.483,seats,medium,125,Lajpat Nagar,Sarai Kale Khan
+34DOWN,DOWN,3,4,weekday,12,0.431,seats,medium,112,Sarai Kale Khan,Anand Vihar ISBT
+34DOWN,DOWN,1,2,weekday,13,0.373,seats,medium,96,Nehru Place,Lajpat Nagar
+34DOWN,DOWN,2,3,weekday,13,0.436,seats,medium,113,Lajpat Nagar,Sarai Kale Khan
+34DOWN,DOWN,3,4,weekday,13,0.444,seats,medium,115,Sarai Kale Khan,Anand Vihar ISBT
+34DOWN,DOWN,1,2,weekday,14,0.344,seats,medium,89,Nehru Place,Lajpat Nagar
+34DOWN,DOWN,2,3,weekday,14,0.484,seats,medium,125,Lajpat Nagar,Sarai Kale Khan
+34DOWN,DOWN,3,4,weekday,14,0.403,seats,medium,104,Sarai Kale Khan,Anand Vihar ISBT
+34DOWN,DOWN,1,2,weekday,15,0.331,seats,medium,86,Nehru Place,Lajpat Nagar
+34DOWN,DOWN,2,3,weekday,15,0.497,seats,medium,129,Lajpat Nagar,Sarai Kale Khan
+34DOWN,DOWN,3,4,weekday,15,0.433,seats,medium,112,Sarai Kale Khan,Anand Vihar ISBT
+34DOWN,DOWN,1,2,weekday,16,0.401,seats,medium,104,Nehru Place,Lajpat Nagar
+34DOWN,DOWN,2,3,weekday,16,0.485,seats,medium,126,Lajpat Nagar,Sarai Kale Khan
+34DOWN,DOWN,3,4,weekday,16,0.423,seats,medium,110,Sarai Kale Khan,Anand Vihar ISBT
+34DOWN,DOWN,1,2,weekday,17,1.059,crowded,high,275,Nehru Place,Lajpat Nagar
+34DOWN,DOWN,2,3,weekday,17,1.308,crowded,high,340,Lajpat Nagar,Sarai Kale Khan
+34DOWN,DOWN,3,4,weekday,17,1.103,crowded,high,286,Sarai Kale Khan,Anand Vihar ISBT
+34DOWN,DOWN,1,2,weekday,18,1.143,crowded,high,297,Nehru Place,Lajpat Nagar
+34DOWN,DOWN,2,3,weekday,18,1.342,crowded,high,348,Lajpat Nagar,Sarai Kale Khan
+34DOWN,DOWN,3,4,weekday,18,1.142,crowded,high,296,Sarai Kale Khan,Anand Vihar ISBT
+34DOWN,DOWN,1,2,weekday,19,1.113,crowded,high,289,Nehru Place,Lajpat Nagar
+34DOWN,DOWN,2,3,weekday,19,1.352,crowded,high,351,Lajpat Nagar,Sarai Kale Khan
+34DOWN,DOWN,3,4,weekday,19,1.124,crowded,high,292,Sarai Kale Khan,Anand Vihar ISBT
+34DOWN,DOWN,1,2,weekday,20,0.409,seats,medium,106,Nehru Place,Lajpat Nagar
+34DOWN,DOWN,2,3,weekday,20,0.424,seats,medium,110,Lajpat Nagar,Sarai Kale Khan
+34DOWN,DOWN,3,4,weekday,20,0.330,seats,medium,85,Sarai Kale Khan,Anand Vihar ISBT
+34DOWN,DOWN,1,2,weekday,21,0.342,seats,medium,88,Nehru Place,Lajpat Nagar
+34DOWN,DOWN,2,3,weekday,21,0.440,seats,medium,114,Lajpat Nagar,Sarai Kale Khan
+34DOWN,DOWN,3,4,weekday,21,0.338,seats,medium,88,Sarai Kale Khan,Anand Vihar ISBT
+34DOWN,DOWN,1,2,weekday,22,0.426,seats,medium,110,Nehru Place,Lajpat Nagar
+34DOWN,DOWN,2,3,weekday,22,0.464,seats,medium,120,Lajpat Nagar,Sarai Kale Khan
+34DOWN,DOWN,3,4,weekday,22,0.401,seats,medium,104,Sarai Kale Khan,Anand Vihar ISBT
+34DOWN,DOWN,1,2,weekday,23,0.401,seats,medium,104,Nehru Place,Lajpat Nagar
+34DOWN,DOWN,2,3,weekday,23,0.478,seats,medium,124,Lajpat Nagar,Sarai Kale Khan
+34DOWN,DOWN,3,4,weekday,23,0.385,seats,medium,99,Sarai Kale Khan,Anand Vihar ISBT
+34DOWN,DOWN,1,2,weekend,5,0.172,seats,medium,44,Nehru Place,Lajpat Nagar
+34DOWN,DOWN,2,3,weekend,5,0.310,seats,medium,80,Lajpat Nagar,Sarai Kale Khan
+34DOWN,DOWN,3,4,weekend,5,0.261,seats,medium,67,Sarai Kale Khan,Anand Vihar ISBT
+34DOWN,DOWN,1,2,weekend,6,0.232,seats,medium,60,Nehru Place,Lajpat Nagar
+34DOWN,DOWN,2,3,weekend,6,0.278,seats,medium,72,Lajpat Nagar,Sarai Kale Khan
+34DOWN,DOWN,3,4,weekend,6,0.251,seats,medium,65,Sarai Kale Khan,Anand Vihar ISBT
+34DOWN,DOWN,1,2,weekend,7,0.179,seats,medium,46,Nehru Place,Lajpat Nagar
+34DOWN,DOWN,2,3,weekend,7,0.302,seats,medium,78,Lajpat Nagar,Sarai Kale Khan
+34DOWN,DOWN,3,4,weekend,7,0.202,seats,medium,52,Sarai Kale Khan,Anand Vihar ISBT
+34DOWN,DOWN,1,2,weekend,8,0.379,seats,medium,98,Nehru Place,Lajpat Nagar
+34DOWN,DOWN,2,3,weekend,8,0.481,seats,medium,125,Lajpat Nagar,Sarai Kale Khan
+34DOWN,DOWN,3,4,weekend,8,0.457,seats,medium,118,Sarai Kale Khan,Anand Vihar ISBT
+34DOWN,DOWN,1,2,weekend,9,0.395,seats,medium,102,Nehru Place,Lajpat Nagar
+34DOWN,DOWN,2,3,weekend,9,0.538,seats,medium,139,Lajpat Nagar,Sarai Kale Khan
+34DOWN,DOWN,3,4,weekend,9,0.487,seats,medium,126,Sarai Kale Khan,Anand Vihar ISBT
+34DOWN,DOWN,1,2,weekend,10,0.429,seats,medium,111,Nehru Place,Lajpat Nagar
+34DOWN,DOWN,2,3,weekend,10,0.495,seats,medium,128,Lajpat Nagar,Sarai Kale Khan
+34DOWN,DOWN,3,4,weekend,10,0.427,seats,medium,111,Sarai Kale Khan,Anand Vihar ISBT
+34DOWN,DOWN,1,2,weekend,11,0.254,seats,medium,65,Nehru Place,Lajpat Nagar
+34DOWN,DOWN,2,3,weekend,11,0.306,seats,medium,79,Lajpat Nagar,Sarai Kale Khan
+34DOWN,DOWN,3,4,weekend,11,0.246,seats,medium,63,Sarai Kale Khan,Anand Vihar ISBT
+34DOWN,DOWN,1,2,weekend,12,0.249,seats,medium,64,Nehru Place,Lajpat Nagar
+34DOWN,DOWN,2,3,weekend,12,0.223,seats,medium,58,Lajpat Nagar,Sarai Kale Khan
+34DOWN,DOWN,3,4,weekend,12,0.189,seats,medium,49,Sarai Kale Khan,Anand Vihar ISBT
+34DOWN,DOWN,1,2,weekend,13,0.202,seats,medium,52,Nehru Place,Lajpat Nagar
+34DOWN,DOWN,2,3,weekend,13,0.303,seats,medium,78,Lajpat Nagar,Sarai Kale Khan
+34DOWN,DOWN,3,4,weekend,13,0.208,seats,medium,54,Sarai Kale Khan,Anand Vihar ISBT
+34DOWN,DOWN,1,2,weekend,14,0.240,seats,medium,62,Nehru Place,Lajpat Nagar
+34DOWN,DOWN,2,3,weekend,14,0.216,seats,medium,56,Lajpat Nagar,Sarai Kale Khan
+34DOWN,DOWN,3,4,weekend,14,0.179,seats,medium,46,Sarai Kale Khan,Anand Vihar ISBT
+34DOWN,DOWN,1,2,weekend,15,0.204,seats,medium,52,Nehru Place,Lajpat Nagar
+34DOWN,DOWN,2,3,weekend,15,0.295,seats,medium,76,Lajpat Nagar,Sarai Kale Khan
+34DOWN,DOWN,3,4,weekend,15,0.255,seats,medium,66,Sarai Kale Khan,Anand Vihar ISBT
+34DOWN,DOWN,1,2,weekend,16,0.253,seats,medium,65,Nehru Place,Lajpat Nagar
+34DOWN,DOWN,2,3,weekend,16,0.249,seats,medium,64,Lajpat Nagar,Sarai Kale Khan
+34DOWN,DOWN,3,4,weekend,16,0.234,seats,medium,60,Sarai Kale Khan,Anand Vihar ISBT
+34DOWN,DOWN,1,2,weekend,17,0.657,standing,high,170,Nehru Place,Lajpat Nagar
+34DOWN,DOWN,2,3,weekend,17,0.779,standing,high,202,Lajpat Nagar,Sarai Kale Khan
+34DOWN,DOWN,3,4,weekend,17,0.616,standing,high,160,Sarai Kale Khan,Anand Vihar ISBT
+34DOWN,DOWN,1,2,weekend,18,0.709,standing,high,184,Nehru Place,Lajpat Nagar
+34DOWN,DOWN,2,3,weekend,18,0.747,standing,high,194,Lajpat Nagar,Sarai Kale Khan
+34DOWN,DOWN,3,4,weekend,18,0.719,standing,high,186,Sarai Kale Khan,Anand Vihar ISBT
+34DOWN,DOWN,1,2,weekend,19,0.714,standing,high,185,Nehru Place,Lajpat Nagar
+34DOWN,DOWN,2,3,weekend,19,0.725,standing,high,188,Lajpat Nagar,Sarai Kale Khan
+34DOWN,DOWN,3,4,weekend,19,0.657,standing,high,170,Sarai Kale Khan,Anand Vihar ISBT
+34DOWN,DOWN,1,2,weekend,20,0.270,seats,medium,70,Nehru Place,Lajpat Nagar
+34DOWN,DOWN,2,3,weekend,20,0.330,seats,medium,85,Lajpat Nagar,Sarai Kale Khan
+34DOWN,DOWN,3,4,weekend,20,0.225,seats,medium,58,Sarai Kale Khan,Anand Vihar ISBT
+34DOWN,DOWN,1,2,weekend,21,0.204,seats,medium,52,Nehru Place,Lajpat Nagar
+34DOWN,DOWN,2,3,weekend,21,0.239,seats,medium,62,Lajpat Nagar,Sarai Kale Khan
+34DOWN,DOWN,3,4,weekend,21,0.285,seats,medium,74,Sarai Kale Khan,Anand Vihar ISBT
+34DOWN,DOWN,1,2,weekend,22,0.197,seats,medium,51,Nehru Place,Lajpat Nagar
+34DOWN,DOWN,2,3,weekend,22,0.284,seats,medium,73,Lajpat Nagar,Sarai Kale Khan
+34DOWN,DOWN,3,4,weekend,22,0.189,seats,medium,49,Sarai Kale Khan,Anand Vihar ISBT
+34DOWN,DOWN,1,2,weekend,23,0.234,seats,medium,60,Nehru Place,Lajpat Nagar
+34DOWN,DOWN,2,3,weekend,23,0.328,seats,medium,85,Lajpat Nagar,Sarai Kale Khan
+34DOWN,DOWN,3,4,weekend,23,0.187,seats,medium,48,Sarai Kale Khan,Anand Vihar ISBT
+405UP,UP,1,2,weekday,5,0.500,seats,medium,129,Kashmere Gate ISBT,Red Fort
+405UP,UP,2,3,weekday,5,0.462,seats,medium,120,Red Fort,ITO
+405UP,UP,1,2,weekday,6,0.508,seats,medium,132,Kashmere Gate ISBT,Red Fort
+405UP,UP,2,3,weekday,6,0.486,seats,medium,126,Red Fort,ITO
+405UP,UP,1,2,weekday,7,0.429,seats,medium,111,Kashmere Gate ISBT,Red Fort
+405UP,UP,2,3,weekday,7,0.509,seats,medium,132,Red Fort,ITO
+405UP,UP,1,2,weekday,8,1.317,crowded,high,342,Kashmere Gate ISBT,Red Fort
+405UP,UP,2,3,weekday,8,1.261,crowded,high,327,Red Fort,ITO
+405UP,UP,1,2,weekday,9,1.259,crowded,high,327,Kashmere Gate ISBT,Red Fort
+405UP,UP,2,3,weekday,9,1.317,crowded,high,342,Red Fort,ITO
+405UP,UP,1,2,weekday,10,1.312,crowded,high,341,Kashmere Gate ISBT,Red Fort
+405UP,UP,2,3,weekday,10,1.294,crowded,high,336,Red Fort,ITO
+405UP,UP,1,2,weekday,11,0.418,seats,medium,108,Kashmere Gate ISBT,Red Fort
+405UP,UP,2,3,weekday,11,0.443,seats,medium,115,Red Fort,ITO
+405UP,UP,1,2,weekday,12,0.439,seats,medium,114,Kashmere Gate ISBT,Red Fort
+405UP,UP,2,3,weekday,12,0.502,seats,medium,130,Red Fort,ITO
+405UP,UP,1,2,weekday,13,0.402,seats,medium,104,Kashmere Gate ISBT,Red Fort
+405UP,UP,2,3,weekday,13,0.491,seats,medium,127,Red Fort,ITO
+405UP,UP,1,2,weekday,14,0.502,seats,medium,130,Kashmere Gate ISBT,Red Fort
+405UP,UP,2,3,weekday,14,0.416,seats,medium,108,Red Fort,ITO
+405UP,UP,1,2,weekday,15,0.513,seats,medium,133,Kashmere Gate ISBT,Red Fort
+405UP,UP,2,3,weekday,15,0.487,seats,medium,126,Red Fort,ITO
+405UP,UP,1,2,weekday,16,0.510,seats,medium,132,Kashmere Gate ISBT,Red Fort
+405UP,UP,2,3,weekday,16,0.436,seats,medium,113,Red Fort,ITO
+405UP,UP,1,2,weekday,17,0.841,standing,high,218,Kashmere Gate ISBT,Red Fort
+405UP,UP,2,3,weekday,17,0.844,standing,high,219,Red Fort,ITO
+405UP,UP,1,2,weekday,18,0.917,standing,high,238,Kashmere Gate ISBT,Red Fort
+405UP,UP,2,3,weekday,18,0.868,standing,high,225,Red Fort,ITO
+405UP,UP,1,2,weekday,19,0.840,standing,high,218,Kashmere Gate ISBT,Red Fort
+405UP,UP,2,3,weekday,19,0.848,standing,high,220,Red Fort,ITO
+405UP,UP,1,2,weekday,20,0.434,seats,medium,112,Kashmere Gate ISBT,Red Fort
+405UP,UP,2,3,weekday,20,0.407,seats,medium,105,Red Fort,ITO
+405UP,UP,1,2,weekday,21,0.414,seats,medium,107,Kashmere Gate ISBT,Red Fort
+405UP,UP,2,3,weekday,21,0.502,seats,medium,130,Red Fort,ITO
+405UP,UP,1,2,weekday,22,0.436,seats,medium,113,Kashmere Gate ISBT,Red Fort
+405UP,UP,2,3,weekday,22,0.514,seats,medium,133,Red Fort,ITO
+405UP,UP,1,2,weekday,23,0.431,seats,medium,112,Kashmere Gate ISBT,Red Fort
+405UP,UP,2,3,weekday,23,0.433,seats,medium,112,Red Fort,ITO
+405UP,UP,1,2,weekend,5,0.278,seats,medium,72,Kashmere Gate ISBT,Red Fort
+405UP,UP,2,3,weekend,5,0.240,seats,medium,62,Red Fort,ITO
+405UP,UP,1,2,weekend,6,0.262,seats,medium,68,Kashmere Gate ISBT,Red Fort
+405UP,UP,2,3,weekend,6,0.332,seats,medium,86,Red Fort,ITO
+405UP,UP,1,2,weekend,7,0.323,seats,medium,83,Kashmere Gate ISBT,Red Fort
+405UP,UP,2,3,weekend,7,0.314,seats,medium,81,Red Fort,ITO
+405UP,UP,1,2,weekend,8,0.807,standing,high,209,Kashmere Gate ISBT,Red Fort
+405UP,UP,2,3,weekend,8,0.841,standing,high,218,Red Fort,ITO
+405UP,UP,1,2,weekend,9,0.844,standing,high,219,Kashmere Gate ISBT,Red Fort
+405UP,UP,2,3,weekend,9,0.797,standing,high,207,Red Fort,ITO
+405UP,UP,1,2,weekend,10,0.817,standing,high,212,Kashmere Gate ISBT,Red Fort
+405UP,UP,2,3,weekend,10,0.737,standing,high,191,Red Fort,ITO
+405UP,UP,1,2,weekend,11,0.305,seats,medium,79,Kashmere Gate ISBT,Red Fort
+405UP,UP,2,3,weekend,11,0.271,seats,medium,70,Red Fort,ITO
+405UP,UP,1,2,weekend,12,0.307,seats,medium,79,Kashmere Gate ISBT,Red Fort
+405UP,UP,2,3,weekend,12,0.294,seats,medium,76,Red Fort,ITO
+405UP,UP,1,2,weekend,13,0.251,seats,medium,65,Kashmere Gate ISBT,Red Fort
+405UP,UP,2,3,weekend,13,0.223,seats,medium,57,Red Fort,ITO
+405UP,UP,1,2,weekend,14,0.328,seats,medium,85,Kashmere Gate ISBT,Red Fort
+405UP,UP,2,3,weekend,14,0.232,seats,medium,60,Red Fort,ITO
+405UP,UP,1,2,weekend,15,0.273,seats,medium,71,Kashmere Gate ISBT,Red Fort
+405UP,UP,2,3,weekend,15,0.258,seats,medium,67,Red Fort,ITO
+405UP,UP,1,2,weekend,16,0.253,seats,medium,65,Kashmere Gate ISBT,Red Fort
+405UP,UP,2,3,weekend,16,0.306,seats,medium,79,Red Fort,ITO
+405UP,UP,1,2,weekend,17,0.571,standing,medium,148,Kashmere Gate ISBT,Red Fort
+405UP,UP,2,3,weekend,17,0.485,seats,medium,126,Red Fort,ITO
+405UP,UP,1,2,weekend,18,0.533,seats,medium,138,Kashmere Gate ISBT,Red Fort
+405UP,UP,2,3,weekend,18,0.490,seats,medium,127,Red Fort,ITO
+405UP,UP,1,2,weekend,19,0.521,seats,medium,135,Kashmere Gate ISBT,Red Fort
+405UP,UP,2,3,weekend,19,0.501,seats,medium,130,Red Fort,ITO
+405UP,UP,1,2,weekend,20,0.237,seats,medium,61,Kashmere Gate ISBT,Red Fort
+405UP,UP,2,3,weekend,20,0.236,seats,medium,61,Red Fort,ITO
+405UP,UP,1,2,weekend,21,0.242,seats,medium,62,Kashmere Gate ISBT,Red Fort
+405UP,UP,2,3,weekend,21,0.326,seats,medium,84,Red Fort,ITO
+405UP,UP,1,2,weekend,22,0.276,seats,medium,71,Kashmere Gate ISBT,Red Fort
+405UP,UP,2,3,weekend,22,0.243,seats,medium,63,Red Fort,ITO
+405UP,UP,1,2,weekend,23,0.326,seats,medium,84,Kashmere Gate ISBT,Red Fort
+405UP,UP,2,3,weekend,23,0.336,seats,medium,87,Red Fort,ITO
+405DOWN,DOWN,1,2,weekday,5,0.455,seats,medium,118,ITO,Red Fort
+405DOWN,DOWN,2,3,weekday,5,0.418,seats,medium,108,Red Fort,Kashmere Gate ISBT
+405DOWN,DOWN,1,2,weekday,6,0.424,seats,medium,110,ITO,Red Fort
+405DOWN,DOWN,2,3,weekday,6,0.412,seats,medium,107,Red Fort,Kashmere Gate ISBT
+405DOWN,DOWN,1,2,weekday,7,0.442,seats,medium,115,ITO,Red Fort
+405DOWN,DOWN,2,3,weekday,7,0.412,seats,medium,107,Red Fort,Kashmere Gate ISBT
+405DOWN,DOWN,1,2,weekday,8,0.826,standing,high,214,ITO,Red Fort
+405DOWN,DOWN,2,3,weekday,8,0.828,standing,high,215,Red Fort,Kashmere Gate ISBT
+405DOWN,DOWN,1,2,weekday,9,0.865,standing,high,224,ITO,Red Fort
+405DOWN,DOWN,2,3,weekday,9,0.903,standing,high,234,Red Fort,Kashmere Gate ISBT
+405DOWN,DOWN,1,2,weekday,10,0.887,standing,high,230,ITO,Red Fort
+405DOWN,DOWN,2,3,weekday,10,0.846,standing,high,220,Red Fort,Kashmere Gate ISBT
+405DOWN,DOWN,1,2,weekday,11,0.451,seats,medium,117,ITO,Red Fort
+405DOWN,DOWN,2,3,weekday,11,0.464,seats,medium,120,Red Fort,Kashmere Gate ISBT
+405DOWN,DOWN,1,2,weekday,12,0.447,seats,medium,116,ITO,Red Fort
+405DOWN,DOWN,2,3,weekday,12,0.442,seats,medium,114,Red Fort,Kashmere Gate ISBT
+405DOWN,DOWN,1,2,weekday,13,0.409,seats,medium,106,ITO,Red Fort
+405DOWN,DOWN,2,3,weekday,13,0.435,seats,medium,113,Red Fort,Kashmere Gate ISBT
+405DOWN,DOWN,1,2,weekday,14,0.517,seats,medium,134,ITO,Red Fort
+405DOWN,DOWN,2,3,weekday,14,0.416,seats,medium,108,Red Fort,Kashmere Gate ISBT
+405DOWN,DOWN,1,2,weekday,15,0.462,seats,medium,120,ITO,Red Fort
+405DOWN,DOWN,2,3,weekday,15,0.477,seats,medium,124,Red Fort,Kashmere Gate ISBT
+405DOWN,DOWN,1,2,weekday,16,0.505,seats,medium,131,ITO,Red Fort
+405DOWN,DOWN,2,3,weekday,16,0.427,seats,medium,111,Red Fort,Kashmere Gate ISBT
+405DOWN,DOWN,1,2,weekday,17,1.291,crowded,high,335,ITO,Red Fort
+405DOWN,DOWN,2,3,weekday,17,1.288,crowded,high,334,Red Fort,Kashmere Gate ISBT
+405DOWN,DOWN,1,2,weekday,18,1.306,crowded,high,339,ITO,Red Fort
+405DOWN,DOWN,2,3,weekday,18,1.312,crowded,high,341,Red Fort,Kashmere Gate ISBT
+405DOWN,DOWN,1,2,weekday,19,1.373,crowded,high,356,ITO,Red Fort
+405DOWN,DOWN,2,3,weekday,19,1.360,crowded,high,353,Red Fort,Kashmere Gate ISBT
+405DOWN,DOWN,1,2,weekday,20,0.506,seats,medium,131,ITO,Red Fort
+405DOWN,DOWN,2,3,weekday,20,0.404,seats,medium,105,Red Fort,Kashmere Gate ISBT
+405DOWN,DOWN,1,2,weekday,21,0.405,seats,medium,105,ITO,Red Fort
+405DOWN,DOWN,2,3,weekday,21,0.487,seats,medium,126,Red Fort,Kashmere Gate ISBT
+405DOWN,DOWN,1,2,weekday,22,0.509,seats,medium,132,ITO,Red Fort
+405DOWN,DOWN,2,3,weekday,22,0.458,seats,medium,119,Red Fort,Kashmere Gate ISBT
+405DOWN,DOWN,1,2,weekday,23,0.472,seats,medium,122,ITO,Red Fort
+405DOWN,DOWN,2,3,weekday,23,0.401,seats,medium,104,Red Fort,Kashmere Gate ISBT
+405DOWN,DOWN,1,2,weekend,5,0.264,seats,medium,68,ITO,Red Fort
+405DOWN,DOWN,2,3,weekend,5,0.328,seats,medium,85,Red Fort,Kashmere Gate ISBT
+405DOWN,DOWN,1,2,weekend,6,0.316,seats,medium,82,ITO,Red Fort
+405DOWN,DOWN,2,3,weekend,6,0.319,seats,medium,83,Red Fort,Kashmere Gate ISBT
+405DOWN,DOWN,1,2,weekend,7,0.333,seats,medium,86,ITO,Red Fort
+405DOWN,DOWN,2,3,weekend,7,0.247,seats,medium,64,Red Fort,Kashmere Gate ISBT
+405DOWN,DOWN,1,2,weekend,8,0.467,seats,medium,121,ITO,Red Fort
+405DOWN,DOWN,2,3,weekend,8,0.473,seats,medium,122,Red Fort,Kashmere Gate ISBT
+405DOWN,DOWN,1,2,weekend,9,0.517,seats,medium,134,ITO,Red Fort
+405DOWN,DOWN,2,3,weekend,9,0.536,seats,medium,139,Red Fort,Kashmere Gate ISBT
+405DOWN,DOWN,1,2,weekend,10,0.567,standing,medium,147,ITO,Red Fort
+405DOWN,DOWN,2,3,weekend,10,0.541,seats,medium,140,Red Fort,Kashmere Gate ISBT
+405DOWN,DOWN,1,2,weekend,11,0.295,seats,medium,76,ITO,Red Fort
+405DOWN,DOWN,2,3,weekend,11,0.309,seats,medium,80,Red Fort,Kashmere Gate ISBT
+405DOWN,DOWN,1,2,weekend,12,0.272,seats,medium,70,ITO,Red Fort
+405DOWN,DOWN,2,3,weekend,12,0.283,seats,medium,73,Red Fort,Kashmere Gate ISBT
+405DOWN,DOWN,1,2,weekend,13,0.222,seats,medium,57,ITO,Red Fort
+405DOWN,DOWN,2,3,weekend,13,0.311,seats,medium,80,Red Fort,Kashmere Gate ISBT
+405DOWN,DOWN,1,2,weekend,14,0.245,seats,medium,63,ITO,Red Fort
+405DOWN,DOWN,2,3,weekend,14,0.327,seats,medium,85,Red Fort,Kashmere Gate ISBT
+405DOWN,DOWN,1,2,weekend,15,0.294,seats,medium,76,ITO,Red Fort
+405DOWN,DOWN,2,3,weekend,15,0.253,seats,medium,65,Red Fort,Kashmere Gate ISBT
+405DOWN,DOWN,1,2,weekend,16,0.232,seats,medium,60,ITO,Red Fort
+405DOWN,DOWN,2,3,weekend,16,0.247,seats,medium,64,Red Fort,Kashmere Gate ISBT
+405DOWN,DOWN,1,2,weekend,17,0.807,standing,high,209,ITO,Red Fort
+405DOWN,DOWN,2,3,weekend,17,0.815,standing,high,211,Red Fort,Kashmere Gate ISBT
+405DOWN,DOWN,1,2,weekend,18,0.744,standing,high,193,ITO,Red Fort
+405DOWN,DOWN,2,3,weekend,18,0.739,standing,high,192,Red Fort,Kashmere Gate ISBT
+405DOWN,DOWN,1,2,weekend,19,0.794,standing,high,206,ITO,Red Fort
+405DOWN,DOWN,2,3,weekend,19,0.801,standing,high,208,Red Fort,Kashmere Gate ISBT
+405DOWN,DOWN,1,2,weekend,20,0.263,seats,medium,68,ITO,Red Fort
+405DOWN,DOWN,2,3,weekend,20,0.244,seats,medium,63,Red Fort,Kashmere Gate ISBT
+405DOWN,DOWN,1,2,weekend,21,0.289,seats,medium,75,ITO,Red Fort
+405DOWN,DOWN,2,3,weekend,21,0.218,seats,medium,56,Red Fort,Kashmere Gate ISBT
+405DOWN,DOWN,1,2,weekend,22,0.253,seats,medium,65,ITO,Red Fort
+405DOWN,DOWN,2,3,weekend,22,0.272,seats,medium,70,Red Fort,Kashmere Gate ISBT
+405DOWN,DOWN,1,2,weekend,23,0.332,seats,medium,86,ITO,Red Fort
+405DOWN,DOWN,2,3,weekend,23,0.294,seats,medium,76,Red Fort,Kashmere Gate ISBT
+534UP,UP,1,2,weekday,5,0.389,seats,medium,101,ITO,Moolchand
+534UP,UP,2,3,weekday,5,0.403,seats,medium,104,Moolchand,Lajpat Nagar
+534UP,UP,3,4,weekday,5,0.311,seats,medium,80,Lajpat Nagar,Nehru Place
+534UP,UP,1,2,weekday,6,0.313,seats,medium,81,ITO,Moolchand
+534UP,UP,2,3,weekday,6,0.461,seats,medium,119,Moolchand,Lajpat Nagar
+534UP,UP,3,4,weekday,6,0.368,seats,medium,95,Lajpat Nagar,Nehru Place
+534UP,UP,1,2,weekday,7,0.320,seats,medium,83,ITO,Moolchand
+534UP,UP,2,3,weekday,7,0.349,seats,medium,90,Moolchand,Lajpat Nagar
+534UP,UP,3,4,weekday,7,0.343,seats,medium,89,Lajpat Nagar,Nehru Place
+534UP,UP,1,2,weekday,8,1.001,crowded,high,260,ITO,Moolchand
+534UP,UP,2,3,weekday,8,1.150,crowded,high,299,Moolchand,Lajpat Nagar
+534UP,UP,3,4,weekday,8,0.951,crowded,high,247,Lajpat Nagar,Nehru Place
+534UP,UP,1,2,weekday,9,1.000,crowded,high,260,ITO,Moolchand
+534UP,UP,2,3,weekday,9,1.211,crowded,high,314,Moolchand,Lajpat Nagar
+534UP,UP,3,4,weekday,9,0.947,standing,high,246,Lajpat Nagar,Nehru Place
+534UP,UP,1,2,weekday,10,0.924,standing,high,240,ITO,Moolchand
+534UP,UP,2,3,weekday,10,1.141,crowded,high,296,Moolchand,Lajpat Nagar
+534UP,UP,3,4,weekday,10,0.970,crowded,high,252,Lajpat Nagar,Nehru Place
+534UP,UP,1,2,weekday,11,0.365,seats,medium,94,ITO,Moolchand
+534UP,UP,2,3,weekday,11,0.370,seats,medium,96,Moolchand,Lajpat Nagar
+534UP,UP,3,4,weekday,11,0.379,seats,medium,98,Lajpat Nagar,Nehru Place
+534UP,UP,1,2,weekday,12,0.372,seats,medium,96,ITO,Moolchand
+534UP,UP,2,3,weekday,12,0.407,seats,medium,105,Moolchand,Lajpat Nagar
+534UP,UP,3,4,weekday,12,0.308,seats,medium,79,Lajpat Nagar,Nehru Place
+534UP,UP,1,2,weekday,13,0.399,seats,medium,103,ITO,Moolchand
+534UP,UP,2,3,weekday,13,0.383,seats,medium,99,Moolchand,Lajpat Nagar
+534UP,UP,3,4,weekday,13,0.381,seats,medium,99,Lajpat Nagar,Nehru Place
+534UP,UP,1,2,weekday,14,0.311,seats,medium,80,ITO,Moolchand
+534UP,UP,2,3,weekday,14,0.373,seats,medium,96,Moolchand,Lajpat Nagar
+534UP,UP,3,4,weekday,14,0.374,seats,medium,97,Lajpat Nagar,Nehru Place
+534UP,UP,1,2,weekday,15,0.318,seats,medium,82,ITO,Moolchand
+534UP,UP,2,3,weekday,15,0.460,seats,medium,119,Moolchand,Lajpat Nagar
+534UP,UP,3,4,weekday,15,0.342,seats,medium,89,Lajpat Nagar,Nehru Place
+534UP,UP,1,2,weekday,16,0.305,seats,medium,79,ITO,Moolchand
+534UP,UP,2,3,weekday,16,0.373,seats,medium,96,Moolchand,Lajpat Nagar
+534UP,UP,3,4,weekday,16,0.333,seats,medium,86,Lajpat Nagar,Nehru Place
+534UP,UP,1,2,weekday,17,0.657,standing,high,170,ITO,Moolchand
+534UP,UP,2,3,weekday,17,0.808,standing,high,210,Moolchand,Lajpat Nagar
+534UP,UP,3,4,weekday,17,0.595,standing,high,154,Lajpat Nagar,Nehru Place
+534UP,UP,1,2,weekday,18,0.624,standing,high,162,ITO,Moolchand
+534UP,UP,2,3,weekday,18,0.720,standing,high,187,Moolchand,Lajpat Nagar
+534UP,UP,3,4,weekday,18,0.694,standing,high,180,Lajpat Nagar,Nehru Place
+534UP,UP,1,2,weekday,19,0.594,standing,high,154,ITO,Moolchand
+534UP,UP,2,3,weekday,19,0.700,standing,high,182,Moolchand,Lajpat Nagar
+534UP,UP,3,4,weekday,19,0.584,standing,high,151,Lajpat Nagar,Nehru Place
+534UP,UP,1,2,weekday,20,0.330,seats,medium,85,ITO,Moolchand
+534UP,UP,2,3,weekday,20,0.454,seats,medium,117,Moolchand,Lajpat Nagar
+534UP,UP,3,4,weekday,20,0.389,seats,medium,101,Lajpat Nagar,Nehru Place
+534UP,UP,1,2,weekday,21,0.371,seats,medium,96,ITO,Moolchand
+534UP,UP,2,3,weekday,21,0.466,seats,medium,121,Moolchand,Lajpat Nagar
+534UP,UP,3,4,weekday,21,0.395,seats,medium,102,Lajpat Nagar,Nehru Place
+534UP,UP,1,2,weekday,22,0.323,seats,medium,83,ITO,Moolchand
+534UP,UP,2,3,weekday,22,0.368,seats,medium,95,Moolchand,Lajpat Nagar
+534UP,UP,3,4,weekday,22,0.395,seats,medium,102,Lajpat Nagar,Nehru Place
+534UP,UP,1,2,weekday,23,0.373,seats,medium,96,ITO,Moolchand
+534UP,UP,2,3,weekday,23,0.350,seats,medium,90,Moolchand,Lajpat Nagar
+534UP,UP,3,4,weekday,23,0.363,seats,medium,94,Lajpat Nagar,Nehru Place
+534UP,UP,1,2,weekend,5,0.191,seats,medium,49,ITO,Moolchand
+534UP,UP,2,3,weekend,5,0.228,seats,medium,59,Moolchand,Lajpat Nagar
+534UP,UP,3,4,weekend,5,0.186,seats,medium,48,Lajpat Nagar,Nehru Place
+534UP,UP,1,2,weekend,6,0.166,seats,medium,43,ITO,Moolchand
+534UP,UP,2,3,weekend,6,0.184,seats,medium,47,Moolchand,Lajpat Nagar
+534UP,UP,3,4,weekend,6,0.179,seats,medium,46,Lajpat Nagar,Nehru Place
+534UP,UP,1,2,weekend,7,0.188,seats,medium,48,ITO,Moolchand
+534UP,UP,2,3,weekend,7,0.298,seats,medium,77,Moolchand,Lajpat Nagar
+534UP,UP,3,4,weekend,7,0.161,seats,medium,41,Lajpat Nagar,Nehru Place
+534UP,UP,1,2,weekend,8,0.644,standing,high,167,ITO,Moolchand
+534UP,UP,2,3,weekend,8,0.661,standing,high,171,Moolchand,Lajpat Nagar
+534UP,UP,3,4,weekend,8,0.571,standing,medium,148,Lajpat Nagar,Nehru Place
+534UP,UP,1,2,weekend,9,0.627,standing,high,162,ITO,Moolchand
+534UP,UP,2,3,weekend,9,0.735,standing,high,191,Moolchand,Lajpat Nagar
+534UP,UP,3,4,weekend,9,0.580,standing,high,150,Lajpat Nagar,Nehru Place
+534UP,UP,1,2,weekend,10,0.534,seats,medium,138,ITO,Moolchand
+534UP,UP,2,3,weekend,10,0.693,standing,high,180,Moolchand,Lajpat Nagar
+534UP,UP,3,4,weekend,10,0.573,standing,medium,148,Lajpat Nagar,Nehru Place
+534UP,UP,1,2,weekend,11,0.256,seats,medium,66,ITO,Moolchand
+534UP,UP,2,3,weekend,11,0.207,seats,medium,53,Moolchand,Lajpat Nagar
+534UP,UP,3,4,weekend,11,0.190,seats,medium,49,Lajpat Nagar,Nehru Place
+534UP,UP,1,2,weekend,12,0.253,seats,medium,65,ITO,Moolchand
+534UP,UP,2,3,weekend,12,0.187,seats,medium,48,Moolchand,Lajpat Nagar
+534UP,UP,3,4,weekend,12,0.195,seats,medium,50,Lajpat Nagar,Nehru Place
+534UP,UP,1,2,weekend,13,0.243,seats,medium,63,ITO,Moolchand
+534UP,UP,2,3,weekend,13,0.276,seats,medium,71,Moolchand,Lajpat Nagar
+534UP,UP,3,4,weekend,13,0.151,seats,low,39,Lajpat Nagar,Nehru Place
+534UP,UP,1,2,weekend,14,0.150,seats,low,38,ITO,Moolchand
+534UP,UP,2,3,weekend,14,0.191,seats,medium,49,Moolchand,Lajpat Nagar
+534UP,UP,3,4,weekend,14,0.256,seats,medium,66,Lajpat Nagar,Nehru Place
+534UP,UP,1,2,weekend,15,0.177,seats,medium,45,ITO,Moolchand
+534UP,UP,2,3,weekend,15,0.273,seats,medium,71,Moolchand,Lajpat Nagar
+534UP,UP,3,4,weekend,15,0.254,seats,medium,65,Lajpat Nagar,Nehru Place
+534UP,UP,1,2,weekend,16,0.186,seats,medium,48,ITO,Moolchand
+534UP,UP,2,3,weekend,16,0.216,seats,medium,56,Moolchand,Lajpat Nagar
+534UP,UP,3,4,weekend,16,0.261,seats,medium,67,Lajpat Nagar,Nehru Place
+534UP,UP,1,2,weekend,17,0.396,seats,medium,103,ITO,Moolchand
+534UP,UP,2,3,weekend,17,0.424,seats,medium,110,Moolchand,Lajpat Nagar
+534UP,UP,3,4,weekend,17,0.408,seats,medium,106,Lajpat Nagar,Nehru Place
+534UP,UP,1,2,weekend,18,0.360,seats,medium,93,ITO,Moolchand
+534UP,UP,2,3,weekend,18,0.425,seats,medium,110,Moolchand,Lajpat Nagar
+534UP,UP,3,4,weekend,18,0.323,seats,medium,83,Lajpat Nagar,Nehru Place
+534UP,UP,1,2,weekend,19,0.413,seats,medium,107,ITO,Moolchand
+534UP,UP,2,3,weekend,19,0.502,seats,medium,130,Moolchand,Lajpat Nagar
+534UP,UP,3,4,weekend,19,0.398,seats,medium,103,Lajpat Nagar,Nehru Place
+534UP,UP,1,2,weekend,20,0.259,seats,medium,67,ITO,Moolchand
+534UP,UP,2,3,weekend,20,0.187,seats,medium,48,Moolchand,Lajpat Nagar
+534UP,UP,3,4,weekend,20,0.174,seats,medium,45,Lajpat Nagar,Nehru Place
+534UP,UP,1,2,weekend,21,0.203,seats,medium,52,ITO,Moolchand
+534UP,UP,2,3,weekend,21,0.298,seats,medium,77,Moolchand,Lajpat Nagar
+534UP,UP,3,4,weekend,21,0.260,seats,medium,67,Lajpat Nagar,Nehru Place
+534UP,UP,1,2,weekend,22,0.192,seats,medium,49,ITO,Moolchand
+534UP,UP,2,3,weekend,22,0.214,seats,medium,55,Moolchand,Lajpat Nagar
+534UP,UP,3,4,weekend,22,0.197,seats,medium,51,Lajpat Nagar,Nehru Place
+534UP,UP,1,2,weekend,23,0.205,seats,medium,53,ITO,Moolchand
+534UP,UP,2,3,weekend,23,0.295,seats,medium,76,Moolchand,Lajpat Nagar
+534UP,UP,3,4,weekend,23,0.168,seats,medium,43,Lajpat Nagar,Nehru Place
+534DOWN,DOWN,1,2,weekday,5,0.379,seats,medium,98,Nehru Place,Lajpat Nagar
+534DOWN,DOWN,2,3,weekday,5,0.435,seats,medium,113,Lajpat Nagar,Moolchand
+534DOWN,DOWN,3,4,weekday,5,0.382,seats,medium,99,Moolchand,ITO
+534DOWN,DOWN,1,2,weekday,6,0.376,seats,medium,97,Nehru Place,Lajpat Nagar
+534DOWN,DOWN,2,3,weekday,6,0.419,seats,medium,108,Lajpat Nagar,Moolchand
+534DOWN,DOWN,3,4,weekday,6,0.322,seats,medium,83,Moolchand,ITO
+534DOWN,DOWN,1,2,weekday,7,0.321,seats,medium,83,Nehru Place,Lajpat Nagar
+534DOWN,DOWN,2,3,weekday,7,0.389,seats,medium,101,Lajpat Nagar,Moolchand
+534DOWN,DOWN,3,4,weekday,7,0.377,seats,medium,97,Moolchand,ITO
+534DOWN,DOWN,1,2,weekday,8,0.586,standing,high,152,Nehru Place,Lajpat Nagar
+534DOWN,DOWN,2,3,weekday,8,0.718,standing,high,186,Lajpat Nagar,Moolchand
+534DOWN,DOWN,3,4,weekday,8,0.667,standing,high,173,Moolchand,ITO
+534DOWN,DOWN,1,2,weekday,9,0.607,standing,high,157,Nehru Place,Lajpat Nagar
+534DOWN,DOWN,2,3,weekday,9,0.702,standing,high,182,Lajpat Nagar,Moolchand
+534DOWN,DOWN,3,4,weekday,9,0.581,standing,high,151,Moolchand,ITO
+534DOWN,DOWN,1,2,weekday,10,0.643,standing,high,167,Nehru Place,Lajpat Nagar
+534DOWN,DOWN,2,3,weekday,10,0.733,standing,high,190,Lajpat Nagar,Moolchand
+534DOWN,DOWN,3,4,weekday,10,0.695,standing,high,180,Moolchand,ITO
+534DOWN,DOWN,1,2,weekday,11,0.389,seats,medium,101,Nehru Place,Lajpat Nagar
+534DOWN,DOWN,2,3,weekday,11,0.465,seats,medium,120,Lajpat Nagar,Moolchand
+534DOWN,DOWN,3,4,weekday,11,0.315,seats,medium,81,Moolchand,ITO
+534DOWN,DOWN,1,2,weekday,12,0.293,seats,medium,76,Nehru Place,Lajpat Nagar
+534DOWN,DOWN,2,3,weekday,12,0.358,seats,medium,92,Lajpat Nagar,Moolchand
+534DOWN,DOWN,3,4,weekday,12,0.343,seats,medium,89,Moolchand,ITO
+534DOWN,DOWN,1,2,weekday,13,0.368,seats,medium,95,Nehru Place,Lajpat Nagar
+534DOWN,DOWN,2,3,weekday,13,0.400,seats,medium,103,Lajpat Nagar,Moolchand
+534DOWN,DOWN,3,4,weekday,13,0.311,seats,medium,80,Moolchand,ITO
+534DOWN,DOWN,1,2,weekday,14,0.333,seats,medium,86,Nehru Place,Lajpat Nagar
+534DOWN,DOWN,2,3,weekday,14,0.420,seats,medium,109,Lajpat Nagar,Moolchand
+534DOWN,DOWN,3,4,weekday,14,0.364,seats,medium,94,Moolchand,ITO
+534DOWN,DOWN,1,2,weekday,15,0.373,seats,medium,96,Nehru Place,Lajpat Nagar
+534DOWN,DOWN,2,3,weekday,15,0.448,seats,medium,116,Lajpat Nagar,Moolchand
+534DOWN,DOWN,3,4,weekday,15,0.363,seats,medium,94,Moolchand,ITO
+534DOWN,DOWN,1,2,weekday,16,0.298,seats,medium,77,Nehru Place,Lajpat Nagar
+534DOWN,DOWN,2,3,weekday,16,0.447,seats,medium,116,Lajpat Nagar,Moolchand
+534DOWN,DOWN,3,4,weekday,16,0.318,seats,medium,82,Moolchand,ITO
+534DOWN,DOWN,1,2,weekday,17,0.988,crowded,high,256,Nehru Place,Lajpat Nagar
+534DOWN,DOWN,2,3,weekday,17,1.145,crowded,high,297,Lajpat Nagar,Moolchand
+534DOWN,DOWN,3,4,weekday,17,1.009,crowded,high,262,Moolchand,ITO
+534DOWN,DOWN,1,2,weekday,18,0.944,standing,high,245,Nehru Place,Lajpat Nagar
+534DOWN,DOWN,2,3,weekday,18,1.130,crowded,high,293,Lajpat Nagar,Moolchand
+534DOWN,DOWN,3,4,weekday,18,0.949,standing,high,246,Moolchand,ITO
+534DOWN,DOWN,1,2,weekday,19,0.938,standing,high,243,Nehru Place,Lajpat Nagar
+534DOWN,DOWN,2,3,weekday,19,1.206,crowded,high,313,Lajpat Nagar,Moolchand
+534DOWN,DOWN,3,4,weekday,19,0.989,crowded,high,257,Moolchand,ITO
+534DOWN,DOWN,1,2,weekday,20,0.322,seats,medium,83,Nehru Place,Lajpat Nagar
+534DOWN,DOWN,2,3,weekday,20,0.394,seats,medium,102,Lajpat Nagar,Moolchand
+534DOWN,DOWN,3,4,weekday,20,0.402,seats,medium,104,Moolchand,ITO
+534DOWN,DOWN,1,2,weekday,21,0.344,seats,medium,89,Nehru Place,Lajpat Nagar
+534DOWN,DOWN,2,3,weekday,21,0.374,seats,medium,97,Lajpat Nagar,Moolchand
+534DOWN,DOWN,3,4,weekday,21,0.380,seats,medium,98,Moolchand,ITO
+534DOWN,DOWN,1,2,weekday,22,0.361,seats,medium,93,Nehru Place,Lajpat Nagar
+534DOWN,DOWN,2,3,weekday,22,0.465,seats,medium,120,Lajpat Nagar,Moolchand
+534DOWN,DOWN,3,4,weekday,22,0.295,seats,medium,76,Moolchand,ITO
+534DOWN,DOWN,1,2,weekday,23,0.340,seats,medium,88,Nehru Place,Lajpat Nagar
+534DOWN,DOWN,2,3,weekday,23,0.444,seats,medium,115,Lajpat Nagar,Moolchand
+534DOWN,DOWN,3,4,weekday,23,0.384,seats,medium,99,Moolchand,ITO
+534DOWN,DOWN,1,2,weekend,5,0.256,seats,medium,66,Nehru Place,Lajpat Nagar
+534DOWN,DOWN,2,3,weekend,5,0.188,seats,medium,48,Lajpat Nagar,Moolchand
+534DOWN,DOWN,3,4,weekend,5,0.181,seats,medium,47,Moolchand,ITO
+534DOWN,DOWN,1,2,weekend,6,0.160,seats,medium,41,Nehru Place,Lajpat Nagar
+534DOWN,DOWN,2,3,weekend,6,0.206,seats,medium,53,Lajpat Nagar,Moolchand
+534DOWN,DOWN,3,4,weekend,6,0.263,seats,medium,68,Moolchand,ITO
+534DOWN,DOWN,1,2,weekend,7,0.216,seats,medium,56,Nehru Place,Lajpat Nagar
+534DOWN,DOWN,2,3,weekend,7,0.295,seats,medium,76,Lajpat Nagar,Moolchand
+534DOWN,DOWN,3,4,weekend,7,0.190,seats,medium,49,Moolchand,ITO
+534DOWN,DOWN,1,2,weekend,8,0.426,seats,medium,110,Nehru Place,Lajpat Nagar
+534DOWN,DOWN,2,3,weekend,8,0.446,seats,medium,116,Lajpat Nagar,Moolchand
+534DOWN,DOWN,3,4,weekend,8,0.353,seats,medium,91,Moolchand,ITO
+534DOWN,DOWN,1,2,weekend,9,0.416,seats,medium,108,Nehru Place,Lajpat Nagar
+534DOWN,DOWN,2,3,weekend,9,0.506,seats,medium,131,Lajpat Nagar,Moolchand
+534DOWN,DOWN,3,4,weekend,9,0.335,seats,medium,87,Moolchand,ITO
+534DOWN,DOWN,1,2,weekend,10,0.394,seats,medium,102,Nehru Place,Lajpat Nagar
+534DOWN,DOWN,2,3,weekend,10,0.467,seats,medium,121,Lajpat Nagar,Moolchand
+534DOWN,DOWN,3,4,weekend,10,0.348,seats,medium,90,Moolchand,ITO
+534DOWN,DOWN,1,2,weekend,11,0.190,seats,medium,49,Nehru Place,Lajpat Nagar
+534DOWN,DOWN,2,3,weekend,11,0.201,seats,medium,52,Lajpat Nagar,Moolchand
+534DOWN,DOWN,3,4,weekend,11,0.170,seats,medium,44,Moolchand,ITO
+534DOWN,DOWN,1,2,weekend,12,0.176,seats,medium,45,Nehru Place,Lajpat Nagar
+534DOWN,DOWN,2,3,weekend,12,0.256,seats,medium,66,Lajpat Nagar,Moolchand
+534DOWN,DOWN,3,4,weekend,12,0.224,seats,medium,58,Moolchand,ITO
+534DOWN,DOWN,1,2,weekend,13,0.170,seats,medium,44,Nehru Place,Lajpat Nagar
+534DOWN,DOWN,2,3,weekend,13,0.185,seats,medium,48,Lajpat Nagar,Moolchand
+534DOWN,DOWN,3,4,weekend,13,0.185,seats,medium,48,Moolchand,ITO
+534DOWN,DOWN,1,2,weekend,14,0.227,seats,medium,59,Nehru Place,Lajpat Nagar
+534DOWN,DOWN,2,3,weekend,14,0.206,seats,medium,53,Lajpat Nagar,Moolchand
+534DOWN,DOWN,3,4,weekend,14,0.183,seats,medium,47,Moolchand,ITO
+534DOWN,DOWN,1,2,weekend,15,0.170,seats,medium,44,Nehru Place,Lajpat Nagar
+534DOWN,DOWN,2,3,weekend,15,0.279,seats,medium,72,Lajpat Nagar,Moolchand
+534DOWN,DOWN,3,4,weekend,15,0.212,seats,medium,55,Moolchand,ITO
+534DOWN,DOWN,1,2,weekend,16,0.153,seats,low,39,Nehru Place,Lajpat Nagar
+534DOWN,DOWN,2,3,weekend,16,0.196,seats,medium,50,Lajpat Nagar,Moolchand
+534DOWN,DOWN,3,4,weekend,16,0.193,seats,medium,50,Moolchand,ITO
+534DOWN,DOWN,1,2,weekend,17,0.594,standing,high,154,Nehru Place,Lajpat Nagar
+534DOWN,DOWN,2,3,weekend,17,0.713,standing,high,185,Lajpat Nagar,Moolchand
+534DOWN,DOWN,3,4,weekend,17,0.539,seats,medium,140,Moolchand,ITO
+534DOWN,DOWN,1,2,weekend,18,0.548,seats,medium,142,Nehru Place,Lajpat Nagar
+534DOWN,DOWN,2,3,weekend,18,0.719,standing,high,187,Lajpat Nagar,Moolchand
+534DOWN,DOWN,3,4,weekend,18,0.577,standing,high,150,Moolchand,ITO
+534DOWN,DOWN,1,2,weekend,19,0.562,standing,medium,146,Nehru Place,Lajpat Nagar
+534DOWN,DOWN,2,3,weekend,19,0.673,standing,high,174,Lajpat Nagar,Moolchand
+534DOWN,DOWN,3,4,weekend,19,0.642,standing,high,167,Moolchand,ITO
+534DOWN,DOWN,1,2,weekend,20,0.183,seats,medium,47,Nehru Place,Lajpat Nagar
+534DOWN,DOWN,2,3,weekend,20,0.252,seats,medium,65,Lajpat Nagar,Moolchand
+534DOWN,DOWN,3,4,weekend,20,0.189,seats,medium,49,Moolchand,ITO
+534DOWN,DOWN,1,2,weekend,21,0.196,seats,medium,50,Nehru Place,Lajpat Nagar
+534DOWN,DOWN,2,3,weekend,21,0.287,seats,medium,74,Lajpat Nagar,Moolchand
+534DOWN,DOWN,3,4,weekend,21,0.265,seats,medium,69,Moolchand,ITO
+534DOWN,DOWN,1,2,weekend,22,0.189,seats,medium,49,Nehru Place,Lajpat Nagar
+534DOWN,DOWN,2,3,weekend,22,0.207,seats,medium,53,Lajpat Nagar,Moolchand
+534DOWN,DOWN,3,4,weekend,22,0.233,seats,medium,60,Moolchand,ITO
+534DOWN,DOWN,1,2,weekend,23,0.170,seats,medium,44,Nehru Place,Lajpat Nagar
+534DOWN,DOWN,2,3,weekend,23,0.184,seats,medium,47,Lajpat Nagar,Moolchand
+534DOWN,DOWN,3,4,weekend,23,0.254,seats,medium,66,Moolchand,ITO
+764UP,UP,1,2,weekday,5,0.237,seats,low,18,Kashmere Gate ISBT,Connaught Place
+764UP,UP,2,3,weekday,5,0.336,seats,low,26,Connaught Place,AIIMS
+764UP,UP,3,4,weekday,5,0.286,seats,low,22,AIIMS,Moolchand
+764UP,UP,4,5,weekday,5,0.292,seats,low,22,Moolchand,Nehru Place
+764UP,UP,1,2,weekday,6,0.241,seats,low,18,Kashmere Gate ISBT,Connaught Place
+764UP,UP,2,3,weekday,6,0.257,seats,low,20,Connaught Place,AIIMS
+764UP,UP,3,4,weekday,6,0.239,seats,low,18,AIIMS,Moolchand
+764UP,UP,4,5,weekday,6,0.252,seats,low,19,Moolchand,Nehru Place
+764UP,UP,1,2,weekday,7,0.263,seats,low,20,Kashmere Gate ISBT,Connaught Place
+764UP,UP,2,3,weekday,7,0.346,seats,low,27,Connaught Place,AIIMS
+764UP,UP,3,4,weekday,7,0.248,seats,low,19,AIIMS,Moolchand
+764UP,UP,4,5,weekday,7,0.261,seats,low,20,Moolchand,Nehru Place
+764UP,UP,1,2,weekday,8,0.688,standing,medium,53,Kashmere Gate ISBT,Connaught Place
+764UP,UP,2,3,weekday,8,0.850,standing,medium,66,Connaught Place,AIIMS
+764UP,UP,3,4,weekday,8,0.807,standing,medium,62,AIIMS,Moolchand
+764UP,UP,4,5,weekday,8,0.677,standing,medium,52,Moolchand,Nehru Place
+764UP,UP,1,2,weekday,9,0.706,standing,medium,55,Kashmere Gate ISBT,Connaught Place
+764UP,UP,2,3,weekday,9,0.901,standing,medium,70,Connaught Place,AIIMS
+764UP,UP,3,4,weekday,9,0.803,standing,medium,62,AIIMS,Moolchand
+764UP,UP,4,5,weekday,9,0.702,standing,medium,54,Moolchand,Nehru Place
+764UP,UP,1,2,weekday,10,0.740,standing,medium,57,Kashmere Gate ISBT,Connaught Place
+764UP,UP,2,3,weekday,10,0.905,standing,medium,70,Connaught Place,AIIMS
+764UP,UP,3,4,weekday,10,0.813,standing,medium,63,AIIMS,Moolchand
+764UP,UP,4,5,weekday,10,0.659,standing,medium,51,Moolchand,Nehru Place
+764UP,UP,1,2,weekday,11,0.299,seats,low,23,Kashmere Gate ISBT,Connaught Place
+764UP,UP,2,3,weekday,11,0.354,seats,low,27,Connaught Place,AIIMS
+764UP,UP,3,4,weekday,11,0.295,seats,low,23,AIIMS,Moolchand
+764UP,UP,4,5,weekday,11,0.193,seats,low,15,Moolchand,Nehru Place
+764UP,UP,1,2,weekday,12,0.297,seats,low,23,Kashmere Gate ISBT,Connaught Place
+764UP,UP,2,3,weekday,12,0.284,seats,low,22,Connaught Place,AIIMS
+764UP,UP,3,4,weekday,12,0.346,seats,low,26,AIIMS,Moolchand
+764UP,UP,4,5,weekday,12,0.261,seats,low,20,Moolchand,Nehru Place
+764UP,UP,1,2,weekday,13,0.285,seats,low,22,Kashmere Gate ISBT,Connaught Place
+764UP,UP,2,3,weekday,13,0.257,seats,low,20,Connaught Place,AIIMS
+764UP,UP,3,4,weekday,13,0.332,seats,low,25,AIIMS,Moolchand
+764UP,UP,4,5,weekday,13,0.213,seats,low,16,Moolchand,Nehru Place
+764UP,UP,1,2,weekday,14,0.235,seats,low,18,Kashmere Gate ISBT,Connaught Place
+764UP,UP,2,3,weekday,14,0.339,seats,low,26,Connaught Place,AIIMS
+764UP,UP,3,4,weekday,14,0.337,seats,low,26,AIIMS,Moolchand
+764UP,UP,4,5,weekday,14,0.208,seats,low,16,Moolchand,Nehru Place
+764UP,UP,1,2,weekday,15,0.212,seats,low,16,Kashmere Gate ISBT,Connaught Place
+764UP,UP,2,3,weekday,15,0.285,seats,low,22,Connaught Place,AIIMS
+764UP,UP,3,4,weekday,15,0.299,seats,low,23,AIIMS,Moolchand
+764UP,UP,4,5,weekday,15,0.232,seats,low,18,Moolchand,Nehru Place
+764UP,UP,1,2,weekday,16,0.201,seats,low,15,Kashmere Gate ISBT,Connaught Place
+764UP,UP,2,3,weekday,16,0.267,seats,low,20,Connaught Place,AIIMS
+764UP,UP,3,4,weekday,16,0.324,seats,low,25,AIIMS,Moolchand
+764UP,UP,4,5,weekday,16,0.294,seats,low,22,Moolchand,Nehru Place
+764UP,UP,1,2,weekday,17,0.402,seats,low,31,Kashmere Gate ISBT,Connaught Place
+764UP,UP,2,3,weekday,17,0.560,standing,medium,43,Connaught Place,AIIMS
+764UP,UP,3,4,weekday,17,0.583,standing,medium,45,AIIMS,Moolchand
+764UP,UP,4,5,weekday,17,0.402,seats,low,31,Moolchand,Nehru Place
+764UP,UP,1,2,weekday,18,0.498,seats,low,38,Kashmere Gate ISBT,Connaught Place
+764UP,UP,2,3,weekday,18,0.506,seats,low,39,Connaught Place,AIIMS
+764UP,UP,3,4,weekday,18,0.564,standing,medium,43,AIIMS,Moolchand
+764UP,UP,4,5,weekday,18,0.463,seats,low,36,Moolchand,Nehru Place
+764UP,UP,1,2,weekday,19,0.472,seats,low,36,Kashmere Gate ISBT,Connaught Place
+764UP,UP,2,3,weekday,19,0.529,seats,medium,41,Connaught Place,AIIMS
+764UP,UP,3,4,weekday,19,0.543,seats,medium,42,AIIMS,Moolchand
+764UP,UP,4,5,weekday,19,0.467,seats,low,36,Moolchand,Nehru Place
+764UP,UP,1,2,weekday,20,0.237,seats,low,18,Kashmere Gate ISBT,Connaught Place
+764UP,UP,2,3,weekday,20,0.316,seats,low,24,Connaught Place,AIIMS
+764UP,UP,3,4,weekday,20,0.291,seats,low,22,AIIMS,Moolchand
+764UP,UP,4,5,weekday,20,0.239,seats,low,18,Moolchand,Nehru Place
+764UP,UP,1,2,weekday,21,0.189,seats,low,14,Kashmere Gate ISBT,Connaught Place
+764UP,UP,2,3,weekday,21,0.312,seats,low,24,Connaught Place,AIIMS
+764UP,UP,3,4,weekday,21,0.296,seats,low,23,AIIMS,Moolchand
+764UP,UP,4,5,weekday,21,0.214,seats,low,16,Moolchand,Nehru Place
+764UP,UP,1,2,weekday,22,0.278,seats,low,21,Kashmere Gate ISBT,Connaught Place
+764UP,UP,2,3,weekday,22,0.331,seats,low,25,Connaught Place,AIIMS
+764UP,UP,3,4,weekday,22,0.292,seats,low,22,AIIMS,Moolchand
+764UP,UP,4,5,weekday,22,0.208,seats,low,16,Moolchand,Nehru Place
+764UP,UP,1,2,weekday,23,0.243,seats,low,18,Kashmere Gate ISBT,Connaught Place
+764UP,UP,2,3,weekday,23,0.250,seats,low,19,Connaught Place,AIIMS
+764UP,UP,3,4,weekday,23,0.253,seats,low,19,AIIMS,Moolchand
+764UP,UP,4,5,weekday,23,0.238,seats,low,18,Moolchand,Nehru Place
+764UP,UP,1,2,weekend,5,0.099,seats,low,7,Kashmere Gate ISBT,Connaught Place
+764UP,UP,2,3,weekend,5,0.171,seats,low,13,Connaught Place,AIIMS
+764UP,UP,3,4,weekend,5,0.180,seats,low,14,AIIMS,Moolchand
+764UP,UP,4,5,weekend,5,0.093,seats,low,7,Moolchand,Nehru Place
+764UP,UP,1,2,weekend,6,0.164,seats,low,12,Kashmere Gate ISBT,Connaught Place
+764UP,UP,2,3,weekend,6,0.128,seats,low,10,Connaught Place,AIIMS
+764UP,UP,3,4,weekend,6,0.206,seats,low,16,AIIMS,Moolchand
+764UP,UP,4,5,weekend,6,0.181,seats,low,14,Moolchand,Nehru Place
+764UP,UP,1,2,weekend,7,0.149,seats,low,11,Kashmere Gate ISBT,Connaught Place
+764UP,UP,2,3,weekend,7,0.125,seats,low,9,Connaught Place,AIIMS
+764UP,UP,3,4,weekend,7,0.179,seats,low,13,AIIMS,Moolchand
+764UP,UP,4,5,weekend,7,0.133,seats,low,10,Moolchand,Nehru Place
+764UP,UP,1,2,weekend,8,0.476,seats,low,37,Kashmere Gate ISBT,Connaught Place
+764UP,UP,2,3,weekend,8,0.466,seats,low,36,Connaught Place,AIIMS
+764UP,UP,3,4,weekend,8,0.553,standing,medium,43,AIIMS,Moolchand
+764UP,UP,4,5,weekend,8,0.482,seats,low,37,Moolchand,Nehru Place
+764UP,UP,1,2,weekend,9,0.450,seats,low,35,Kashmere Gate ISBT,Connaught Place
+764UP,UP,2,3,weekend,9,0.547,seats,medium,42,Connaught Place,AIIMS
+764UP,UP,3,4,weekend,9,0.473,seats,low,36,AIIMS,Moolchand
+764UP,UP,4,5,weekend,9,0.480,seats,low,37,Moolchand,Nehru Place
+764UP,UP,1,2,weekend,10,0.421,seats,low,32,Kashmere Gate ISBT,Connaught Place
+764UP,UP,2,3,weekend,10,0.564,standing,medium,44,Connaught Place,AIIMS
+764UP,UP,3,4,weekend,10,0.560,standing,medium,43,AIIMS,Moolchand
+764UP,UP,4,5,weekend,10,0.382,seats,low,29,Moolchand,Nehru Place
+764UP,UP,1,2,weekend,11,0.182,seats,low,14,Kashmere Gate ISBT,Connaught Place
+764UP,UP,2,3,weekend,11,0.230,seats,low,17,Connaught Place,AIIMS
+764UP,UP,3,4,weekend,11,0.126,seats,low,9,AIIMS,Moolchand
+764UP,UP,4,5,weekend,11,0.130,seats,low,10,Moolchand,Nehru Place
+764UP,UP,1,2,weekend,12,0.178,seats,low,13,Kashmere Gate ISBT,Connaught Place
+764UP,UP,2,3,weekend,12,0.137,seats,low,10,Connaught Place,AIIMS
+764UP,UP,3,4,weekend,12,0.226,seats,low,17,AIIMS,Moolchand
+764UP,UP,4,5,weekend,12,0.121,seats,low,9,Moolchand,Nehru Place
+764UP,UP,1,2,weekend,13,0.186,seats,low,14,Kashmere Gate ISBT,Connaught Place
+764UP,UP,2,3,weekend,13,0.136,seats,low,10,Connaught Place,AIIMS
+764UP,UP,3,4,weekend,13,0.179,seats,low,13,AIIMS,Moolchand
+764UP,UP,4,5,weekend,13,0.198,seats,low,15,Moolchand,Nehru Place
+764UP,UP,1,2,weekend,14,0.113,seats,low,8,Kashmere Gate ISBT,Connaught Place
+764UP,UP,2,3,weekend,14,0.150,seats,low,11,Connaught Place,AIIMS
+764UP,UP,3,4,weekend,14,0.179,seats,low,13,AIIMS,Moolchand
+764UP,UP,4,5,weekend,14,0.126,seats,low,9,Moolchand,Nehru Place
+764UP,UP,1,2,weekend,15,0.092,seats,low,7,Kashmere Gate ISBT,Connaught Place
+764UP,UP,2,3,weekend,15,0.140,seats,low,10,Connaught Place,AIIMS
+764UP,UP,3,4,weekend,15,0.138,seats,low,10,AIIMS,Moolchand
+764UP,UP,4,5,weekend,15,0.200,seats,low,15,Moolchand,Nehru Place
+764UP,UP,1,2,weekend,16,0.169,seats,low,13,Kashmere Gate ISBT,Connaught Place
+764UP,UP,2,3,weekend,16,0.226,seats,low,17,Connaught Place,AIIMS
+764UP,UP,3,4,weekend,16,0.139,seats,low,10,AIIMS,Moolchand
+764UP,UP,4,5,weekend,16,0.182,seats,low,14,Moolchand,Nehru Place
+764UP,UP,1,2,weekend,17,0.228,seats,low,17,Kashmere Gate ISBT,Connaught Place
+764UP,UP,2,3,weekend,17,0.335,seats,low,26,Connaught Place,AIIMS
+764UP,UP,3,4,weekend,17,0.348,seats,low,27,AIIMS,Moolchand
+764UP,UP,4,5,weekend,17,0.257,seats,low,20,Moolchand,Nehru Place
+764UP,UP,1,2,weekend,18,0.319,seats,low,24,Kashmere Gate ISBT,Connaught Place
+764UP,UP,2,3,weekend,18,0.338,seats,low,26,Connaught Place,AIIMS
+764UP,UP,3,4,weekend,18,0.341,seats,low,26,AIIMS,Moolchand
+764UP,UP,4,5,weekend,18,0.320,seats,low,24,Moolchand,Nehru Place
+764UP,UP,1,2,weekend,19,0.227,seats,low,17,Kashmere Gate ISBT,Connaught Place
+764UP,UP,2,3,weekend,19,0.390,seats,low,30,Connaught Place,AIIMS
+764UP,UP,3,4,weekend,19,0.347,seats,low,27,AIIMS,Moolchand
+764UP,UP,4,5,weekend,19,0.262,seats,low,20,Moolchand,Nehru Place
+764UP,UP,1,2,weekend,20,0.183,seats,low,14,Kashmere Gate ISBT,Connaught Place
+764UP,UP,2,3,weekend,20,0.150,seats,low,11,Connaught Place,AIIMS
+764UP,UP,3,4,weekend,20,0.237,seats,low,18,AIIMS,Moolchand
+764UP,UP,4,5,weekend,20,0.157,seats,low,12,Moolchand,Nehru Place
+764UP,UP,1,2,weekend,21,0.131,seats,low,10,Kashmere Gate ISBT,Connaught Place
+764UP,UP,2,3,weekend,21,0.210,seats,low,16,Connaught Place,AIIMS
+764UP,UP,3,4,weekend,21,0.171,seats,low,13,AIIMS,Moolchand
+764UP,UP,4,5,weekend,21,0.109,seats,low,8,Moolchand,Nehru Place
+764UP,UP,1,2,weekend,22,0.177,seats,low,13,Kashmere Gate ISBT,Connaught Place
+764UP,UP,2,3,weekend,22,0.124,seats,low,9,Connaught Place,AIIMS
+764UP,UP,3,4,weekend,22,0.217,seats,low,16,AIIMS,Moolchand
+764UP,UP,4,5,weekend,22,0.118,seats,low,9,Moolchand,Nehru Place
+764UP,UP,1,2,weekend,23,0.164,seats,low,12,Kashmere Gate ISBT,Connaught Place
+764UP,UP,2,3,weekend,23,0.236,seats,low,18,Connaught Place,AIIMS
+764UP,UP,3,4,weekend,23,0.189,seats,low,14,AIIMS,Moolchand
+764UP,UP,4,5,weekend,23,0.167,seats,low,13,Moolchand,Nehru Place
+764DOWN,DOWN,1,2,weekday,5,0.224,seats,low,17,Nehru Place,Moolchand
+764DOWN,DOWN,2,3,weekday,5,0.238,seats,low,18,Moolchand,AIIMS
+764DOWN,DOWN,3,4,weekday,5,0.241,seats,low,18,AIIMS,Connaught Place
+764DOWN,DOWN,4,5,weekday,5,0.204,seats,low,15,Connaught Place,Kashmere Gate ISBT
+764DOWN,DOWN,1,2,weekday,6,0.260,seats,low,20,Nehru Place,Moolchand
+764DOWN,DOWN,2,3,weekday,6,0.289,seats,low,22,Moolchand,AIIMS
+764DOWN,DOWN,3,4,weekday,6,0.299,seats,low,23,AIIMS,Connaught Place
+764DOWN,DOWN,4,5,weekday,6,0.294,seats,low,22,Connaught Place,Kashmere Gate ISBT
+764DOWN,DOWN,1,2,weekday,7,0.202,seats,low,15,Nehru Place,Moolchand
+764DOWN,DOWN,2,3,weekday,7,0.265,seats,low,20,Moolchand,AIIMS
+764DOWN,DOWN,3,4,weekday,7,0.316,seats,low,24,AIIMS,Connaught Place
+764DOWN,DOWN,4,5,weekday,7,0.189,seats,low,14,Connaught Place,Kashmere Gate ISBT
+764DOWN,DOWN,1,2,weekday,8,0.397,seats,low,31,Nehru Place,Moolchand
+764DOWN,DOWN,2,3,weekday,8,0.535,seats,medium,41,Moolchand,AIIMS
+764DOWN,DOWN,3,4,weekday,8,0.505,seats,low,39,AIIMS,Connaught Place
+764DOWN,DOWN,4,5,weekday,8,0.440,seats,low,34,Connaught Place,Kashmere Gate ISBT
+764DOWN,DOWN,1,2,weekday,9,0.424,seats,low,33,Nehru Place,Moolchand
+764DOWN,DOWN,2,3,weekday,9,0.562,standing,medium,43,Moolchand,AIIMS
+764DOWN,DOWN,3,4,weekday,9,0.563,standing,medium,43,AIIMS,Connaught Place
+764DOWN,DOWN,4,5,weekday,9,0.422,seats,low,32,Connaught Place,Kashmere Gate ISBT
+764DOWN,DOWN,1,2,weekday,10,0.472,seats,low,36,Nehru Place,Moolchand
+764DOWN,DOWN,2,3,weekday,10,0.549,seats,medium,42,Moolchand,AIIMS
+764DOWN,DOWN,3,4,weekday,10,0.508,seats,low,39,AIIMS,Connaught Place
+764DOWN,DOWN,4,5,weekday,10,0.510,seats,low,39,Connaught Place,Kashmere Gate ISBT
+764DOWN,DOWN,1,2,weekday,11,0.215,seats,low,16,Nehru Place,Moolchand
+764DOWN,DOWN,2,3,weekday,11,0.255,seats,low,19,Moolchand,AIIMS
+764DOWN,DOWN,3,4,weekday,11,0.249,seats,low,19,AIIMS,Connaught Place
+764DOWN,DOWN,4,5,weekday,11,0.263,seats,low,20,Connaught Place,Kashmere Gate ISBT
+764DOWN,DOWN,1,2,weekday,12,0.291,seats,low,22,Nehru Place,Moolchand
+764DOWN,DOWN,2,3,weekday,12,0.331,seats,low,25,Moolchand,AIIMS
+764DOWN,DOWN,3,4,weekday,12,0.286,seats,low,22,AIIMS,Connaught Place
+764DOWN,DOWN,4,5,weekday,12,0.218,seats,low,16,Connaught Place,Kashmere Gate ISBT
+764DOWN,DOWN,1,2,weekday,13,0.188,seats,low,14,Nehru Place,Moolchand
+764DOWN,DOWN,2,3,weekday,13,0.315,seats,low,24,Moolchand,AIIMS
+764DOWN,DOWN,3,4,weekday,13,0.305,seats,low,23,AIIMS,Connaught Place
+764DOWN,DOWN,4,5,weekday,13,0.228,seats,low,17,Connaught Place,Kashmere Gate ISBT
+764DOWN,DOWN,1,2,weekday,14,0.264,seats,low,20,Nehru Place,Moolchand
+764DOWN,DOWN,2,3,weekday,14,0.291,seats,low,22,Moolchand,AIIMS
+764DOWN,DOWN,3,4,weekday,14,0.350,seats,low,27,AIIMS,Connaught Place
+764DOWN,DOWN,4,5,weekday,14,0.274,seats,low,21,Connaught Place,Kashmere Gate ISBT
+764DOWN,DOWN,1,2,weekday,15,0.216,seats,low,16,Nehru Place,Moolchand
+764DOWN,DOWN,2,3,weekday,15,0.346,seats,low,26,Moolchand,AIIMS
+764DOWN,DOWN,3,4,weekday,15,0.243,seats,low,18,AIIMS,Connaught Place
+764DOWN,DOWN,4,5,weekday,15,0.250,seats,low,19,Connaught Place,Kashmere Gate ISBT
+764DOWN,DOWN,1,2,weekday,16,0.235,seats,low,18,Nehru Place,Moolchand
+764DOWN,DOWN,2,3,weekday,16,0.266,seats,low,20,Moolchand,AIIMS
+764DOWN,DOWN,3,4,weekday,16,0.244,seats,low,19,AIIMS,Connaught Place
+764DOWN,DOWN,4,5,weekday,16,0.280,seats,low,21,Connaught Place,Kashmere Gate ISBT
+764DOWN,DOWN,1,2,weekday,17,0.645,standing,medium,50,Nehru Place,Moolchand
+764DOWN,DOWN,2,3,weekday,17,0.856,standing,medium,66,Moolchand,AIIMS
+764DOWN,DOWN,3,4,weekday,17,0.902,standing,medium,70,AIIMS,Connaught Place
+764DOWN,DOWN,4,5,weekday,17,0.660,standing,medium,51,Connaught Place,Kashmere Gate ISBT
+764DOWN,DOWN,1,2,weekday,18,0.667,standing,medium,52,Nehru Place,Moolchand
+764DOWN,DOWN,2,3,weekday,18,0.862,standing,medium,67,Moolchand,AIIMS
+764DOWN,DOWN,3,4,weekday,18,0.850,standing,medium,66,AIIMS,Connaught Place
+764DOWN,DOWN,4,5,weekday,18,0.720,standing,medium,56,Connaught Place,Kashmere Gate ISBT
+764DOWN,DOWN,1,2,weekday,19,0.741,standing,medium,57,Nehru Place,Moolchand
+764DOWN,DOWN,2,3,weekday,19,0.810,standing,medium,63,Moolchand,AIIMS
+764DOWN,DOWN,3,4,weekday,19,0.827,standing,medium,64,AIIMS,Connaught Place
+764DOWN,DOWN,4,5,weekday,19,0.679,standing,medium,52,Connaught Place,Kashmere Gate ISBT
+764DOWN,DOWN,1,2,weekday,20,0.192,seats,low,14,Nehru Place,Moolchand
+764DOWN,DOWN,2,3,weekday,20,0.344,seats,low,26,Moolchand,AIIMS
+764DOWN,DOWN,3,4,weekday,20,0.331,seats,low,25,AIIMS,Connaught Place
+764DOWN,DOWN,4,5,weekday,20,0.272,seats,low,21,Connaught Place,Kashmere Gate ISBT
+764DOWN,DOWN,1,2,weekday,21,0.187,seats,low,14,Nehru Place,Moolchand
+764DOWN,DOWN,2,3,weekday,21,0.339,seats,low,26,Moolchand,AIIMS
+764DOWN,DOWN,3,4,weekday,21,0.327,seats,low,25,AIIMS,Connaught Place
+764DOWN,DOWN,4,5,weekday,21,0.242,seats,low,18,Connaught Place,Kashmere Gate ISBT
+764DOWN,DOWN,1,2,weekday,22,0.275,seats,low,21,Nehru Place,Moolchand
+764DOWN,DOWN,2,3,weekday,22,0.292,seats,low,22,Moolchand,AIIMS
+764DOWN,DOWN,3,4,weekday,22,0.264,seats,low,20,AIIMS,Connaught Place
+764DOWN,DOWN,4,5,weekday,22,0.199,seats,low,15,Connaught Place,Kashmere Gate ISBT
+764DOWN,DOWN,1,2,weekday,23,0.214,seats,low,16,Nehru Place,Moolchand
+764DOWN,DOWN,2,3,weekday,23,0.242,seats,low,18,Moolchand,AIIMS
+764DOWN,DOWN,3,4,weekday,23,0.278,seats,low,21,AIIMS,Connaught Place
+764DOWN,DOWN,4,5,weekday,23,0.276,seats,low,21,Connaught Place,Kashmere Gate ISBT
+764DOWN,DOWN,1,2,weekend,5,0.171,seats,low,13,Nehru Place,Moolchand
+764DOWN,DOWN,2,3,weekend,5,0.220,seats,low,17,Moolchand,AIIMS
+764DOWN,DOWN,3,4,weekend,5,0.204,seats,low,15,AIIMS,Connaught Place
+764DOWN,DOWN,4,5,weekend,5,0.120,seats,low,9,Connaught Place,Kashmere Gate ISBT
+764DOWN,DOWN,1,2,weekend,6,0.154,seats,low,12,Nehru Place,Moolchand
+764DOWN,DOWN,2,3,weekend,6,0.171,seats,low,13,Moolchand,AIIMS
+764DOWN,DOWN,3,4,weekend,6,0.213,seats,low,16,AIIMS,Connaught Place
+764DOWN,DOWN,4,5,weekend,6,0.150,seats,low,11,Connaught Place,Kashmere Gate ISBT
+764DOWN,DOWN,1,2,weekend,7,0.120,seats,low,9,Nehru Place,Moolchand
+764DOWN,DOWN,2,3,weekend,7,0.195,seats,low,15,Moolchand,AIIMS
+764DOWN,DOWN,3,4,weekend,7,0.234,seats,low,18,AIIMS,Connaught Place
+764DOWN,DOWN,4,5,weekend,7,0.114,seats,low,8,Connaught Place,Kashmere Gate ISBT
+764DOWN,DOWN,1,2,weekend,8,0.320,seats,low,24,Nehru Place,Moolchand
+764DOWN,DOWN,2,3,weekend,8,0.273,seats,low,21,Moolchand,AIIMS
+764DOWN,DOWN,3,4,weekend,8,0.303,seats,low,23,AIIMS,Connaught Place
+764DOWN,DOWN,4,5,weekend,8,0.243,seats,low,18,Connaught Place,Kashmere Gate ISBT
+764DOWN,DOWN,1,2,weekend,9,0.304,seats,low,23,Nehru Place,Moolchand
+764DOWN,DOWN,2,3,weekend,9,0.385,seats,low,30,Moolchand,AIIMS
+764DOWN,DOWN,3,4,weekend,9,0.361,seats,low,28,AIIMS,Connaught Place
+764DOWN,DOWN,4,5,weekend,9,0.254,seats,low,19,Connaught Place,Kashmere Gate ISBT
+764DOWN,DOWN,1,2,weekend,10,0.320,seats,low,24,Nehru Place,Moolchand
+764DOWN,DOWN,2,3,weekend,10,0.311,seats,low,24,Moolchand,AIIMS
+764DOWN,DOWN,3,4,weekend,10,0.300,seats,low,23,AIIMS,Connaught Place
+764DOWN,DOWN,4,5,weekend,10,0.323,seats,low,25,Connaught Place,Kashmere Gate ISBT
+764DOWN,DOWN,1,2,weekend,11,0.163,seats,low,12,Nehru Place,Moolchand
+764DOWN,DOWN,2,3,weekend,11,0.202,seats,low,15,Moolchand,AIIMS
+764DOWN,DOWN,3,4,weekend,11,0.198,seats,low,15,AIIMS,Connaught Place
+764DOWN,DOWN,4,5,weekend,11,0.205,seats,low,16,Connaught Place,Kashmere Gate ISBT
+764DOWN,DOWN,1,2,weekend,12,0.144,seats,low,11,Nehru Place,Moolchand
+764DOWN,DOWN,2,3,weekend,12,0.219,seats,low,17,Moolchand,AIIMS
+764DOWN,DOWN,3,4,weekend,12,0.202,seats,low,15,AIIMS,Connaught Place
+764DOWN,DOWN,4,5,weekend,12,0.191,seats,low,14,Connaught Place,Kashmere Gate ISBT
+764DOWN,DOWN,1,2,weekend,13,0.140,seats,low,10,Nehru Place,Moolchand
+764DOWN,DOWN,2,3,weekend,13,0.205,seats,low,16,Moolchand,AIIMS
+764DOWN,DOWN,3,4,weekend,13,0.187,seats,low,14,AIIMS,Connaught Place
+764DOWN,DOWN,4,5,weekend,13,0.125,seats,low,9,Connaught Place,Kashmere Gate ISBT
+764DOWN,DOWN,1,2,weekend,14,0.113,seats,low,8,Nehru Place,Moolchand
+764DOWN,DOWN,2,3,weekend,14,0.193,seats,low,15,Moolchand,AIIMS
+764DOWN,DOWN,3,4,weekend,14,0.128,seats,low,9,AIIMS,Connaught Place
+764DOWN,DOWN,4,5,weekend,14,0.197,seats,low,15,Connaught Place,Kashmere Gate ISBT
+764DOWN,DOWN,1,2,weekend,15,0.105,seats,low,8,Nehru Place,Moolchand
+764DOWN,DOWN,2,3,weekend,15,0.122,seats,low,9,Moolchand,AIIMS
+764DOWN,DOWN,3,4,weekend,15,0.131,seats,low,10,AIIMS,Connaught Place
+764DOWN,DOWN,4,5,weekend,15,0.199,seats,low,15,Connaught Place,Kashmere Gate ISBT
+764DOWN,DOWN,1,2,weekend,16,0.129,seats,low,10,Nehru Place,Moolchand
+764DOWN,DOWN,2,3,weekend,16,0.135,seats,low,10,Moolchand,AIIMS
+764DOWN,DOWN,3,4,weekend,16,0.122,seats,low,9,AIIMS,Connaught Place
+764DOWN,DOWN,4,5,weekend,16,0.093,seats,low,7,Connaught Place,Kashmere Gate ISBT
+764DOWN,DOWN,1,2,weekend,17,0.445,seats,low,34,Nehru Place,Moolchand
+764DOWN,DOWN,2,3,weekend,17,0.526,seats,medium,41,Moolchand,AIIMS
+764DOWN,DOWN,3,4,weekend,17,0.533,seats,medium,41,AIIMS,Connaught Place
+764DOWN,DOWN,4,5,weekend,17,0.450,seats,low,35,Connaught Place,Kashmere Gate ISBT
+764DOWN,DOWN,1,2,weekend,18,0.370,seats,low,28,Nehru Place,Moolchand
+764DOWN,DOWN,2,3,weekend,18,0.521,seats,medium,40,Moolchand,AIIMS
+764DOWN,DOWN,3,4,weekend,18,0.493,seats,low,38,AIIMS,Connaught Place
+764DOWN,DOWN,4,5,weekend,18,0.460,seats,low,35,Connaught Place,Kashmere Gate ISBT
+764DOWN,DOWN,1,2,weekend,19,0.460,seats,low,35,Nehru Place,Moolchand
+764DOWN,DOWN,2,3,weekend,19,0.557,standing,medium,43,Moolchand,AIIMS
+764DOWN,DOWN,3,4,weekend,19,0.458,seats,low,35,AIIMS,Connaught Place
+764DOWN,DOWN,4,5,weekend,19,0.466,seats,low,36,Connaught Place,Kashmere Gate ISBT
+764DOWN,DOWN,1,2,weekend,20,0.197,seats,low,15,Nehru Place,Moolchand
+764DOWN,DOWN,2,3,weekend,20,0.232,seats,low,18,Moolchand,AIIMS
+764DOWN,DOWN,3,4,weekend,20,0.131,seats,low,10,AIIMS,Connaught Place
+764DOWN,DOWN,4,5,weekend,20,0.112,seats,low,8,Connaught Place,Kashmere Gate ISBT
+764DOWN,DOWN,1,2,weekend,21,0.101,seats,low,7,Nehru Place,Moolchand
+764DOWN,DOWN,2,3,weekend,21,0.123,seats,low,9,Moolchand,AIIMS
+764DOWN,DOWN,3,4,weekend,21,0.220,seats,low,17,AIIMS,Connaught Place
+764DOWN,DOWN,4,5,weekend,21,0.185,seats,low,14,Connaught Place,Kashmere Gate ISBT
+764DOWN,DOWN,1,2,weekend,22,0.164,seats,low,12,Nehru Place,Moolchand
+764DOWN,DOWN,2,3,weekend,22,0.217,seats,low,16,Moolchand,AIIMS
+764DOWN,DOWN,3,4,weekend,22,0.194,seats,low,15,AIIMS,Connaught Place
+764DOWN,DOWN,4,5,weekend,22,0.122,seats,low,9,Connaught Place,Kashmere Gate ISBT
+764DOWN,DOWN,1,2,weekend,23,0.100,seats,low,7,Nehru Place,Moolchand
+764DOWN,DOWN,2,3,weekend,23,0.130,seats,low,10,Moolchand,AIIMS
+764DOWN,DOWN,3,4,weekend,23,0.209,seats,low,16,AIIMS,Connaught Place
+764DOWN,DOWN,4,5,weekend,23,0.112,seats,low,8,Connaught Place,Kashmere Gate ISBT
+620UP,UP,1,2,weekday,5,0.214,seats,medium,55,Anand Vihar ISBT,Laxmi Nagar
+620UP,UP,2,3,weekday,5,0.270,seats,medium,70,Laxmi Nagar,ITO
+620UP,UP,3,4,weekday,5,0.178,seats,medium,46,ITO,Connaught Place
+620UP,UP,1,2,weekday,6,0.207,seats,medium,53,Anand Vihar ISBT,Laxmi Nagar
+620UP,UP,2,3,weekday,6,0.253,seats,medium,65,Laxmi Nagar,ITO
+620UP,UP,3,4,weekday,6,0.262,seats,medium,68,ITO,Connaught Place
+620UP,UP,1,2,weekday,7,0.220,seats,medium,57,Anand Vihar ISBT,Laxmi Nagar
+620UP,UP,2,3,weekday,7,0.258,seats,medium,66,Laxmi Nagar,ITO
+620UP,UP,3,4,weekday,7,0.291,seats,medium,75,ITO,Connaught Place
+620UP,UP,1,2,weekday,8,0.674,standing,high,175,Anand Vihar ISBT,Laxmi Nagar
+620UP,UP,2,3,weekday,8,0.840,standing,high,218,Laxmi Nagar,ITO
+620UP,UP,3,4,weekday,8,0.688,standing,high,178,ITO,Connaught Place
+620UP,UP,1,2,weekday,9,0.617,standing,high,160,Anand Vihar ISBT,Laxmi Nagar
+620UP,UP,2,3,weekday,9,0.787,standing,high,204,Laxmi Nagar,ITO
+620UP,UP,3,4,weekday,9,0.666,standing,high,173,ITO,Connaught Place
+620UP,UP,1,2,weekday,10,0.707,standing,high,183,Anand Vihar ISBT,Laxmi Nagar
+620UP,UP,2,3,weekday,10,0.779,standing,high,202,Laxmi Nagar,ITO
+620UP,UP,3,4,weekday,10,0.698,standing,high,181,ITO,Connaught Place
+620UP,UP,1,2,weekday,11,0.240,seats,medium,62,Anand Vihar ISBT,Laxmi Nagar
+620UP,UP,2,3,weekday,11,0.245,seats,medium,63,Laxmi Nagar,ITO
+620UP,UP,3,4,weekday,11,0.279,seats,medium,72,ITO,Connaught Place
+620UP,UP,1,2,weekday,12,0.187,seats,medium,48,Anand Vihar ISBT,Laxmi Nagar
+620UP,UP,2,3,weekday,12,0.318,seats,medium,82,Laxmi Nagar,ITO
+620UP,UP,3,4,weekday,12,0.196,seats,medium,51,ITO,Connaught Place
+620UP,UP,1,2,weekday,13,0.176,seats,medium,45,Anand Vihar ISBT,Laxmi Nagar
+620UP,UP,2,3,weekday,13,0.243,seats,medium,63,Laxmi Nagar,ITO
+620UP,UP,3,4,weekday,13,0.267,seats,medium,69,ITO,Connaught Place
+620UP,UP,1,2,weekday,14,0.293,seats,medium,76,Anand Vihar ISBT,Laxmi Nagar
+620UP,UP,2,3,weekday,14,0.220,seats,medium,57,Laxmi Nagar,ITO
+620UP,UP,3,4,weekday,14,0.235,seats,medium,61,ITO,Connaught Place
+620UP,UP,1,2,weekday,15,0.235,seats,medium,61,Anand Vihar ISBT,Laxmi Nagar
+620UP,UP,2,3,weekday,15,0.315,seats,medium,81,Laxmi Nagar,ITO
+620UP,UP,3,4,weekday,15,0.198,seats,medium,51,ITO,Connaught Place
+620UP,UP,1,2,weekday,16,0.235,seats,medium,61,Anand Vihar ISBT,Laxmi Nagar
+620UP,UP,2,3,weekday,16,0.261,seats,medium,67,Laxmi Nagar,ITO
+620UP,UP,3,4,weekday,16,0.276,seats,medium,71,ITO,Connaught Place
+620UP,UP,1,2,weekday,17,0.409,seats,medium,106,Anand Vihar ISBT,Laxmi Nagar
+620UP,UP,2,3,weekday,17,0.572,standing,medium,148,Laxmi Nagar,ITO
+620UP,UP,3,4,weekday,17,0.412,seats,medium,107,ITO,Connaught Place
+620UP,UP,1,2,weekday,18,0.404,seats,medium,104,Anand Vihar ISBT,Laxmi Nagar
+620UP,UP,2,3,weekday,18,0.542,seats,medium,141,Laxmi Nagar,ITO
+620UP,UP,3,4,weekday,18,0.438,seats,medium,113,ITO,Connaught Place
+620UP,UP,1,2,weekday,19,0.391,seats,medium,101,Anand Vihar ISBT,Laxmi Nagar
+620UP,UP,2,3,weekday,19,0.535,seats,medium,139,Laxmi Nagar,ITO
+620UP,UP,3,4,weekday,19,0.388,seats,medium,100,ITO,Connaught Place
+620UP,UP,1,2,weekday,20,0.270,seats,medium,70,Anand Vihar ISBT,Laxmi Nagar
+620UP,UP,2,3,weekday,20,0.303,seats,medium,78,Laxmi Nagar,ITO
+620UP,UP,3,4,weekday,20,0.270,seats,medium,70,ITO,Connaught Place
+620UP,UP,1,2,weekday,21,0.251,seats,medium,65,Anand Vihar ISBT,Laxmi Nagar
+620UP,UP,2,3,weekday,21,0.262,seats,medium,68,Laxmi Nagar,ITO
+620UP,UP,3,4,weekday,21,0.224,seats,medium,58,ITO,Connaught Place
+620UP,UP,1,2,weekday,22,0.223,seats,medium,58,Anand Vihar ISBT,Laxmi Nagar
+620UP,UP,2,3,weekday,22,0.326,seats,medium,84,Laxmi Nagar,ITO
+620UP,UP,3,4,weekday,22,0.186,seats,medium,48,ITO,Connaught Place
+620UP,UP,1,2,weekday,23,0.282,seats,medium,73,Anand Vihar ISBT,Laxmi Nagar
+620UP,UP,2,3,weekday,23,0.222,seats,medium,57,Laxmi Nagar,ITO
+620UP,UP,3,4,weekday,23,0.201,seats,medium,52,ITO,Connaught Place
+620UP,UP,1,2,weekend,5,0.113,seats,low,29,Anand Vihar ISBT,Laxmi Nagar
+620UP,UP,2,3,weekend,5,0.216,seats,medium,56,Laxmi Nagar,ITO
+620UP,UP,3,4,weekend,5,0.142,seats,low,36,ITO,Connaught Place
+620UP,UP,1,2,weekend,6,0.127,seats,low,33,Anand Vihar ISBT,Laxmi Nagar
+620UP,UP,2,3,weekend,6,0.214,seats,medium,55,Laxmi Nagar,ITO
+620UP,UP,3,4,weekend,6,0.110,seats,low,28,ITO,Connaught Place
+620UP,UP,1,2,weekend,7,0.137,seats,low,35,Anand Vihar ISBT,Laxmi Nagar
+620UP,UP,2,3,weekend,7,0.171,seats,medium,44,Laxmi Nagar,ITO
+620UP,UP,3,4,weekend,7,0.172,seats,medium,44,ITO,Connaught Place
+620UP,UP,1,2,weekend,8,0.435,seats,medium,112,Anand Vihar ISBT,Laxmi Nagar
+620UP,UP,2,3,weekend,8,0.496,seats,medium,128,Laxmi Nagar,ITO
+620UP,UP,3,4,weekend,8,0.386,seats,medium,100,ITO,Connaught Place
+620UP,UP,1,2,weekend,9,0.383,seats,medium,99,Anand Vihar ISBT,Laxmi Nagar
+620UP,UP,2,3,weekend,9,0.437,seats,medium,113,Laxmi Nagar,ITO
+620UP,UP,3,4,weekend,9,0.445,seats,medium,115,ITO,Connaught Place
+620UP,UP,1,2,weekend,10,0.424,seats,medium,110,Anand Vihar ISBT,Laxmi Nagar
+620UP,UP,2,3,weekend,10,0.508,seats,medium,131,Laxmi Nagar,ITO
+620UP,UP,3,4,weekend,10,0.365,seats,medium,94,ITO,Connaught Place
+620UP,UP,1,2,weekend,11,0.134,seats,low,34,Anand Vihar ISBT,Laxmi Nagar
+620UP,UP,2,3,weekend,11,0.200,seats,medium,52,Laxmi Nagar,ITO
+620UP,UP,3,4,weekend,11,0.151,seats,low,39,ITO,Connaught Place
+620UP,UP,1,2,weekend,12,0.097,seats,low,25,Anand Vihar ISBT,Laxmi Nagar
+620UP,UP,2,3,weekend,12,0.163,seats,medium,42,Laxmi Nagar,ITO
+620UP,UP,3,4,weekend,12,0.188,seats,medium,48,ITO,Connaught Place
+620UP,UP,1,2,weekend,13,0.110,seats,low,28,Anand Vihar ISBT,Laxmi Nagar
+620UP,UP,2,3,weekend,13,0.130,seats,low,33,Laxmi Nagar,ITO
+620UP,UP,3,4,weekend,13,0.118,seats,low,30,ITO,Connaught Place
+620UP,UP,1,2,weekend,14,0.166,seats,medium,43,Anand Vihar ISBT,Laxmi Nagar
+620UP,UP,2,3,weekend,14,0.209,seats,medium,54,Laxmi Nagar,ITO
+620UP,UP,3,4,weekend,14,0.100,seats,low,26,ITO,Connaught Place
+620UP,UP,1,2,weekend,15,0.100,seats,low,26,Anand Vihar ISBT,Laxmi Nagar
+620UP,UP,2,3,weekend,15,0.137,seats,low,35,Laxmi Nagar,ITO
+620UP,UP,3,4,weekend,15,0.121,seats,low,31,ITO,Connaught Place
+620UP,UP,1,2,weekend,16,0.144,seats,low,37,Anand Vihar ISBT,Laxmi Nagar
+620UP,UP,2,3,weekend,16,0.127,seats,low,32,Laxmi Nagar,ITO
+620UP,UP,3,4,weekend,16,0.121,seats,low,31,ITO,Connaught Place
+620UP,UP,1,2,weekend,17,0.225,seats,medium,58,Anand Vihar ISBT,Laxmi Nagar
+620UP,UP,2,3,weekend,17,0.368,seats,medium,95,Laxmi Nagar,ITO
+620UP,UP,3,4,weekend,17,0.290,seats,medium,75,ITO,Connaught Place
+620UP,UP,1,2,weekend,18,0.215,seats,medium,55,Anand Vihar ISBT,Laxmi Nagar
+620UP,UP,2,3,weekend,18,0.367,seats,medium,95,Laxmi Nagar,ITO
+620UP,UP,3,4,weekend,18,0.215,seats,medium,55,ITO,Connaught Place
+620UP,UP,1,2,weekend,19,0.249,seats,medium,64,Anand Vihar ISBT,Laxmi Nagar
+620UP,UP,2,3,weekend,19,0.369,seats,medium,95,Laxmi Nagar,ITO
+620UP,UP,3,4,weekend,19,0.298,seats,medium,77,ITO,Connaught Place
+620UP,UP,1,2,weekend,20,0.169,seats,medium,44,Anand Vihar ISBT,Laxmi Nagar
+620UP,UP,2,3,weekend,20,0.160,seats,medium,41,Laxmi Nagar,ITO
+620UP,UP,3,4,weekend,20,0.105,seats,low,27,ITO,Connaught Place
+620UP,UP,1,2,weekend,21,0.158,seats,medium,41,Anand Vihar ISBT,Laxmi Nagar
+620UP,UP,2,3,weekend,21,0.120,seats,low,31,Laxmi Nagar,ITO
+620UP,UP,3,4,weekend,21,0.106,seats,low,27,ITO,Connaught Place
+620UP,UP,1,2,weekend,22,0.128,seats,low,33,Anand Vihar ISBT,Laxmi Nagar
+620UP,UP,2,3,weekend,22,0.112,seats,low,29,Laxmi Nagar,ITO
+620UP,UP,3,4,weekend,22,0.129,seats,low,33,ITO,Connaught Place
+620UP,UP,1,2,weekend,23,0.176,seats,medium,45,Anand Vihar ISBT,Laxmi Nagar
+620UP,UP,2,3,weekend,23,0.191,seats,medium,49,Laxmi Nagar,ITO
+620UP,UP,3,4,weekend,23,0.142,seats,low,36,ITO,Connaught Place
+620DOWN,DOWN,1,2,weekday,5,0.252,seats,medium,65,Connaught Place,ITO
+620DOWN,DOWN,2,3,weekday,5,0.275,seats,medium,71,ITO,Laxmi Nagar
+620DOWN,DOWN,3,4,weekday,5,0.193,seats,medium,50,Laxmi Nagar,Anand Vihar ISBT
+620DOWN,DOWN,1,2,weekday,6,0.248,seats,medium,64,Connaught Place,ITO
+620DOWN,DOWN,2,3,weekday,6,0.268,seats,medium,69,ITO,Laxmi Nagar
+620DOWN,DOWN,3,4,weekday,6,0.265,seats,medium,68,Laxmi Nagar,Anand Vihar ISBT
+620DOWN,DOWN,1,2,weekday,7,0.285,seats,medium,74,Connaught Place,ITO
+620DOWN,DOWN,2,3,weekday,7,0.271,seats,medium,70,ITO,Laxmi Nagar
+620DOWN,DOWN,3,4,weekday,7,0.245,seats,medium,63,Laxmi Nagar,Anand Vihar ISBT
+620DOWN,DOWN,1,2,weekday,8,0.468,seats,medium,121,Connaught Place,ITO
+620DOWN,DOWN,2,3,weekday,8,0.509,seats,medium,132,ITO,Laxmi Nagar
+620DOWN,DOWN,3,4,weekday,8,0.405,seats,medium,105,Laxmi Nagar,Anand Vihar ISBT
+620DOWN,DOWN,1,2,weekday,9,0.465,seats,medium,120,Connaught Place,ITO
+620DOWN,DOWN,2,3,weekday,9,0.564,standing,medium,146,ITO,Laxmi Nagar
+620DOWN,DOWN,3,4,weekday,9,0.471,seats,medium,122,Laxmi Nagar,Anand Vihar ISBT
+620DOWN,DOWN,1,2,weekday,10,0.462,seats,medium,120,Connaught Place,ITO
+620DOWN,DOWN,2,3,weekday,10,0.561,standing,medium,145,ITO,Laxmi Nagar
+620DOWN,DOWN,3,4,weekday,10,0.459,seats,medium,119,Laxmi Nagar,Anand Vihar ISBT
+620DOWN,DOWN,1,2,weekday,11,0.253,seats,medium,65,Connaught Place,ITO
+620DOWN,DOWN,2,3,weekday,11,0.274,seats,medium,71,ITO,Laxmi Nagar
+620DOWN,DOWN,3,4,weekday,11,0.213,seats,medium,55,Laxmi Nagar,Anand Vihar ISBT
+620DOWN,DOWN,1,2,weekday,12,0.251,seats,medium,65,Connaught Place,ITO
+620DOWN,DOWN,2,3,weekday,12,0.231,seats,medium,60,ITO,Laxmi Nagar
+620DOWN,DOWN,3,4,weekday,12,0.226,seats,medium,58,Laxmi Nagar,Anand Vihar ISBT
+620DOWN,DOWN,1,2,weekday,13,0.270,seats,medium,70,Connaught Place,ITO
+620DOWN,DOWN,2,3,weekday,13,0.305,seats,medium,79,ITO,Laxmi Nagar
+620DOWN,DOWN,3,4,weekday,13,0.251,seats,medium,65,Laxmi Nagar,Anand Vihar ISBT
+620DOWN,DOWN,1,2,weekday,14,0.206,seats,medium,53,Connaught Place,ITO
+620DOWN,DOWN,2,3,weekday,14,0.270,seats,medium,70,ITO,Laxmi Nagar
+620DOWN,DOWN,3,4,weekday,14,0.230,seats,medium,59,Laxmi Nagar,Anand Vihar ISBT
+620DOWN,DOWN,1,2,weekday,15,0.250,seats,medium,65,Connaught Place,ITO
+620DOWN,DOWN,2,3,weekday,15,0.268,seats,medium,69,ITO,Laxmi Nagar
+620DOWN,DOWN,3,4,weekday,15,0.257,seats,medium,66,Laxmi Nagar,Anand Vihar ISBT
+620DOWN,DOWN,1,2,weekday,16,0.287,seats,medium,74,Connaught Place,ITO
+620DOWN,DOWN,2,3,weekday,16,0.241,seats,medium,62,ITO,Laxmi Nagar
+620DOWN,DOWN,3,4,weekday,16,0.254,seats,medium,66,Laxmi Nagar,Anand Vihar ISBT
+620DOWN,DOWN,1,2,weekday,17,0.707,standing,high,183,Connaught Place,ITO
+620DOWN,DOWN,2,3,weekday,17,0.784,standing,high,203,ITO,Laxmi Nagar
+620DOWN,DOWN,3,4,weekday,17,0.673,standing,high,174,Laxmi Nagar,Anand Vihar ISBT
+620DOWN,DOWN,1,2,weekday,18,0.731,standing,high,189,Connaught Place,ITO
+620DOWN,DOWN,2,3,weekday,18,0.742,standing,high,192,ITO,Laxmi Nagar
+620DOWN,DOWN,3,4,weekday,18,0.679,standing,high,176,Laxmi Nagar,Anand Vihar ISBT
+620DOWN,DOWN,1,2,weekday,19,0.633,standing,high,164,Connaught Place,ITO
+620DOWN,DOWN,2,3,weekday,19,0.831,standing,high,216,ITO,Laxmi Nagar
+620DOWN,DOWN,3,4,weekday,19,0.727,standing,high,188,Laxmi Nagar,Anand Vihar ISBT
+620DOWN,DOWN,1,2,weekday,20,0.238,seats,medium,61,Connaught Place,ITO
+620DOWN,DOWN,2,3,weekday,20,0.231,seats,medium,60,ITO,Laxmi Nagar
+620DOWN,DOWN,3,4,weekday,20,0.245,seats,medium,63,Laxmi Nagar,Anand Vihar ISBT
+620DOWN,DOWN,1,2,weekday,21,0.241,seats,medium,62,Connaught Place,ITO
+620DOWN,DOWN,2,3,weekday,21,0.305,seats,medium,79,ITO,Laxmi Nagar
+620DOWN,DOWN,3,4,weekday,21,0.237,seats,medium,61,Laxmi Nagar,Anand Vihar ISBT
+620DOWN,DOWN,1,2,weekday,22,0.253,seats,medium,65,Connaught Place,ITO
+620DOWN,DOWN,2,3,weekday,22,0.319,seats,medium,82,ITO,Laxmi Nagar
+620DOWN,DOWN,3,4,weekday,22,0.238,seats,medium,61,Laxmi Nagar,Anand Vihar ISBT
+620DOWN,DOWN,1,2,weekday,23,0.225,seats,medium,58,Connaught Place,ITO
+620DOWN,DOWN,2,3,weekday,23,0.333,seats,medium,86,ITO,Laxmi Nagar
+620DOWN,DOWN,3,4,weekday,23,0.201,seats,medium,52,Laxmi Nagar,Anand Vihar ISBT
+620DOWN,DOWN,1,2,weekend,5,0.164,seats,medium,42,Connaught Place,ITO
+620DOWN,DOWN,2,3,weekend,5,0.155,seats,medium,40,ITO,Laxmi Nagar
+620DOWN,DOWN,3,4,weekend,5,0.173,seats,medium,44,Laxmi Nagar,Anand Vihar ISBT
+620DOWN,DOWN,1,2,weekend,6,0.096,seats,low,25,Connaught Place,ITO
+620DOWN,DOWN,2,3,weekend,6,0.226,seats,medium,58,ITO,Laxmi Nagar
+620DOWN,DOWN,3,4,weekend,6,0.124,seats,low,32,Laxmi Nagar,Anand Vihar ISBT
+620DOWN,DOWN,1,2,weekend,7,0.088,seats,low,22,Connaught Place,ITO
+620DOWN,DOWN,2,3,weekend,7,0.140,seats,low,36,ITO,Laxmi Nagar
+620DOWN,DOWN,3,4,weekend,7,0.129,seats,low,33,Laxmi Nagar,Anand Vihar ISBT
+620DOWN,DOWN,1,2,weekend,8,0.204,seats,medium,53,Connaught Place,ITO
+620DOWN,DOWN,2,3,weekend,8,0.301,seats,medium,78,ITO,Laxmi Nagar
+620DOWN,DOWN,3,4,weekend,8,0.253,seats,medium,65,Laxmi Nagar,Anand Vihar ISBT
+620DOWN,DOWN,1,2,weekend,9,0.287,seats,medium,74,Connaught Place,ITO
+620DOWN,DOWN,2,3,weekend,9,0.293,seats,medium,76,ITO,Laxmi Nagar
+620DOWN,DOWN,3,4,weekend,9,0.235,seats,medium,60,Laxmi Nagar,Anand Vihar ISBT
+620DOWN,DOWN,1,2,weekend,10,0.230,seats,medium,59,Connaught Place,ITO
+620DOWN,DOWN,2,3,weekend,10,0.340,seats,medium,88,ITO,Laxmi Nagar
+620DOWN,DOWN,3,4,weekend,10,0.316,seats,medium,82,Laxmi Nagar,Anand Vihar ISBT
+620DOWN,DOWN,1,2,weekend,11,0.145,seats,low,37,Connaught Place,ITO
+620DOWN,DOWN,2,3,weekend,11,0.134,seats,low,34,ITO,Laxmi Nagar
+620DOWN,DOWN,3,4,weekend,11,0.178,seats,medium,46,Laxmi Nagar,Anand Vihar ISBT
+620DOWN,DOWN,1,2,weekend,12,0.129,seats,low,33,Connaught Place,ITO
+620DOWN,DOWN,2,3,weekend,12,0.133,seats,low,34,ITO,Laxmi Nagar
+620DOWN,DOWN,3,4,weekend,12,0.097,seats,low,25,Laxmi Nagar,Anand Vihar ISBT
+620DOWN,DOWN,1,2,weekend,13,0.175,seats,medium,45,Connaught Place,ITO
+620DOWN,DOWN,2,3,weekend,13,0.205,seats,medium,53,ITO,Laxmi Nagar
+620DOWN,DOWN,3,4,weekend,13,0.158,seats,medium,40,Laxmi Nagar,Anand Vihar ISBT
+620DOWN,DOWN,1,2,weekend,14,0.138,seats,low,35,Connaught Place,ITO
+620DOWN,DOWN,2,3,weekend,14,0.175,seats,medium,45,ITO,Laxmi Nagar
+620DOWN,DOWN,3,4,weekend,14,0.109,seats,low,28,Laxmi Nagar,Anand Vihar ISBT
+620DOWN,DOWN,1,2,weekend,15,0.197,seats,medium,51,Connaught Place,ITO
+620DOWN,DOWN,2,3,weekend,15,0.150,seats,low,38,ITO,Laxmi Nagar
+620DOWN,DOWN,3,4,weekend,15,0.158,seats,medium,41,Laxmi Nagar,Anand Vihar ISBT
+620DOWN,DOWN,1,2,weekend,16,0.180,seats,medium,46,Connaught Place,ITO
+620DOWN,DOWN,2,3,weekend,16,0.205,seats,medium,53,ITO,Laxmi Nagar
+620DOWN,DOWN,3,4,weekend,16,0.138,seats,low,35,Laxmi Nagar,Anand Vihar ISBT
+620DOWN,DOWN,1,2,weekend,17,0.380,seats,medium,98,Connaught Place,ITO
+620DOWN,DOWN,2,3,weekend,17,0.484,seats,medium,125,ITO,Laxmi Nagar
+620DOWN,DOWN,3,4,weekend,17,0.359,seats,medium,93,Laxmi Nagar,Anand Vihar ISBT
+620DOWN,DOWN,1,2,weekend,18,0.444,seats,medium,115,Connaught Place,ITO
+620DOWN,DOWN,2,3,weekend,18,0.461,seats,medium,119,ITO,Laxmi Nagar
+620DOWN,DOWN,3,4,weekend,18,0.446,seats,medium,116,Laxmi Nagar,Anand Vihar ISBT
+620DOWN,DOWN,1,2,weekend,19,0.376,seats,medium,97,Connaught Place,ITO
+620DOWN,DOWN,2,3,weekend,19,0.464,seats,medium,120,ITO,Laxmi Nagar
+620DOWN,DOWN,3,4,weekend,19,0.375,seats,medium,97,Laxmi Nagar,Anand Vihar ISBT
+620DOWN,DOWN,1,2,weekend,20,0.133,seats,low,34,Connaught Place,ITO
+620DOWN,DOWN,2,3,weekend,20,0.130,seats,low,33,ITO,Laxmi Nagar
+620DOWN,DOWN,3,4,weekend,20,0.082,seats,low,21,Laxmi Nagar,Anand Vihar ISBT
+620DOWN,DOWN,1,2,weekend,21,0.168,seats,medium,43,Connaught Place,ITO
+620DOWN,DOWN,2,3,weekend,21,0.141,seats,low,36,ITO,Laxmi Nagar
+620DOWN,DOWN,3,4,weekend,21,0.111,seats,low,28,Laxmi Nagar,Anand Vihar ISBT
+620DOWN,DOWN,1,2,weekend,22,0.118,seats,low,30,Connaught Place,ITO
+620DOWN,DOWN,2,3,weekend,22,0.165,seats,medium,42,ITO,Laxmi Nagar
+620DOWN,DOWN,3,4,weekend,22,0.133,seats,low,34,Laxmi Nagar,Anand Vihar ISBT
+620DOWN,DOWN,1,2,weekend,23,0.158,seats,medium,41,Connaught Place,ITO
+620DOWN,DOWN,2,3,weekend,23,0.187,seats,medium,48,ITO,Laxmi Nagar
+620DOWN,DOWN,3,4,weekend,23,0.125,seats,low,32,Laxmi Nagar,Anand Vihar ISBT
+26UP,UP,1,2,weekday,5,0.416,seats,medium,108,Anand Vihar ISBT,Karkardooma
+26UP,UP,2,3,weekday,5,0.474,seats,medium,123,Karkardooma,Red Fort
+26UP,UP,3,4,weekday,5,0.311,seats,medium,80,Red Fort,Connaught Place
+26UP,UP,1,2,weekday,6,0.404,seats,medium,104,Anand Vihar ISBT,Karkardooma
+26UP,UP,2,3,weekday,6,0.480,seats,medium,124,Karkardooma,Red Fort
+26UP,UP,3,4,weekday,6,0.399,seats,medium,103,Red Fort,Connaught Place
+26UP,UP,1,2,weekday,7,0.321,seats,medium,83,Anand Vihar ISBT,Karkardooma
+26UP,UP,2,3,weekday,7,0.471,seats,medium,122,Karkardooma,Red Fort
+26UP,UP,3,4,weekday,7,0.380,seats,medium,98,Red Fort,Connaught Place
+26UP,UP,1,2,weekday,8,0.983,crowded,high,255,Anand Vihar ISBT,Karkardooma
+26UP,UP,2,3,weekday,8,1.174,crowded,high,305,Karkardooma,Red Fort
+26UP,UP,3,4,weekday,8,1.095,crowded,high,284,Red Fort,Connaught Place
+26UP,UP,1,2,weekday,9,1.060,crowded,high,275,Anand Vihar ISBT,Karkardooma
+26UP,UP,2,3,weekday,9,1.203,crowded,high,312,Karkardooma,Red Fort
+26UP,UP,3,4,weekday,9,0.993,crowded,high,258,Red Fort,Connaught Place
+26UP,UP,1,2,weekday,10,0.998,crowded,high,259,Anand Vihar ISBT,Karkardooma
+26UP,UP,2,3,weekday,10,1.201,crowded,high,312,Karkardooma,Red Fort
+26UP,UP,3,4,weekday,10,1.074,crowded,high,279,Red Fort,Connaught Place
+26UP,UP,1,2,weekday,11,0.346,seats,medium,89,Anand Vihar ISBT,Karkardooma
+26UP,UP,2,3,weekday,11,0.390,seats,medium,101,Karkardooma,Red Fort
+26UP,UP,3,4,weekday,11,0.413,seats,medium,107,Red Fort,Connaught Place
+26UP,UP,1,2,weekday,12,0.399,seats,medium,103,Anand Vihar ISBT,Karkardooma
+26UP,UP,2,3,weekday,12,0.392,seats,medium,101,Karkardooma,Red Fort
+26UP,UP,3,4,weekday,12,0.411,seats,medium,106,Red Fort,Connaught Place
+26UP,UP,1,2,weekday,13,0.377,seats,medium,98,Anand Vihar ISBT,Karkardooma
+26UP,UP,2,3,weekday,13,0.465,seats,medium,120,Karkardooma,Red Fort
+26UP,UP,3,4,weekday,13,0.385,seats,medium,100,Red Fort,Connaught Place
+26UP,UP,1,2,weekday,14,0.412,seats,medium,107,Anand Vihar ISBT,Karkardooma
+26UP,UP,2,3,weekday,14,0.466,seats,medium,121,Karkardooma,Red Fort
+26UP,UP,3,4,weekday,14,0.405,seats,medium,105,Red Fort,Connaught Place
+26UP,UP,1,2,weekday,15,0.328,seats,medium,85,Anand Vihar ISBT,Karkardooma
+26UP,UP,2,3,weekday,15,0.455,seats,medium,118,Karkardooma,Red Fort
+26UP,UP,3,4,weekday,15,0.368,seats,medium,95,Red Fort,Connaught Place
+26UP,UP,1,2,weekday,16,0.393,seats,medium,102,Anand Vihar ISBT,Karkardooma
+26UP,UP,2,3,weekday,16,0.424,seats,medium,110,Karkardooma,Red Fort
+26UP,UP,3,4,weekday,16,0.410,seats,medium,106,Red Fort,Connaught Place
+26UP,UP,1,2,weekday,17,0.683,standing,high,177,Anand Vihar ISBT,Karkardooma
+26UP,UP,2,3,weekday,17,0.773,standing,high,200,Karkardooma,Red Fort
+26UP,UP,3,4,weekday,17,0.645,standing,high,167,Red Fort,Connaught Place
+26UP,UP,1,2,weekday,18,0.634,standing,high,164,Anand Vihar ISBT,Karkardooma
+26UP,UP,2,3,weekday,18,0.800,standing,high,208,Karkardooma,Red Fort
+26UP,UP,3,4,weekday,18,0.624,standing,high,162,Red Fort,Connaught Place
+26UP,UP,1,2,weekday,19,0.673,standing,high,174,Anand Vihar ISBT,Karkardooma
+26UP,UP,2,3,weekday,19,0.758,standing,high,197,Karkardooma,Red Fort
+26UP,UP,3,4,weekday,19,0.676,standing,high,175,Red Fort,Connaught Place
+26UP,UP,1,2,weekday,20,0.364,seats,medium,94,Anand Vihar ISBT,Karkardooma
+26UP,UP,2,3,weekday,20,0.436,seats,medium,113,Karkardooma,Red Fort
+26UP,UP,3,4,weekday,20,0.408,seats,medium,106,Red Fort,Connaught Place
+26UP,UP,1,2,weekday,21,0.305,seats,medium,79,Anand Vihar ISBT,Karkardooma
+26UP,UP,2,3,weekday,21,0.472,seats,medium,122,Karkardooma,Red Fort
+26UP,UP,3,4,weekday,21,0.361,seats,medium,93,Red Fort,Connaught Place
+26UP,UP,1,2,weekday,22,0.372,seats,medium,96,Anand Vihar ISBT,Karkardooma
+26UP,UP,2,3,weekday,22,0.451,seats,medium,117,Karkardooma,Red Fort
+26UP,UP,3,4,weekday,22,0.405,seats,medium,105,Red Fort,Connaught Place
+26UP,UP,1,2,weekday,23,0.349,seats,medium,90,Anand Vihar ISBT,Karkardooma
+26UP,UP,2,3,weekday,23,0.422,seats,medium,109,Karkardooma,Red Fort
+26UP,UP,3,4,weekday,23,0.420,seats,medium,109,Red Fort,Connaught Place
+26UP,UP,1,2,weekend,5,0.168,seats,medium,43,Anand Vihar ISBT,Karkardooma
+26UP,UP,2,3,weekend,5,0.275,seats,medium,71,Karkardooma,Red Fort
+26UP,UP,3,4,weekend,5,0.235,seats,medium,61,Red Fort,Connaught Place
+26UP,UP,1,2,weekend,6,0.162,seats,medium,42,Anand Vihar ISBT,Karkardooma
+26UP,UP,2,3,weekend,6,0.272,seats,medium,70,Karkardooma,Red Fort
+26UP,UP,3,4,weekend,6,0.241,seats,medium,62,Red Fort,Connaught Place
+26UP,UP,1,2,weekend,7,0.270,seats,medium,70,Anand Vihar ISBT,Karkardooma
+26UP,UP,2,3,weekend,7,0.238,seats,medium,62,Karkardooma,Red Fort
+26UP,UP,3,4,weekend,7,0.276,seats,medium,71,Red Fort,Connaught Place
+26UP,UP,1,2,weekend,8,0.626,standing,high,162,Anand Vihar ISBT,Karkardooma
+26UP,UP,2,3,weekend,8,0.738,standing,high,191,Karkardooma,Red Fort
+26UP,UP,3,4,weekend,8,0.672,standing,high,174,Red Fort,Connaught Place
+26UP,UP,1,2,weekend,9,0.569,standing,medium,147,Anand Vihar ISBT,Karkardooma
+26UP,UP,2,3,weekend,9,0.766,standing,high,199,Karkardooma,Red Fort
+26UP,UP,3,4,weekend,9,0.640,standing,high,166,Red Fort,Connaught Place
+26UP,UP,1,2,weekend,10,0.605,standing,high,157,Anand Vihar ISBT,Karkardooma
+26UP,UP,2,3,weekend,10,0.783,standing,high,203,Karkardooma,Red Fort
+26UP,UP,3,4,weekend,10,0.609,standing,high,158,Red Fort,Connaught Place
+26UP,UP,1,2,weekend,11,0.216,seats,medium,56,Anand Vihar ISBT,Karkardooma
+26UP,UP,2,3,weekend,11,0.262,seats,medium,68,Karkardooma,Red Fort
+26UP,UP,3,4,weekend,11,0.251,seats,medium,65,Red Fort,Connaught Place
+26UP,UP,1,2,weekend,12,0.184,seats,medium,47,Anand Vihar ISBT,Karkardooma
+26UP,UP,2,3,weekend,12,0.251,seats,medium,65,Karkardooma,Red Fort
+26UP,UP,3,4,weekend,12,0.209,seats,medium,54,Red Fort,Connaught Place
+26UP,UP,1,2,weekend,13,0.225,seats,medium,58,Anand Vihar ISBT,Karkardooma
+26UP,UP,2,3,weekend,13,0.298,seats,medium,77,Karkardooma,Red Fort
+26UP,UP,3,4,weekend,13,0.194,seats,medium,50,Red Fort,Connaught Place
+26UP,UP,1,2,weekend,14,0.258,seats,medium,67,Anand Vihar ISBT,Karkardooma
+26UP,UP,2,3,weekend,14,0.247,seats,medium,64,Karkardooma,Red Fort
+26UP,UP,3,4,weekend,14,0.219,seats,medium,56,Red Fort,Connaught Place
+26UP,UP,1,2,weekend,15,0.191,seats,medium,49,Anand Vihar ISBT,Karkardooma
+26UP,UP,2,3,weekend,15,0.260,seats,medium,67,Karkardooma,Red Fort
+26UP,UP,3,4,weekend,15,0.276,seats,medium,71,Red Fort,Connaught Place
+26UP,UP,1,2,weekend,16,0.237,seats,medium,61,Anand Vihar ISBT,Karkardooma
+26UP,UP,2,3,weekend,16,0.294,seats,medium,76,Karkardooma,Red Fort
+26UP,UP,3,4,weekend,16,0.198,seats,medium,51,Red Fort,Connaught Place
+26UP,UP,1,2,weekend,17,0.384,seats,medium,99,Anand Vihar ISBT,Karkardooma
+26UP,UP,2,3,weekend,17,0.457,seats,medium,118,Karkardooma,Red Fort
+26UP,UP,3,4,weekend,17,0.416,seats,medium,108,Red Fort,Connaught Place
+26UP,UP,1,2,weekend,18,0.422,seats,medium,109,Anand Vihar ISBT,Karkardooma
+26UP,UP,2,3,weekend,18,0.515,seats,medium,133,Karkardooma,Red Fort
+26UP,UP,3,4,weekend,18,0.351,seats,medium,91,Red Fort,Connaught Place
+26UP,UP,1,2,weekend,19,0.433,seats,medium,112,Anand Vihar ISBT,Karkardooma
+26UP,UP,2,3,weekend,19,0.527,seats,medium,137,Karkardooma,Red Fort
+26UP,UP,3,4,weekend,19,0.412,seats,medium,106,Red Fort,Connaught Place
+26UP,UP,1,2,weekend,20,0.165,seats,medium,42,Anand Vihar ISBT,Karkardooma
+26UP,UP,2,3,weekend,20,0.235,seats,medium,61,Karkardooma,Red Fort
+26UP,UP,3,4,weekend,20,0.159,seats,medium,41,Red Fort,Connaught Place
+26UP,UP,1,2,weekend,21,0.181,seats,medium,47,Anand Vihar ISBT,Karkardooma
+26UP,UP,2,3,weekend,21,0.309,seats,medium,80,Karkardooma,Red Fort
+26UP,UP,3,4,weekend,21,0.232,seats,medium,60,Red Fort,Connaught Place
+26UP,UP,1,2,weekend,22,0.238,seats,medium,61,Anand Vihar ISBT,Karkardooma
+26UP,UP,2,3,weekend,22,0.294,seats,medium,76,Karkardooma,Red Fort
+26UP,UP,3,4,weekend,22,0.268,seats,medium,69,Red Fort,Connaught Place
+26UP,UP,1,2,weekend,23,0.232,seats,medium,60,Anand Vihar ISBT,Karkardooma
+26UP,UP,2,3,weekend,23,0.273,seats,medium,70,Karkardooma,Red Fort
+26UP,UP,3,4,weekend,23,0.234,seats,medium,60,Red Fort,Connaught Place
+26DOWN,DOWN,1,2,weekday,5,0.388,seats,medium,100,Connaught Place,Red Fort
+26DOWN,DOWN,2,3,weekday,5,0.443,seats,medium,115,Red Fort,Karkardooma
+26DOWN,DOWN,3,4,weekday,5,0.386,seats,medium,100,Karkardooma,Anand Vihar ISBT
+26DOWN,DOWN,1,2,weekday,6,0.330,seats,medium,85,Connaught Place,Red Fort
+26DOWN,DOWN,2,3,weekday,6,0.451,seats,medium,117,Red Fort,Karkardooma
+26DOWN,DOWN,3,4,weekday,6,0.359,seats,medium,93,Karkardooma,Anand Vihar ISBT
+26DOWN,DOWN,1,2,weekday,7,0.396,seats,medium,102,Connaught Place,Red Fort
+26DOWN,DOWN,2,3,weekday,7,0.384,seats,medium,99,Red Fort,Karkardooma
+26DOWN,DOWN,3,4,weekday,7,0.326,seats,medium,84,Karkardooma,Anand Vihar ISBT
+26DOWN,DOWN,1,2,weekday,8,0.621,standing,high,161,Connaught Place,Red Fort
+26DOWN,DOWN,2,3,weekday,8,0.834,standing,high,216,Red Fort,Karkardooma
+26DOWN,DOWN,3,4,weekday,8,0.727,standing,high,188,Karkardooma,Anand Vihar ISBT
+26DOWN,DOWN,1,2,weekday,9,0.695,standing,high,180,Connaught Place,Red Fort
+26DOWN,DOWN,2,3,weekday,9,0.785,standing,high,204,Red Fort,Karkardooma
+26DOWN,DOWN,3,4,weekday,9,0.716,standing,high,186,Karkardooma,Anand Vihar ISBT
+26DOWN,DOWN,1,2,weekday,10,0.711,standing,high,184,Connaught Place,Red Fort
+26DOWN,DOWN,2,3,weekday,10,0.809,standing,high,210,Red Fort,Karkardooma
+26DOWN,DOWN,3,4,weekday,10,0.648,standing,high,168,Karkardooma,Anand Vihar ISBT
+26DOWN,DOWN,1,2,weekday,11,0.341,seats,medium,88,Connaught Place,Red Fort
+26DOWN,DOWN,2,3,weekday,11,0.422,seats,medium,109,Red Fort,Karkardooma
+26DOWN,DOWN,3,4,weekday,11,0.343,seats,medium,89,Karkardooma,Anand Vihar ISBT
+26DOWN,DOWN,1,2,weekday,12,0.356,seats,medium,92,Connaught Place,Red Fort
+26DOWN,DOWN,2,3,weekday,12,0.448,seats,medium,116,Red Fort,Karkardooma
+26DOWN,DOWN,3,4,weekday,12,0.417,seats,medium,108,Karkardooma,Anand Vihar ISBT
+26DOWN,DOWN,1,2,weekday,13,0.311,seats,medium,80,Connaught Place,Red Fort
+26DOWN,DOWN,2,3,weekday,13,0.439,seats,medium,114,Red Fort,Karkardooma
+26DOWN,DOWN,3,4,weekday,13,0.309,seats,medium,80,Karkardooma,Anand Vihar ISBT
+26DOWN,DOWN,1,2,weekday,14,0.319,seats,medium,82,Connaught Place,Red Fort
+26DOWN,DOWN,2,3,weekday,14,0.469,seats,medium,121,Red Fort,Karkardooma
+26DOWN,DOWN,3,4,weekday,14,0.373,seats,medium,97,Karkardooma,Anand Vihar ISBT
+26DOWN,DOWN,1,2,weekday,15,0.415,seats,medium,107,Connaught Place,Red Fort
+26DOWN,DOWN,2,3,weekday,15,0.425,seats,medium,110,Red Fort,Karkardooma
+26DOWN,DOWN,3,4,weekday,15,0.306,seats,medium,79,Karkardooma,Anand Vihar ISBT
+26DOWN,DOWN,1,2,weekday,16,0.351,seats,medium,91,Connaught Place,Red Fort
+26DOWN,DOWN,2,3,weekday,16,0.442,seats,medium,115,Red Fort,Karkardooma
+26DOWN,DOWN,3,4,weekday,16,0.417,seats,medium,108,Karkardooma,Anand Vihar ISBT
+26DOWN,DOWN,1,2,weekday,17,1.099,crowded,high,285,Connaught Place,Red Fort
+26DOWN,DOWN,2,3,weekday,17,1.230,crowded,high,319,Red Fort,Karkardooma
+26DOWN,DOWN,3,4,weekday,17,1.031,crowded,high,267,Karkardooma,Anand Vihar ISBT
+26DOWN,DOWN,1,2,weekday,18,0.993,crowded,high,258,Connaught Place,Red Fort
+26DOWN,DOWN,2,3,weekday,18,1.250,crowded,high,324,Red Fort,Karkardooma
+26DOWN,DOWN,3,4,weekday,18,1.007,crowded,high,261,Karkardooma,Anand Vihar ISBT
+26DOWN,DOWN,1,2,weekday,19,0.999,crowded,high,259,Connaught Place,Red Fort
+26DOWN,DOWN,2,3,weekday,19,1.174,crowded,high,305,Red Fort,Karkardooma
+26DOWN,DOWN,3,4,weekday,19,0.982,crowded,high,255,Karkardooma,Anand Vihar ISBT
+26DOWN,DOWN,1,2,weekday,20,0.386,seats,medium,100,Connaught Place,Red Fort
+26DOWN,DOWN,2,3,weekday,20,0.386,seats,medium,100,Red Fort,Karkardooma
+26DOWN,DOWN,3,4,weekday,20,0.420,seats,medium,109,Karkardooma,Anand Vihar ISBT
+26DOWN,DOWN,1,2,weekday,21,0.315,seats,medium,81,Connaught Place,Red Fort
+26DOWN,DOWN,2,3,weekday,21,0.476,seats,medium,123,Red Fort,Karkardooma
+26DOWN,DOWN,3,4,weekday,21,0.320,seats,medium,83,Karkardooma,Anand Vihar ISBT
+26DOWN,DOWN,1,2,weekday,22,0.307,seats,medium,79,Connaught Place,Red Fort
+26DOWN,DOWN,2,3,weekday,22,0.458,seats,medium,119,Red Fort,Karkardooma
+26DOWN,DOWN,3,4,weekday,22,0.334,seats,medium,86,Karkardooma,Anand Vihar ISBT
+26DOWN,DOWN,1,2,weekday,23,0.392,seats,medium,102,Connaught Place,Red Fort
+26DOWN,DOWN,2,3,weekday,23,0.394,seats,medium,102,Red Fort,Karkardooma
+26DOWN,DOWN,3,4,weekday,23,0.310,seats,medium,80,Karkardooma,Anand Vihar ISBT
+26DOWN,DOWN,1,2,weekend,5,0.252,seats,medium,65,Connaught Place,Red Fort
+26DOWN,DOWN,2,3,weekend,5,0.284,seats,medium,73,Red Fort,Karkardooma
+26DOWN,DOWN,3,4,weekend,5,0.261,seats,medium,67,Karkardooma,Anand Vihar ISBT
+26DOWN,DOWN,1,2,weekend,6,0.246,seats,medium,64,Connaught Place,Red Fort
+26DOWN,DOWN,2,3,weekend,6,0.209,seats,medium,54,Red Fort,Karkardooma
+26DOWN,DOWN,3,4,weekend,6,0.234,seats,medium,60,Karkardooma,Anand Vihar ISBT
+26DOWN,DOWN,1,2,weekend,7,0.244,seats,medium,63,Connaught Place,Red Fort
+26DOWN,DOWN,2,3,weekend,7,0.254,seats,medium,66,Red Fort,Karkardooma
+26DOWN,DOWN,3,4,weekend,7,0.271,seats,medium,70,Karkardooma,Anand Vihar ISBT
+26DOWN,DOWN,1,2,weekend,8,0.377,seats,medium,97,Connaught Place,Red Fort
+26DOWN,DOWN,2,3,weekend,8,0.536,seats,medium,139,Red Fort,Karkardooma
+26DOWN,DOWN,3,4,weekend,8,0.432,seats,medium,112,Karkardooma,Anand Vihar ISBT
+26DOWN,DOWN,1,2,weekend,9,0.347,seats,medium,90,Connaught Place,Red Fort
+26DOWN,DOWN,2,3,weekend,9,0.422,seats,medium,109,Red Fort,Karkardooma
+26DOWN,DOWN,3,4,weekend,9,0.424,seats,medium,110,Karkardooma,Anand Vihar ISBT
+26DOWN,DOWN,1,2,weekend,10,0.444,seats,medium,115,Connaught Place,Red Fort
+26DOWN,DOWN,2,3,weekend,10,0.430,seats,medium,111,Red Fort,Karkardooma
+26DOWN,DOWN,3,4,weekend,10,0.383,seats,medium,99,Karkardooma,Anand Vihar ISBT
+26DOWN,DOWN,1,2,weekend,11,0.246,seats,medium,64,Connaught Place,Red Fort
+26DOWN,DOWN,2,3,weekend,11,0.219,seats,medium,56,Red Fort,Karkardooma
+26DOWN,DOWN,3,4,weekend,11,0.262,seats,medium,68,Karkardooma,Anand Vihar ISBT
+26DOWN,DOWN,1,2,weekend,12,0.217,seats,medium,56,Connaught Place,Red Fort
+26DOWN,DOWN,2,3,weekend,12,0.206,seats,medium,53,Red Fort,Karkardooma
+26DOWN,DOWN,3,4,weekend,12,0.203,seats,medium,52,Karkardooma,Anand Vihar ISBT
+26DOWN,DOWN,1,2,weekend,13,0.228,seats,medium,59,Connaught Place,Red Fort
+26DOWN,DOWN,2,3,weekend,13,0.251,seats,medium,65,Red Fort,Karkardooma
+26DOWN,DOWN,3,4,weekend,13,0.240,seats,medium,62,Karkardooma,Anand Vihar ISBT
+26DOWN,DOWN,1,2,weekend,14,0.176,seats,medium,45,Connaught Place,Red Fort
+26DOWN,DOWN,2,3,weekend,14,0.295,seats,medium,76,Red Fort,Karkardooma
+26DOWN,DOWN,3,4,weekend,14,0.202,seats,medium,52,Karkardooma,Anand Vihar ISBT
+26DOWN,DOWN,1,2,weekend,15,0.236,seats,medium,61,Connaught Place,Red Fort
+26DOWN,DOWN,2,3,weekend,15,0.274,seats,medium,71,Red Fort,Karkardooma
+26DOWN,DOWN,3,4,weekend,15,0.209,seats,medium,54,Karkardooma,Anand Vihar ISBT
+26DOWN,DOWN,1,2,weekend,16,0.205,seats,medium,53,Connaught Place,Red Fort
+26DOWN,DOWN,2,3,weekend,16,0.293,seats,medium,76,Red Fort,Karkardooma
+26DOWN,DOWN,3,4,weekend,16,0.272,seats,medium,70,Karkardooma,Anand Vihar ISBT
+26DOWN,DOWN,1,2,weekend,17,0.659,standing,high,171,Connaught Place,Red Fort
+26DOWN,DOWN,2,3,weekend,17,0.748,standing,high,194,Red Fort,Karkardooma
+26DOWN,DOWN,3,4,weekend,17,0.600,standing,high,155,Karkardooma,Anand Vihar ISBT
+26DOWN,DOWN,1,2,weekend,18,0.572,standing,medium,148,Connaught Place,Red Fort
+26DOWN,DOWN,2,3,weekend,18,0.796,standing,high,207,Red Fort,Karkardooma
+26DOWN,DOWN,3,4,weekend,18,0.649,standing,high,168,Karkardooma,Anand Vihar ISBT
+26DOWN,DOWN,1,2,weekend,19,0.664,standing,high,172,Connaught Place,Red Fort
+26DOWN,DOWN,2,3,weekend,19,0.719,standing,high,187,Red Fort,Karkardooma
+26DOWN,DOWN,3,4,weekend,19,0.637,standing,high,165,Karkardooma,Anand Vihar ISBT
+26DOWN,DOWN,1,2,weekend,20,0.276,seats,medium,71,Connaught Place,Red Fort
+26DOWN,DOWN,2,3,weekend,20,0.299,seats,medium,77,Red Fort,Karkardooma
+26DOWN,DOWN,3,4,weekend,20,0.231,seats,medium,60,Karkardooma,Anand Vihar ISBT
+26DOWN,DOWN,1,2,weekend,21,0.196,seats,medium,50,Connaught Place,Red Fort
+26DOWN,DOWN,2,3,weekend,21,0.250,seats,medium,65,Red Fort,Karkardooma
+26DOWN,DOWN,3,4,weekend,21,0.265,seats,medium,68,Karkardooma,Anand Vihar ISBT
+26DOWN,DOWN,1,2,weekend,22,0.204,seats,medium,53,Connaught Place,Red Fort
+26DOWN,DOWN,2,3,weekend,22,0.281,seats,medium,73,Red Fort,Karkardooma
+26DOWN,DOWN,3,4,weekend,22,0.231,seats,medium,60,Karkardooma,Anand Vihar ISBT
+26DOWN,DOWN,1,2,weekend,23,0.266,seats,medium,69,Connaught Place,Red Fort
+26DOWN,DOWN,2,3,weekend,23,0.296,seats,medium,76,Red Fort,Karkardooma
+26DOWN,DOWN,3,4,weekend,23,0.193,seats,medium,50,Karkardooma,Anand Vihar ISBT

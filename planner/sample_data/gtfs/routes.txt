@@ -1,0 +1,8 @@
+route_id,route_short_name,route_type
+R8,8,3
+R34,34,3
+R405,405,3
+R534,534,3
+R764,764,3
+R620,620,3
+R26,26,3
