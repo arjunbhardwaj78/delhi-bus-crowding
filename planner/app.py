@@ -76,7 +76,7 @@ def badge(level, low_data=False):
 
 def conf_note(s):
     if s.level == "unknown":
-        return "<span style='color:#8a8f98'>Not enough ticket data for this route at this time.</span>"
+        return "<span style='color:#8a8f98'>Not enough ticket data on this ride to show a level.</span>"
     extra = " Part of this uses a route-wide average." if s.routehour_share > 0.05 else ""
     if s.confidence == "low":
         return f"<span style='color:#d6362f;font-weight:600'>⚠ Estimate unreliable: few tickets.{extra}</span>"
@@ -105,7 +105,9 @@ def render_option(store, opt, n):
             if s.worst_level in config.LEVEL_SCORE:
                 extra = (f"<br><span style='font-size:0.9rem'>Busiest stretch: <b>{esc(s.worst_from)} → {esc(s.worst_to)}</b> "
                          f"({esc(config.LEVEL_LABEL.get(s.worst_level, s.worst_level))})</span>")
-        st.markdown(badge(s.level, low) + "&nbsp;&nbsp;" + conf_note(s) + extra
+        nodata = (f"<br><span style='font-size:0.9rem;color:#8a8f98'>Not enough data on {s.n_nodata} of {s.n_hops} "
+                  f"stretches.</span>" if s.n_nodata else "")
+        st.markdown(badge(s.level, low) + "&nbsp;&nbsp;" + conf_note(s) + extra + nodata
                     + mapview.share_bar_html(s), unsafe_allow_html=True)
         for li, leg in enumerate(opt.legs):
             p = store.patterns[leg.pid]
@@ -130,11 +132,11 @@ def render_option(store, opt, n):
 
 def legend():
     items = [("seats", "Seats likely"), ("standing", "Standing room likely"), ("crowded", "Likely crowded"),
-             ("unknown", "No data")]
+             ("unknown", "Not enough data")]
     chips = "".join(
         f"<span style='display:inline-block;width:26px;height:8px;background:{config.LEVEL_COLOUR[k]};"
         f"border-radius:4px;margin:0 6px 1px 12px'></span>{t}" for k, t in items)
-    st.markdown(chips + "<span style='margin-left:12px;color:#888'>(faded or dashed = low data, rough guess)</span>",
+    st.markdown(chips + "<span style='margin-left:12px;color:#888'>(grey = too few tickets to say)</span>",
                 unsafe_allow_html=True)
 
 
@@ -212,9 +214,9 @@ with tab_plan:
             else:
                 st.markdown(mapview.strip_html(store, chosen), unsafe_allow_html=True)
                 st.caption("Each block is one stretch between two stops. Hover a block for details.")
-            st.caption("Crowding levels are **relative** (compared with the busiest well-observed route-hours), not "
-                       "passenger counts. They are the typical level for this day type and hour, estimated from ticket "
-                       "data; pass holders are not in ticket data.")
+            st.caption("Levels are relative to the busiest well-observed cells, based on one month of ticket data. "
+                       "Low-confidence results are shown as 'not enough data'. They are typical levels for this day type "
+                       "and hour, not passenger counts; pass holders are not in ticket data.")
 
     with st.expander("How is crowding estimated?"):
         st.markdown(
@@ -224,11 +226,13 @@ with tab_plan:
             "well-observed route-hours. The result is a level: **seats likely**, **standing room likely** or "
             "**likely crowded**.\n"
             "- Each stretch carries a confidence based on how many tickets it rests on. About half of all stretches "
-            "have little data, and the app says so: those show as a greyed, rough guess.\n"
-            "- If a stretch has no usable data, the route-wide average for that hour is used (always marked low "
-            "confidence). If there is none either, it shows as unknown. Unknown is never shown as empty.\n"
-            "- A journey's overall level averages the stretches that have data. The **busiest stretch** and the share "
-            "of the ride at each level are shown separately so a short crush is not hidden."
+            "have too few tickets. Few tickets give a small load number, which would look like empty buses, so "
+            "those stretches are shown as **not enough data**, never as seats.\n"
+            "- If a stretch row is missing, a route-wide average for that hour is used only when it rests on enough "
+            "tickets. Otherwise it is also 'not enough data'.\n"
+            "- A journey's overall level averages the stretches that have data (and is 'not enough data' if under "
+            "half of the ride has data). The **busiest stretch**, the share of the ride at each level and the number of "
+            "stretches without data are shown separately."
         )
 
 with tab_ops:
@@ -240,7 +244,7 @@ with tab_ops:
         st.dataframe(crowd.overloaded_table(dt), hide_index=True)
         st.caption("Only route-hours with at least 200 tickets and 3 stretches. share_crowded = share of stretches "
                    "that are 'likely crowded'. max_load is the highest relative load on any stretch. "
-                   "share_low_conf = share of stretches with few tickets.")
+                   "share_low_conf = share of stretches with too few tickets (these are not counted as crowded).")
         st.markdown("**Crowding through the day for one route**")
         pairs = crowd.routes()
         choice = st.selectbox("Route", [f"{b} {d}" for b, d in pairs], key="op_route")

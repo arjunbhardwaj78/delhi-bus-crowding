@@ -14,6 +14,8 @@ Optional side files:
       used to translate GTFS stop names into the pipeline's stop numbers (GTFS mode).
 
 A missing row means "no usable data" (unknown), never "empty bus".
+A LOW-confidence row also shows as "not enough data": few tickets mean a small load number, so a low
+"seats" is no evidence of an empty bus. Only medium/high rows show a level.
 """
 import numpy as np
 import pandas as pd
@@ -38,7 +40,7 @@ class Seg:
         self.confidence = confidence
         self.n_tickets = n_tickets
         self.hour_used = hour_used
-        self.source = source      # stretch | route-hour | nearby-hour | none
+        self.source = source      # stretch | route-hour | nearby-hour | lowdata | none
         self.dur = dur
         self.i = i
         self.j = j
@@ -103,8 +105,9 @@ class Crowding:
             for r in rh.itertuples(index=False):
                 lvl = str(r.level).strip().lower()
                 if lvl in LEVELS:
+                    conf = str(getattr(r, "confidence", "low")).strip().lower()
                     self._rh[(r.base, r.direction, str(r.day_type).strip().lower(), int(r.hour))] = (
-                        float(r.load_index), lvl, int(r.n_tickets))
+                        float(r.load_index), lvl, int(r.n_tickets), conf)
         self.n_route_hour = len(self._rh)
 
         # stop name -> pipeline stop number (used with a real GTFS)
@@ -155,7 +158,8 @@ class Crowding:
 
         With a stop_order file, the hop is found by stop NAMES and translated to the pipeline's stop numbers.
         If crowding.csv has stop_name_from/to, a row with exactly those names is preferred.
-        A missing stretch row falls back to the route-wide average (low confidence), else unknown.
+        A missing stretch row falls back to the route-wide average (only if that is medium/high), else unknown.
+        A low-confidence row shows as unknown ("not enough data").
         """
         na = norm_name(name_a) if name_a else ""
         nb = norm_name(name_b) if name_b else ""
@@ -167,14 +171,17 @@ class Crowding:
             r = self._find(base, direction, day_type, h, a, b, na, nb)
             if r is not None:
                 lvl = int(self._lvl[r])
-                return Seg(level=LEVELS[lvl] if lvl >= 0 else "unknown", load_index=float(self._load[r]),
-                           confidence=CONFS[int(self._conf[r])] if d == 0 else "low",
+                conf = CONFS[int(self._conf[r])] if d == 0 else "low"
+                if conf == "low" or lvl < 0:     # few tickets: no evidence, so no level is shown
+                    return Seg(level="unknown", confidence="low", n_tickets=int(self._n[r]), hour_used=h,
+                               source="lowdata")
+                return Seg(level=LEVELS[lvl], load_index=float(self._load[r]), confidence=conf,
                            n_tickets=int(self._n[r]), hour_used=h,
                            source="stretch" if d == 0 else "nearby-hour")
             if d == 0:
                 rh = self._rh.get((base, direction, day_type, h))
-                if rh is not None:
-                    return Seg(level=rh[1], load_index=rh[0], confidence="low", n_tickets=rh[2],
+                if rh is not None and rh[3] != "low":   # pooled over stretches: never better than medium
+                    return Seg(level=rh[1], load_index=rh[0], confidence="medium", n_tickets=rh[2],
                                hour_used=h, source="route-hour")
         return Seg()
 
@@ -183,7 +190,8 @@ class Crowding:
         d = self.df[self.df["day_type"] == day_type]
         if d.empty:
             return pd.DataFrame()
-        d = d.assign(is_crowded=(d["level"] == "crowded").astype(int), is_low=(d["confidence"] == "low").astype(int))
+        d = d.assign(is_crowded=((d["level"] == "crowded") & (d["confidence"] != "low")).astype(int),
+                     is_low=(d["confidence"] == "low").astype(int))
         t = d.groupby(["base", "direction", "hour"], observed=True).agg(
             stretches=("level", "size"), crowded=("is_crowded", "sum"), low=("is_low", "sum"),
             max_load=("load_index", "max"), tickets=("n_tickets", "sum")).reset_index()
@@ -201,7 +209,8 @@ class Crowding:
         return sorted(zip(p["base"].astype(str), p["direction"].astype(str)))
 
     def hour_profile(self, base, direction):
-        d = self.df[(self.df["base"] == base) & (self.df["direction"] == direction)].copy()
+        d = self.df[(self.df["base"] == base) & (self.df["direction"] == direction)
+                    & (self.df["confidence"] != "low")].copy()
         if d.empty:
             return pd.DataFrame()
         d["score"] = d["level"].astype(str).map(config.LEVEL_SCORE)

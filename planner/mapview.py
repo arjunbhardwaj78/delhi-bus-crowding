@@ -37,13 +37,14 @@ def strip_html(store, opt):
             n1 = store.stops[p.stop_ids[seg.j]]["name"]
             low = seg.confidence == "low" or seg.level == "unknown"
             load = "n/a" if seg.load_index != seg.load_index else f"{seg.load_index:.2f}"
-            tip = (f"{n0} → {n1}: {config.LEVEL_LABEL.get(seg.level, seg.level)} (relative load {load}); "
-                   f"confidence {seg.confidence}, {seg.n_tickets} tickets"
-                   + (" - low data, rough guess" if low else "")
-                   + (" - route-wide average" if seg.source == "route-hour" else ""))
+            if seg.level == "unknown":
+                tip = f"{n0} → {n1}: not enough data ({seg.n_tickets} tickets)"
+            else:
+                tip = (f"{n0} → {n1}: {config.LEVEL_LABEL.get(seg.level, seg.level)} (relative load {load}); "
+                       f"confidence {seg.confidence}, {seg.n_tickets} tickets"
+                       + (" - route-wide average" if seg.source == "route-hour" else ""))
             colour = config.LEVEL_COLOUR.get(seg.level, config.LEVEL_COLOUR["unknown"])
-            style = (f"flex:1;min-width:6px;height:22px;background:{colour};margin-right:1px;"
-                     + ("opacity:0.45;" if low else "") )
+            style = f"flex:1;min-width:6px;height:22px;background:{colour};margin-right:1px;"
             blocks.append(f"<div title='{_esc(tip)}' style='{style}'></div>")
         out.append(
             f"<div style='margin:10px 0 2px 0'><b>🚌 {_esc(p.label)}</b> · {leg.j - leg.i} stops</div>"
@@ -73,12 +74,12 @@ def build_map(store, opt):
             b = store.stops[p.stop_ids[seg.j]]
             low = seg.confidence == "low" or seg.level == "unknown"
             load = "n/a" if seg.load_index != seg.load_index else f"{seg.load_index:.2f}"
-            tip = (
-                f"<b>Route {p.label}</b><br>{a['name']} → {b['name']}<br>"
-                f"{config.LEVEL_LABEL.get(seg.level, seg.level)} (load index {load})<br>"
-                f"confidence: {seg.confidence}, tickets: {seg.n_tickets}"
-                + ("<br><i>estimate unreliable</i>" if low else "")
-            )
+            if seg.level == "unknown":
+                tip = f"<b>Route {p.label}</b><br>{a['name']} → {b['name']}<br>Not enough data ({seg.n_tickets} tickets)"
+            else:
+                tip = (f"<b>Route {p.label}</b><br>{a['name']} → {b['name']}<br>"
+                       f"{config.LEVEL_LABEL.get(seg.level, seg.level)} (relative load {load})<br>"
+                       f"confidence: {seg.confidence}, tickets: {seg.n_tickets}")
             folium.PolyLine(
                 [(a["lat"], a["lon"]), (b["lat"], b["lon"])],
                 color=config.LEVEL_COLOUR.get(seg.level, config.LEVEL_COLOUR["unknown"]),

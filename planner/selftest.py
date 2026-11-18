@@ -79,7 +79,9 @@ if __name__ == "__main__":
     # 7. low-ticket route flagged unreliable
     low = journey.plan(STORE, CROWD, "Kashmere Gate ISBT", "Nehru Place", 12 * 3600, "weekday", allow_transfer=False)
     r764 = [o for o in low if STORE.patterns[o.legs[0].pid].base == "764"]
-    check(bool(r764) and r764[0].summary.confidence in ("low", "medium"), "route 764 (few tickets) not marked high confidence")
+    check(bool(r764) and any(sg.level == "unknown" for lg in r764[0].legs for sg in lg.segments),
+          "route 764 (few tickets): low-confidence stretches show 'not enough data', not a level")
+    check(r764[0].summary.n_nodata > 0, "journey summary counts stretches without data")
 
     # 8. empty crowding file -> still plans, everything unknown
     empty = journey.plan(STORE, Crowding(None), "Anand Vihar ISBT", "Connaught Place", 18 * 3600, "weekday")
@@ -125,8 +127,16 @@ if __name__ == "__main__":
     no_stretch = df[df["route"] != "8UP"]
     c_rh = Crowding(no_stretch, route_hour=rh)
     seg = c_rh.segment("8", "UP", "weekday", 18, 1, 2)
-    check(seg.level == "crowded" and seg.source == "route-hour" and seg.confidence == "low",
-          "missing stretch -> route-hour fallback, forced low confidence")
+    check(seg.level == "crowded" and seg.source == "route-hour" and seg.confidence == "medium",
+          "missing stretch -> route-hour fallback (capped at medium confidence)")
+    rh_low = rh.copy()
+    rh_low["confidence"] = "low"
+    check(Crowding(no_stretch, route_hour=rh_low).segment("8", "UP", "weekday", 18, 1, 2).level == "unknown",
+          "low-confidence route-hour fallback -> not enough data")
+    lowdf = pd.DataFrame([["8UP", "UP", 1, 2, "weekday", 18, 0.1, "seats", "low", 5]], columns=[
+        "route", "direction", "stop_seq_from", "stop_seq_to", "day_type", "hour", "load_index", "level", "confidence", "n_tickets"])
+    seg = Crowding(lowdf).segment("8", "UP", "weekday", 18, 1, 2)
+    check(seg.level == "unknown" and seg.source == "lowdata", "low confidence 'seats' is shown as not enough data, never seats")
     seg = Crowding(no_stretch).segment("8", "UP", "weekday", 18, 1, 2)
     check(seg.level == "unknown", "missing stretch and no fallback -> unknown")
 

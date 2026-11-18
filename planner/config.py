@@ -46,7 +46,7 @@ LEVEL_LABEL = {
     "seats": "Seats likely",
     "standing": "Standing room likely",
     "crowded": "Likely crowded",
-    "unknown": "Unknown (no data)",
+    "unknown": "Not enough data",
 }
 LEVEL_COLOUR = {
     "seats": "#2e9e4f",

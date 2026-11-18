@@ -66,6 +66,8 @@ class Summary:
     fallback_used: bool
     shares: dict = field(default_factory=dict)   # share of ride time per level (incl. "unknown")
     routehour_share: float = 0.0                 # share of ride time that uses a route-wide average
+    n_hops: int = 0                              # stretches on the ride
+    n_nodata: int = 0                            # stretches with "not enough data"
 
 
 # ---------------------------------------------------------------- search
@@ -187,9 +189,11 @@ def summarise(store, segs_with_names):
         shares[s.level if s.level in config.LEVEL_SCORE else "unknown"] += s.dur / total
     known_t = sum(s.dur for s, _, _ in segs_with_names if s.level in config.LEVEL_SCORE)
     rh_share = sum(s.dur for s, _, _ in segs_with_names if s.fallback) / total
+    n_hops = len(segs_with_names)
+    n_nodata = sum(1 for s, _, _ in segs_with_names if s.level not in config.LEVEL_SCORE)
     if known_t <= 0:
         return Summary("unknown", 1.0, "low", 1.0, 0, "unknown", "", "", float("nan"), False,
-                       shares=shares, routehour_share=0.0)
+                       shares=shares, routehour_share=0.0, n_hops=n_hops, n_nodata=n_nodata)
 
     # average only over stretches that have data; if under half the ride has data, say "unknown"
     score = sum(s.dur * config.LEVEL_SCORE[s.level] for s, _, _ in segs_with_names
@@ -225,7 +229,7 @@ def summarise(store, segs_with_names):
         worst_from=segs_with_names[a][1], worst_to=segs_with_names[b][2],
         worst_load=segs_with_names[w][0].load_index,
         fallback_used=rh_share > 0 or any(s.source == "nearby-hour" for s, _, _ in segs_with_names),
-        shares=shares, routehour_share=rh_share,
+        shares=shares, routehour_share=rh_share, n_hops=n_hops, n_nodata=n_nodata,
     )
 
 

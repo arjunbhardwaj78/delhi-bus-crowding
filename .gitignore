@@ -1,8 +1,8 @@
 __pycache__/
 *.pyc
 planner/.cache/
-data/raw/gtfs/*
-!data/raw/gtfs/.gitkeep
 .venv/
 data/raw/*.zip
 outputs/crowding_detail.csv.gz
+data/raw/gtfs/*
+!data/raw/gtfs/.gitkeep
