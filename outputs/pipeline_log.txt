@@ -71,4 +71,4 @@ base uplift (peak 1.30 / off 1.10)  0.489     0.378    0.133
             high uplift (1.6/1.25)  0.375     0.398    0.227
         base uplift, all buses 9 m  0.199     0.369    0.432
 wrote docs/technical_note.md (draft with real numbers)
-DONE in 103s. Outputs in C:\Users\ns173\OneDrive\Desktop\transport-planner\transport-planner\outputs
+DONE in 192s. Outputs in C:\Users\ns173\OneDrive\Desktop\transport-planner\transport-planner\outputs
