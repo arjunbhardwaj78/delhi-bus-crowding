@@ -1,0 +1,53 @@
+[1] weekday: morning peak hour 9:00, evening peak hour 18:00 (ticketed passengers/day: 101,306)
+[1] weekend: morning peak hour 9:00, evening peak hour 18:00 (ticketed passengers/day: 63,756)
+[2] busiest route-directions, weekday peaks (high confidence):
+                       mean_load_index  cells  tickets
+route       direction                                 
+D-7701A     UP                   3.266     20     8373
+400         DOWN                 2.309     15     1594
+525ASTL-AND DOWN                 2.248     19     2165
+605B        DOWN                 2.161     16     2209
+792         UP                   2.132     12      951
+344         DOWN                 2.074     13     1128
+605         DOWN                 2.068     17     1144
+D-7703      UP                   2.048     13     1465
+YMS(-)      DOWN                 2.038     54     4333
+620         DOWN                 1.931     16     1639
+724A        DOWN                 1.875     54     8773
+752A        DOWN                 1.862     31     2861
+RL-79       DOWN                 1.839     31     3281
+DS-20       DOWN                 1.819     13     1714
+773         DOWN                 1.816     13     1035
+[2] busiest stretches:
+  route direction  hour                  stop_name_from                    stop_name_to  load_index   level  n_tickets
+D-7701A        UP     8         Satbari Village / X-Ing          South Asian University       4.795 crowded        650
+D-7701A        UP     8                 Rajpur Crossing         Satbari Village / X-Ing       4.761 crowded        645
+D-7701A        UP     8                      Rajpur Ext                 Rajpur Crossing       4.478 crowded        607
+D-7701A        UP     8          South Asian University                   Aiims-Capfims       4.445 crowded        598
+D-7701A        UP     8 Chhatarpur Ext / Nanda Hospital                      Rajpur Ext       4.162 crowded        561
+D-7701A        UP     8            Chhatarpur Extension Chhatarpur Ext / Nanda Hospital       3.892 crowded        521
+ D-1103        UP     9                       Rang Puri        Mahipal Pur Extn.By Pass       3.840 crowded        766
+ D-1103        UP     9        Mahipal Pur Extn.By Pass                   Santoor Hotel       3.836 crowded        764
+ YMS(-)      DOWN    19                    Garhi Mandoo              Trilok Puri 13-Blk       3.804 crowded        104
+ YMS(-)      DOWN    19               Tahir Pur Village                    Garhi Mandoo       3.804 crowded        104
+ YMS(-)      DOWN    19                 Shalimar Garden               Tahir Pur Village       3.772 crowded        103
+ D-1103        UP     9                   Santoor Hotel                       Ats Tower       3.748 crowded        740
+ YMS(-)      DOWN    19                     Surya Nagar                     Ram Prastha       3.739 crowded        103
+ YMS(-)      DOWN    19                    Kartar Nagar                 Shalimar Garden       3.707 crowded        102
+ YMS(-)      DOWN    19                     Ram Prastha                    Kartar Nagar       3.707 crowded        102
+[3] ticketed passengers/day: weekday 101,306 vs weekend 63,756 (ratio weekend/weekday = 0.63)
+[3] share of medium/high-confidence cells per level:
+level     crowded  seats  standing
+day_type                          
+weekday     0.142  0.488     0.370
+weekend     0.114  0.488     0.399
+[4] split-half check: rank correlation between flow from tickets WITH a vehicle number and flow from tickets WITHOUT one = 0.583 (n cells=268,962)
+    High value => the vehicle-tagged half behaves like the rest, so route-level estimate is not an artefact of the NULL rows.
+[5] stop-order quality: {'tickets': 2244} | median consistency 1.000 | routes below 0.85: 5 of 2244
+[5] output cells by confidence: {'low': 0.565, 'medium': 0.287, 'high': 0.148} | by level: {'seats': 0.684, 'standing': 0.252, 'crowded': 0.064}
+[6] sensitivity (share of medium/high-confidence cells per level, REF held fixed):
+                          scenario  seats  standing  crowded
+          no pass uplift (1.0/1.0)  0.628     0.310    0.062
+base uplift (peak 1.30 / off 1.10)  0.489     0.378    0.133
+            high uplift (1.6/1.25)  0.375     0.398    0.227
+        base uplift, all buses 9 m  0.199     0.369    0.432

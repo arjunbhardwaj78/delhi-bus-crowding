@@ -1,0 +1,101 @@
+======================================================================
+PROFILE: data/raw/October-Delhi.csv.zip
+======================================================================
+Columns: ['passenger_count', 'amount', 'vehicle_number', 'ticket_type_id', 'end_stop_name', 'route', 'start_stop_name', 'created_at', 'is_ac']
+
+ROWS: 2,559,899
+
+--- vehicle_number ---
+real empty/NaN in file : 0 (0.00%)
+text 'NULL'            : 1,242,167 (48.52%)
+other invalid (nan/none/0/-): 0 (0.00%) {}
+VALID vehicle number   : 1,317,732 (51.48%)
+NULL SHARE (all invalid): 48.52%
+unique valid vehicles  : 6,809
+tickets per valid vehicle-day: {'count': 181620.0, 'mean': 7.3, 'std': 6.5, 'min': 1.0, '25%': 3.0, '50%': 5.0, '75%': 9.0, 'max': 81.0}
+
+--- 5 sample rows (full) ---
+  passenger_count amount vehicle_number ticket_type_id          end_stop_name    route       start_stop_name                        created_at is_ac
+0               1     22           NULL              1  Mahamaya Flyover West      8UP           Ali Village  2026-10-28 10:19:18.780611+05:30  True
+1               1      9      DL1PD6826              1            Crown Plaza   8ADOWN      Kalindi Kunj Bdr  2026-10-28 10:19:29.989461+05:30  True
+2               1   13.5     DL51EV9760              1             Clal Chowk    433UP          Andrews Ganj  2026-10-28 10:19:46.297108+05:30  True
+3               1   13.5           NULL              1            Ice Factory  208DOWN      West Patel Nagar  2026-10-28 10:19:47.853905+05:30  True
+4               1      9     DL51EV9810              1             Mallu Farm    516UP  Chhatarpur Extension  2026-10-28 10:19:48.525393+05:30  True
+
+--- 5 sample rows WITH valid vehicle_number ---
+  passenger_count amount vehicle_number ticket_type_id       end_stop_name    route       start_stop_name                        created_at  is_ac
+1               1      9      DL1PD6826              1         Crown Plaza   8ADOWN      Kalindi Kunj Bdr  2026-10-28 10:19:29.989461+05:30   True
+2               1   13.5     DL51EV9760              1          Clal Chowk    433UP          Andrews Ganj  2026-10-28 10:19:46.297108+05:30   True
+4               1      9     DL51EV9810              1          Mallu Farm    516UP  Chhatarpur Extension  2026-10-28 10:19:48.525393+05:30   True
+5               1   13.5      DL1PD8487              1       Satya Niketan  448DOWN       Munirka Village  2026-10-28 10:20:00.609261+05:30   True
+6               1      9      DL1PD4411              1  Pitampura Nd Block    114UP             Gtb Nagar   2026-10-28 10:20:42.89825+05:30  False
+
+--- date range (created_at) ---
+min: 2026-10-01 00:00:01.796721+05:30 | max: 2026-10-31 23:58:22.450250+05:30 | unparseable: 2
+
+--- uniques ---
+routes (with direction): 2,259 | stops (start+end names): 7,552 | vehicles: 6,809
+
+--- tickets per day (rows | passengers | % rows w/ valid vehicle) ---
+2026-10-01 Thu:   95,155 |  101,171 |  48.0%
+2026-10-02 Fri:   41,016 |   45,706 |  52.6%
+2026-10-03 Sat:   75,708 |   80,911 |  50.5%
+2026-10-04 Sun:   46,622 |   51,831 |  52.6%
+2026-10-05 Mon:   99,517 |  106,379 |  49.0%
+2026-10-06 Tue:   81,592 |   87,481 |  49.2%
+2026-10-07 Wed:  100,385 |  107,503 |  49.2%
+2026-10-08 Thu:  102,219 |  109,330 |  49.3%
+2026-10-09 Fri:  100,032 |  107,190 |  49.1%
+2026-10-10 Sat:   67,249 |   72,796 |  52.4%
+2026-10-11 Sun:   45,057 |   50,789 |  53.2%
+2026-10-12 Mon:   94,588 |  101,195 |  48.9%
+2026-10-13 Tue:  101,697 |  108,557 |  48.8%
+2026-10-14 Wed:  101,540 |  108,424 |  49.2%
+2026-10-15 Thu:   99,848 |  106,390 |  49.7%
+2026-10-16 Fri:   98,503 |  105,481 |  49.3%
+2026-10-17 Sat:   68,836 |   74,273 |  65.0%
+2026-10-18 Sun:   35,009 |   40,103 |  85.2%
+2026-10-19 Mon:   74,801 |   80,945 |  61.8%
+2026-10-20 Tue:   49,375 |   56,102 |  56.3%
+2026-10-21 Wed:   93,656 |   99,883 |  50.8%
+2026-10-22 Thu:   95,860 |  102,021 |  50.8%
+2026-10-23 Fri:   95,559 |  101,861 |  50.5%
+2026-10-24 Sat:   81,046 |   87,457 |  52.5%
+2026-10-25 Sun:   50,161 |   56,767 |  54.8%
+2026-10-26 Mon:   92,631 |   99,113 |  50.5%
+2026-10-27 Tue:  102,746 |  109,569 |  49.8%
+2026-10-28 Wed:  100,879 |  107,517 |  50.0%
+2026-10-29 Thu:   92,529 |   98,342 |  49.5%
+2026-10-30 Fri:   91,896 |   97,699 |  50.1%
+2026-10-31 Sat:   84,185 |   90,818 |  51.7%
+
+--- tickets by hour (rows) ---
+{0: 1388, 1: 528, 2: 381, 3: 425, 4: 1979, 5: 24137, 6: 68323, 7: 150451, 8: 316048, 9: 351443, 10: 204056, 11: 111351, 12: 85467, 13: 70135, 14: 68173, 15: 73149, 16: 97971, 17: 164237, 18: 235348, 19: 222243, 20: 165676, 21: 96317, 22: 42571, 23: 8100}
+
+--- passenger_count dist (top 10) --- {1: 2392082, 2: 141930, 3: 25886, 6: 1}
+--- ticket_type_id dist --- {'1': 2559899}
+--- is_ac dist --- {'True': 2059092, 'False': 500807}
+--- route direction suffix --- {'DOWN': 1282789, 'UP': 1245229, 'NO_SUFFIX': 31881}
+--- rows where start_stop == end_stop: 103 (0.00%)
+--- rows where amount NOT a multiple of 4.5: 17,099 (0.67%)
+
+--- top 15 routes: rows | % with valid vehicle ---
+717AUP         25,947 |  66.2%
+717ADOWN       25,611 |  66.7%
+511AUP         17,506 |  58.9%
+729UP          16,656 |  66.4%
+729DOWN        16,502 |  67.1%
+511ADOWN       15,766 |  60.7%
+623UP          15,765 |  42.2%
+623DOWN        15,273 |  43.1%
+578UP          15,168 |  68.7%
+717BDOWN       15,121 |  70.6%
+764DOWN        14,706 |  56.9%
+578DOWN        14,567 |  68.3%
+522UP          14,022 |  55.0%
+764UP          14,013 |  55.8%
+534DOWN        14,006 |  43.9%
+
+routes with <500 tickets in the month: 1395 of 2259
+
+Report saved to outputs/profile_report.txt

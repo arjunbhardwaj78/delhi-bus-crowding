@@ -1,0 +1,16 @@
+route,direction,hour,stop_name_from,stop_name_to,load_index,level,n_tickets
+D-7701A,UP,8,Satbari Village / X-Ing,South Asian University,4.795,crowded,650
+D-7701A,UP,8,Rajpur Crossing,Satbari Village / X-Ing,4.761,crowded,645
+D-7701A,UP,8,Rajpur Ext,Rajpur Crossing,4.478,crowded,607
+D-7701A,UP,8,South Asian University,Aiims-Capfims,4.445,crowded,598
+D-7701A,UP,8,Chhatarpur Ext / Nanda Hospital,Rajpur Ext,4.162,crowded,561
+D-7701A,UP,8,Chhatarpur Extension,Chhatarpur Ext / Nanda Hospital,3.892,crowded,521
+D-1103,UP,9,Rang Puri,Mahipal Pur Extn.By Pass,3.84,crowded,766
+D-1103,UP,9,Mahipal Pur Extn.By Pass,Santoor Hotel,3.836,crowded,764
+YMS(-),DOWN,19,Garhi Mandoo,Trilok Puri 13-Blk,3.804,crowded,104
+YMS(-),DOWN,19,Tahir Pur Village,Garhi Mandoo,3.804,crowded,104
+YMS(-),DOWN,19,Shalimar Garden,Tahir Pur Village,3.772,crowded,103
+D-1103,UP,9,Santoor Hotel,Ats Tower,3.748,crowded,740
+YMS(-),DOWN,19,Surya Nagar,Ram Prastha,3.739,crowded,103
+YMS(-),DOWN,19,Kartar Nagar,Shalimar Garden,3.707,crowded,102
+YMS(-),DOWN,19,Ram Prastha,Kartar Nagar,3.707,crowded,102
