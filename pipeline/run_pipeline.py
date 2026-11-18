@@ -463,7 +463,7 @@ def main():
     write_readme(out, ref, G is not None, args)
     stats = sanity(out, T, dt_row, ndays, C, RH, RQ, ref, UP, hol, args)
     write_note(out, stats, st, RQ, ndays, ref, len(Cout), len(RH), G is not None, args)
-    log("wrote docs/technical_note.md (draft with real numbers)")
+    log("wrote docs/technical_note_auto.md (auto numbers; docs/technical_note.md is the hand-finished final and is not overwritten)")
     log(f"DONE in {time.time() - t0:.0f}s. Outputs in {out}")
     with open(os.path.join(out, "pipeline_log.txt"), "w", encoding="utf-8") as f:
         f.write("\n".join(LOG))
@@ -688,7 +688,7 @@ Pass-holder uplift and bus size move many cells between levels, so levels should
 - Without GTFS, stop order and names come from ticket text and may contain duplicates or spelling variants; circular routes and branches are only approximated.
 - Routes without an UP/DOWN suffix are excluded.
 """
-    with open(os.path.join(docs, "technical_note.md"), "w", encoding="utf-8") as f:
+    with open(os.path.join(docs, "technical_note_auto.md"), "w", encoding="utf-8") as f:
         f.write(txt)
 
 
