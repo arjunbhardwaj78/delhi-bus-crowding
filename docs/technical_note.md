@@ -42,7 +42,7 @@ base uplift (peak 1.30 / off 1.10)  0.489     0.378    0.133
 Pass-holder uplift and bus size move many cells between levels, so levels should be read as relative, and the assumptions are visible in `crowding_README.md`.
 
 ## 5. Where estimates are least reliable
-- Routes and hours with few tickets: 56% of output cells are low confidence and should not be shown as fact.
+- Routes and hours with few tickets: 56% of output cells are low confidence and should not be shown as fact. Low-confidence cells are also biased towards `seats` (few tickets give a small load_index), so `seats` with low confidence means no evidence, not an empty bus; the planner shows these as "not enough data".
 - Pass holders are unobserved; the uplift is an assumption.
 - Riders alighting earlier or later than their ticket end stop are not modelled (optional smoothing exists but is off).
 - Load is assigned to the hour of ticket sale, so long trips are attributed to their boarding hour.

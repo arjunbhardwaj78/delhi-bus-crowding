@@ -1,0 +1,101 @@
+
+Route 910A UP: Shivaji Park (seq 1) -> Moti Nagar Industrial Area (seq 21), 20 stretches, order_source=tickets
+  weekday 09:00  [WEAK] high=0 medium=0 low=0 missing=20 | seats=0 standing=0 crowded=0 | worst=unknown
+  weekday 18:00  [WEAK] high=0 medium=0 low=5 missing=15 | seats=5 standing=0 crowded=0 | worst=seats
+
+Route 940 DOWN: Shivaji Park (seq 14) -> Moti Nagar Industrial Area (seq 22), 8 stretches, order_source=tickets
+  weekday 09:00  [GOOD] high=8 medium=0 low=0 missing=0 | seats=0 standing=8 crowded=0 | worst=standing
+  weekday 18:00  [GOOD] high=0 medium=8 low=0 missing=0 | seats=5 standing=3 crowded=0 | worst=standing
+
+Route 940A DOWN: Shivaji Park (seq 9) -> Moti Nagar Industrial Area (seq 18), 9 stretches, order_source=tickets
+  weekday 09:00  [GOOD] high=0 medium=9 low=0 missing=0 | seats=0 standing=8 crowded=1 | worst=crowded
+  weekday 18:00  [WEAK] high=0 medium=0 low=0 missing=9 | seats=0 standing=0 crowded=0 | worst=unknown
+
+Route 943 DOWN: Shivaji Park (seq 15) -> Moti Nagar Industrial Area (seq 26), 11 stretches, order_source=tickets
+  weekday 09:00  [GOOD] high=11 medium=0 low=0 missing=0 | seats=0 standing=11 crowded=0 | worst=standing
+  weekday 18:00  [GOOD] high=0 medium=11 low=0 missing=0 | seats=11 standing=0 crowded=0 | worst=seats
+
+Route 944 DOWN: Shivaji Park (seq 17) -> Moti Nagar Industrial Area (seq 23), 6 stretches, order_source=tickets
+  weekday 09:00  [GOOD] high=6 medium=0 low=0 missing=0 | seats=0 standing=1 crowded=5 | worst=crowded
+  weekday 18:00  [GOOD] high=0 medium=6 low=0 missing=0 | seats=3 standing=3 crowded=0 | worst=standing
+
+Route 953 DOWN: Shivaji Park (seq 18) -> Moti Nagar Industrial Area (seq 27), 9 stretches, order_source=tickets
+  weekday 09:00  [GOOD] high=9 medium=0 low=0 missing=0 | seats=0 standing=9 crowded=0 | worst=standing
+  weekday 18:00  [GOOD] high=0 medium=8 low=1 missing=0 | seats=3 standing=6 crowded=0 | worst=standing
+
+Route 953STL DOWN: Shivaji Park (seq 16) -> Moti Nagar Industrial Area (seq 24), 8 stretches, order_source=tickets
+  weekday 09:00  [GOOD] high=0 medium=8 low=0 missing=0 | seats=3 standing=5 crowded=0 | worst=standing
+  weekday 18:00  [WEAK] high=0 medium=0 low=2 missing=6 | seats=2 standing=0 crowded=0 | worst=seats
+
+Route 962 DOWN: Shivaji Park (seq 30) -> Moti Nagar Industrial Area (seq 37), 7 stretches, order_source=tickets
+  weekday 09:00  [GOOD] high=7 medium=0 low=0 missing=0 | seats=7 standing=0 crowded=0 | worst=seats
+  weekday 18:00  [WEAK] high=0 medium=0 low=7 missing=0 | seats=7 standing=0 crowded=0 | worst=seats
+
+Route 962A DOWN: Shivaji Park (seq 41) -> Moti Nagar Industrial Area (seq 50), 9 stretches, order_source=tickets
+  weekday 09:00  [GOOD] high=0 medium=9 low=0 missing=0 | seats=1 standing=8 crowded=0 | worst=standing
+  weekday 18:00  [WEAK] high=0 medium=0 low=9 missing=0 | seats=9 standing=0 crowded=0 | worst=seats
+
+Route 980 DOWN: Shivaji Park (seq 14) -> Moti Nagar Industrial Area (seq 27), 13 stretches, order_source=tickets
+  weekday 09:00  [GOOD] high=13 medium=0 low=0 missing=0 | seats=0 standing=2 crowded=11 | worst=crowded
+  weekday 18:00  [WEAK] high=0 medium=5 low=8 missing=0 | seats=8 standing=5 crowded=0 | worst=standing
+
+Route 991 DOWN: Shivaji Park (seq 30) -> Moti Nagar Industrial Area (seq 34), 4 stretches, order_source=tickets
+  weekday 09:00  [GOOD] high=4 medium=0 low=0 missing=0 | seats=0 standing=4 crowded=0 | worst=standing
+  weekday 18:00  [GOOD] high=0 medium=4 low=0 missing=0 | seats=4 standing=0 crowded=0 | worst=seats
+
+
+Route 940 DOWN: Spm College (seq 13) -> Moti Nagar Industrial Area (seq 22), 9 stretches, order_source=tickets
+  weekday 09:00  [GOOD] high=9 medium=0 low=0 missing=0 | seats=0 standing=9 crowded=0 | worst=standing
+  weekday 18:00  [GOOD] high=0 medium=9 low=0 missing=0 | seats=6 standing=3 crowded=0 | worst=standing
+
+Route 940A DOWN: Spm College (seq 10) -> Moti Nagar Industrial Area (seq 18), 8 stretches, order_source=tickets
+  weekday 09:00  [GOOD] high=0 medium=8 low=0 missing=0 | seats=0 standing=7 crowded=1 | worst=crowded
+  weekday 18:00  [WEAK] high=0 medium=0 low=0 missing=8 | seats=0 standing=0 crowded=0 | worst=unknown
+
+Route 943 DOWN: Spm College (seq 13) -> Moti Nagar Industrial Area (seq 26), 13 stretches, order_source=tickets
+  weekday 09:00  [GOOD] high=13 medium=0 low=0 missing=0 | seats=0 standing=13 crowded=0 | worst=standing
+  weekday 18:00  [GOOD] high=0 medium=13 low=0 missing=0 | seats=13 standing=0 crowded=0 | worst=seats
+
+Route 944 DOWN: Spm College (seq 15) -> Moti Nagar Industrial Area (seq 23), 8 stretches, order_source=tickets
+  weekday 09:00  [GOOD] high=8 medium=0 low=0 missing=0 | seats=0 standing=1 crowded=7 | worst=crowded
+  weekday 18:00  [GOOD] high=0 medium=8 low=0 missing=0 | seats=3 standing=5 crowded=0 | worst=standing
+
+Route 953 DOWN: Spm College (seq 12) -> Moti Nagar Industrial Area (seq 27), 15 stretches, order_source=tickets
+  weekday 09:00  [GOOD] high=15 medium=0 low=0 missing=0 | seats=0 standing=15 crowded=0 | worst=standing
+  weekday 18:00  [OK] high=0 medium=8 low=7 missing=0 | seats=9 standing=6 crowded=0 | worst=standing
+
+Route 953STL DOWN: Spm College (seq 7) -> Moti Nagar Industrial Area (seq 24), 17 stretches, order_source=tickets
+  weekday 09:00  [GOOD] high=0 medium=17 low=0 missing=0 | seats=3 standing=13 crowded=1 | worst=crowded
+  weekday 18:00  [WEAK] high=0 medium=0 low=3 missing=14 | seats=3 standing=0 crowded=0 | worst=seats
+
+Route 962 DOWN: Spm College (seq 25) -> Moti Nagar Industrial Area (seq 37), 12 stretches, order_source=tickets
+  weekday 09:00  [GOOD] high=12 medium=0 low=0 missing=0 | seats=11 standing=1 crowded=0 | worst=standing
+  weekday 18:00  [WEAK] high=0 medium=0 low=12 missing=0 | seats=12 standing=0 crowded=0 | worst=seats
+
+Route 962A DOWN: Spm College (seq 33) -> Moti Nagar Industrial Area (seq 50), 17 stretches, order_source=tickets
+  weekday 09:00  [GOOD] high=0 medium=17 low=0 missing=0 | seats=3 standing=14 crowded=0 | worst=standing
+  weekday 18:00  [WEAK] high=0 medium=0 low=17 missing=0 | seats=17 standing=0 crowded=0 | worst=seats
+
+Route 980 DOWN: Spm College (seq 12) -> Moti Nagar Industrial Area (seq 27), 15 stretches, order_source=tickets
+  weekday 09:00  [GOOD] high=15 medium=0 low=0 missing=0 | seats=0 standing=2 crowded=13 | worst=crowded
+  weekday 18:00  [WEAK] high=0 medium=5 low=10 missing=0 | seats=10 standing=5 crowded=0 | worst=standing
+
+Route 991 DOWN: Spm College (seq 21) -> Moti Nagar Industrial Area (seq 34), 13 stretches, order_source=tickets
+  weekday 09:00  [GOOD] high=13 medium=0 low=0 missing=0 | seats=0 standing=9 crowded=4 | worst=crowded
+  weekday 18:00  [GOOD] high=0 medium=13 low=0 missing=0 | seats=13 standing=0 crowded=0 | worst=seats
+
+Suggested demo journeys (weekday, 8 stretches, >=90% medium/high confidence at hours [9, 14, 18]); variety = number of different 'worst' levels across hours:
+route direction                        frm                 to                      worst_by_hour  tickets
+  539      DOWN         Jhatikara Crossing      Toll Tax Post 9:crowded / 14:seats / 18:standing   153366
+  578        UP          Kapashera Village    Bijwason School 9:standing / 14:seats / 18:crowded   150816
+  578      DOWN           Chhawala Village Pushpanjali (Farm) 9:crowded / 14:seats / 18:standing   146801
+  539        UP           Bsf Camp Chhawla       Nirmal Vihar 9:standing / 14:seats / 18:crowded   145624
+  623      DOWN               Mohammed Pur              Aiims 9:crowded / 14:seats / 18:standing   141601
+ 511A        UP                   Lal Kuan         Clal Chowk 9:crowded / 14:seats / 18:standing   141040
+  774      DOWN Manglapuri / Palam Village                Iol 9:crowded / 14:standing / 18:seats   140072
+ 511A      DOWN              Rk Puram Sec1                Fai 9:crowded / 14:seats / 18:standing   135395
+  522        UP         Sewa Nagar Flyover    National Museum 9:crowded / 14:seats / 18:standing   134417
+  534      DOWN          Mehrauli Terminal      Modi Hospital 9:crowded / 14:seats / 18:standing   133035
+  433        UP                 Snpd Depot Tehkhand Depot Dtc 9:standing / 14:seats / 18:crowded   123802
+  522      DOWN                Gole Market  National Archives 9:crowded / 14:seats / 18:standing   110776
+

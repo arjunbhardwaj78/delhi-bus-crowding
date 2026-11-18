@@ -40,7 +40,7 @@ Smoothing across adjacent stretches: off.
 Ticket data covers only part of real ridership, so absolute passenger counts per bus cannot be recovered. Levels say "how busy compared with the busiest well-observed cells", and thresholds are conventions that should be calibrated with ground truth (e.g. counts from conductors) when available.
 
 ## Confidence
-high: n_tickets >= 60; medium: >= 20; low: below. Also forced to `low` when the route's stop order is unreliable (order_consistency < 0.85). Never present `low` as fact.
+high: n_tickets >= 60; medium: >= 20; low: below. Also forced to `low` when the route's stop order is unreliable (order_consistency < 0.85). Never present `low` as fact. Note: low-confidence cells are biased towards `seats`, because few tickets produce a low load_index. `seats` + `low` means NO EVIDENCE, not an empty bus; the planner should show it as "not enough data".
 
 ## Known limitations
 - Passengers assumed to alight at the ticket end stop; riders leaving earlier/later are not modelled (use `--smooth` to blur).
